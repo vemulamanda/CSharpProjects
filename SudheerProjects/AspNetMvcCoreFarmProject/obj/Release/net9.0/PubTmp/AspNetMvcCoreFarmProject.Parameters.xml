@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="SudApp" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Sudheer\.Kumar\\source\\repos\\SudheerProjects\\AspNetMvcCoreFarmProject\\obj\\Release\\net9\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="AspNetMvcCoreFarmProject.Models.FarmersDbContext" description="" value="Server=tcp:suddbserver.database.windows.net,1433;Initial Catalog=FarmersDb;Persist Security Info=False;User ID=sudheer;Password=Sudh@8143;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Sudheer\.Kumar\\source\\repos\\SudheerProjects\\AspNetMvcCoreFarmProject\\obj\\Release\\net9\.0\\PubTmp\\EFSQLScripts\\AspNetMvcCoreFarmProject\.Models\.FarmersDbContext\.sql$" />
+  </parameter>
+</parameters>

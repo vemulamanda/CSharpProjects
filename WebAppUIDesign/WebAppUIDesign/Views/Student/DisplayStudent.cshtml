@@ -1,0 +1,35 @@
+﻿@model WebAppUIDesign.Models.Student
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DisplayStudent</title>
+</head>
+<body>
+    <div>
+        @*If you want to modify the partial view you have to use "Html.Partial("_Header")" and perform the below coding *@
+        @{
+            string strHeader = Html.Partial("_Header").ToString();
+            strHeader = strHeader.Replace("150", "200");
+            strHeader = strHeader.Replace("azure", "pink");
+            MvcHtmlString newstr = new MvcHtmlString(strHeader);
+            @newstr
+        }
+        <h4>Student Details</h4>
+        <ul>
+            <li>Student ID: @Model.Sid</li>
+            <li>Student Name: @Model.Name</li>
+            <li>Student Class: @Model.Class</li>
+            <li>Student Gender: @Model.Gender</li>
+            <li>Student Fees: @Model.Fees</li>
+            <li>Student Address: @Model.Address</li>
+        </ul>
+    </div>
+</body>
+</html>

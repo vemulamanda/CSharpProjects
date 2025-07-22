@@ -1,0 +1,14 @@
+C:\Users\Sudheer.Kumar\source\repos\Properties\CollectionsProject\bin\Debug\net8.0\CollectionsProject.exe
+C:\Users\Sudheer.Kumar\source\repos\Properties\CollectionsProject\bin\Debug\net8.0\CollectionsProject.deps.json
+C:\Users\Sudheer.Kumar\source\repos\Properties\CollectionsProject\bin\Debug\net8.0\CollectionsProject.runtimeconfig.json
+C:\Users\Sudheer.Kumar\source\repos\Properties\CollectionsProject\bin\Debug\net8.0\CollectionsProject.dll
+C:\Users\Sudheer.Kumar\source\repos\Properties\CollectionsProject\bin\Debug\net8.0\CollectionsProject.pdb
+C:\Users\Sudheer.Kumar\source\repos\Properties\CollectionsProject\obj\Debug\net8.0\CollectionsProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sudheer.Kumar\source\repos\Properties\CollectionsProject\obj\Debug\net8.0\CollectionsProject.AssemblyInfoInputs.cache
+C:\Users\Sudheer.Kumar\source\repos\Properties\CollectionsProject\obj\Debug\net8.0\CollectionsProject.AssemblyInfo.cs
+C:\Users\Sudheer.Kumar\source\repos\Properties\CollectionsProject\obj\Debug\net8.0\CollectionsProject.csproj.CoreCompileInputs.cache
+C:\Users\Sudheer.Kumar\source\repos\Properties\CollectionsProject\obj\Debug\net8.0\CollectionsProject.dll
+C:\Users\Sudheer.Kumar\source\repos\Properties\CollectionsProject\obj\Debug\net8.0\refint\CollectionsProject.dll
+C:\Users\Sudheer.Kumar\source\repos\Properties\CollectionsProject\obj\Debug\net8.0\CollectionsProject.pdb
+C:\Users\Sudheer.Kumar\source\repos\Properties\CollectionsProject\obj\Debug\net8.0\CollectionsProject.genruntimeconfig.cache
+C:\Users\Sudheer.Kumar\source\repos\Properties\CollectionsProject\obj\Debug\net8.0\ref\CollectionsProject.dll

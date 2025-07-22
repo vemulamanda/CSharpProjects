@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|c:\\users\\sudheer.kumar\\source\\repos\\aspnetcore\\aspnetcorerazorpagesexample\\pages\\deletestudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|solutionrelative:aspnetcorerazorpagesexample\\pages\\deletestudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|c:\\users\\sudheer.kumar\\source\\repos\\aspnetcore\\aspnetcorerazorpagesexample\\pages\\deletestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|solutionrelative:aspnetcorerazorpagesexample\\pages\\deletestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|c:\\users\\sudheer.kumar\\source\\repos\\aspnetcore\\aspnetcorerazorpagesexample\\pages\\editstudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|solutionrelative:aspnetcorerazorpagesexample\\pages\\editstudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|c:\\users\\sudheer.kumar\\source\\repos\\aspnetcore\\aspnetcorerazorpagesexample\\pages\\editstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|solutionrelative:aspnetcorerazorpagesexample\\pages\\editstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|c:\\users\\sudheer.kumar\\source\\repos\\aspnetcore\\aspnetcorerazorpagesexample\\pages\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|solutionrelative:aspnetcorerazorpagesexample\\pages\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|c:\\users\\sudheer.kumar\\source\\repos\\aspnetcore\\aspnetcorerazorpagesexample\\pages\\addstudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|solutionrelative:aspnetcorerazorpagesexample\\pages\\addstudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|c:\\users\\sudheer.kumar\\source\\repos\\aspnetcore\\aspnetcorerazorpagesexample\\pages\\displaystudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|solutionrelative:aspnetcorerazorpagesexample\\pages\\displaystudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|c:\\users\\sudheer.kumar\\source\\repos\\aspnetcore\\aspnetcorerazorpagesexample\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|solutionrelative:aspnetcorerazorpagesexample\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|c:\\users\\sudheer.kumar\\source\\repos\\aspnetcore\\aspnetcorerazorpagesexample\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|solutionrelative:aspnetcorerazorpagesexample\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|c:\\users\\sudheer.kumar\\source\\repos\\aspnetcore\\aspnetcorerazorpagesexample\\pages\\displaystudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|solutionrelative:aspnetcorerazorpagesexample\\pages\\displaystudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|c:\\users\\sudheer.kumar\\source\\repos\\aspnetcore\\aspnetcorerazorpagesexample\\models\\mvcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|solutionrelative:aspnetcorerazorpagesexample\\models\\mvcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|c:\\users\\sudheer.kumar\\source\\repos\\aspnetcore\\aspnetcorerazorpagesexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E11F1FD3-4002-4720-AC5F-B90CCC9348DB}|AspNetCoreRazorPagesExample\\AspNetCoreRazorPagesExample.csproj|solutionrelative:aspnetcorerazorpagesexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeleteStudent.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\DeleteStudent.cshtml.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRazorPagesExample\\Pages\\DeleteStudent.cshtml.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\DeleteStudent.cshtml.cs",
+              "RelativeToolTip": "AspNetCoreRazorPagesExample\\Pages\\DeleteStudent.cshtml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA6wA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T07:12:51.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\DeleteStudent.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreRazorPagesExample\\Pages\\DeleteStudent.cshtml",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\DeleteStudent.cshtml",
+              "RelativeToolTip": "AspNetCoreRazorPagesExample\\Pages\\DeleteStudent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T07:12:47.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditStudent.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\EditStudent.cshtml.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRazorPagesExample\\Pages\\EditStudent.cshtml.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\EditStudent.cshtml.cs",
+              "RelativeToolTip": "AspNetCoreRazorPagesExample\\Pages\\EditStudent.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T07:03:31.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\EditStudent.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreRazorPagesExample\\Pages\\EditStudent.cshtml",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\EditStudent.cshtml",
+              "RelativeToolTip": "AspNetCoreRazorPagesExample\\Pages\\EditStudent.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T07:02:35.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\AddStudent.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreRazorPagesExample\\Pages\\AddStudent.cshtml",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\AddStudent.cshtml",
+              "RelativeToolTip": "AspNetCoreRazorPagesExample\\Pages\\AddStudent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T06:49:10.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddStudent.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\AddStudent.cshtml.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRazorPagesExample\\Pages\\AddStudent.cshtml.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\AddStudent.cshtml.cs",
+              "RelativeToolTip": "AspNetCoreRazorPagesExample\\Pages\\AddStudent.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T06:37:22.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DisplayStudent.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\DisplayStudent.cshtml.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRazorPagesExample\\Pages\\DisplayStudent.cshtml.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\DisplayStudent.cshtml.cs",
+              "RelativeToolTip": "AspNetCoreRazorPagesExample\\Pages\\DisplayStudent.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T06:20:05.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DisplayStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\DisplayStudent.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreRazorPagesExample\\Pages\\DisplayStudent.cshtml",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\DisplayStudent.cshtml",
+              "RelativeToolTip": "AspNetCoreRazorPagesExample\\Pages\\DisplayStudent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T06:19:46.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MvcdbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Models\\MvcdbContext.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRazorPagesExample\\Models\\MvcdbContext.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Models\\MvcdbContext.cs",
+              "RelativeToolTip": "AspNetCoreRazorPagesExample\\Models\\MvcdbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T07:02:41.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Program.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRazorPagesExample\\Program.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Program.cs",
+              "RelativeToolTip": "AspNetCoreRazorPagesExample\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T06:49:25.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "AspNetCoreRazorPagesExample\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "AspNetCoreRazorPagesExample\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T06:20:55.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreRazorPagesExample\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\AspNetCore\\AspNetCoreRazorPagesExample\\Pages\\Index.cshtml",
+              "RelativeToolTip": "AspNetCoreRazorPagesExample\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T06:20:53.065Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

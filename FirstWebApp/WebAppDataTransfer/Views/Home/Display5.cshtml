@@ -1,0 +1,33 @@
+﻿
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index7</title>
+</head>
+<body>
+    <div>
+        <table align="center" border="1" style:."width="50%">
+            <caption>Product Details</caption>
+            <tr><td>ID :</td><td>@HttpContext.Current.Application["id"]</td></tr>
+            <tr><td>Item :</td><td>@HttpContext.Current.Application["item"]</td></tr>
+            <tr>
+                <td>Price :</td>
+                <td>
+                    @{
+                        double price = Convert.ToDouble(HttpContext.Current.Application["price"]);
+                        price = price + (price * 0.1);
+                        @price
+                    }
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

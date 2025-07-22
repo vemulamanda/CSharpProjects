@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="sudapp" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Sudheer\.Kumar\\source\\repos\\AspNetCore\\AspNetCoreMvc_FinalProject\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="AspNetCoreMvc_FinalProject.Models.MvcCoreDBContext" description="" value="Server=tcp:suddbdbserver.database.windows.net,1433;Initial Catalog=SudDB;Persist Security Info=False;User ID=CloudSA3be8317b;Password=Sudh@8143;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Sudheer\.Kumar\\source\\repos\\AspNetCore\\AspNetCoreMvc_FinalProject\\obj\\Release\\net8\.0\\PubTmp\\EFSQLScripts\\AspNetCoreMvc_FinalProject\.Models\.MvcCoreDBContext\.sql$" />
+  </parameter>
+</parameters>

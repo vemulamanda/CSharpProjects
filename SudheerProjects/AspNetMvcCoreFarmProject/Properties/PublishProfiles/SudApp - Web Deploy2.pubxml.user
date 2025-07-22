@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>True|2025-06-28T05:31:44.6091706Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConStr">
+      <Value>Server=tcp:suddbserver.database.windows.net,1433%3bInitial Catalog=FarmersDb%3bPersist Security Info=False%3bUser ID=sudheer%3bPassword=Sudh%408143%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="AspNetMvcCoreFarmProject.Models.FarmersDbContext">
+      <Value>Server=tcp:suddbserver.database.windows.net,1433%3bInitial Catalog=FarmersDb%3bPersist Security Info=False%3bUser ID=sudheer%3bPassword=Sudh%408143%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

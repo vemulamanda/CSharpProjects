@@ -1,0 +1,29 @@
+﻿@model IEnumerable<MVCAppWithDBModelTablePerHierarchyTypeExample.Models.Person>
+
+@{
+    ViewBag.Title = "DisplayPeople";
+}
+
+<h2>DisplayPeople</h2>
+
+<table border="1" align="center">
+    <tr>
+        <th>@Html.DisplayNameFor(P => P.Id)</th>
+        <th>@Html.DisplayNameFor(P => P.Name)</th>
+        <th>@Html.DisplayNameFor(P => P.Phone)</th>
+        <th>@Html.DisplayNameFor(P => P.Address)</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(P => item.Id)</td>
+            <td>@Html.DisplayFor(P => item.Name)</td>
+            <td>@Html.DisplayFor(P => item.Phone)</td>
+            <td>@Html.DisplayFor(P => item.Address)</td>
+        </tr>
+    }
+</table>
+
+@Html.ActionLink("Display Students", "DisplayStudents")
+@Html.ActionLink("Display Teachers", "DisplayTeachers")

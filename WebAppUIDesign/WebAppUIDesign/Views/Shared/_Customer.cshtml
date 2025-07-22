@@ -1,0 +1,25 @@
+﻿@model WebAppUIDesign.Models.Customer
+
+<table border="1" style="width:30%;height:70%">
+    <tr>
+        <td rowspan="6" style="width:30%;height:20%">
+            <img style="width:100%;height:80%" src="@Url.Content(Model.Photo)" />
+        </td>
+        <td>Customer ID: @Model.Custid</td>
+    </tr>
+    <tr>
+        <td>Customer Name: @Model.Name</td>
+    </tr>
+    <tr>
+        <td>Customer Account: @Model.Account</td>
+    </tr>
+    <tr>
+        <td>Customer Balance: @Model.Balance</td>
+    </tr>
+    <tr>
+        <td>Customer City: @Model.City</td>
+    </tr>
+    <tr>
+        <td>Customer Status: @Html.CheckBoxFor(c => c.Status)</td>
+    </tr>
+</table>

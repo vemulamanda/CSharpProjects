@@ -1,0 +1,80 @@
+﻿@model IEnumerable<Customer>
+@{
+    ViewData["Title"] = "Customer Gallery";
+}
+
+<h2 class="text-center my-4 bg-success text-white py-3 rounded">Customer Gallery</h2>
+
+<div class="container">
+    @foreach (var customer in Model)
+    {
+        <div class="card mb-5 shadow-sm">
+            <div class="card-header bg-light">
+                <strong>Farmer Name:</strong> @customer.Name
+            </div>
+            <div class="card-body">
+                <!-- Horizontally scrollable image row -->
+                <div class="scrolling-wrapper d-flex flex-nowrap overflow-auto mb-3 pb-2 border-bottom">
+                    @foreach (var imageurl in customer.ImagePath)
+                    {
+                        <div class="me-2 flex-shrink-0">
+                            <img src="@Url.Content("~/images/" + imageurl)"
+                                 class="img-thumbnail"
+                                 alt="Customer Image"
+                                 style="width: 100px; height: 100px; object-fit: cover;" />
+                        </div>
+                    }
+
+                </div>
+                <div class="d-flex flex-row flex-wrap gap-2 mt-2">
+                <div class="text-center">
+                    <form asp-action="DisplayCustomer" method="get">
+                        <input type="hidden" name="Custid" value="@customer.Custid" />
+                        <button type="submit" class="btn btn-outline-primary px-4">
+                            View Full Details
+                        </button>
+                    </form>
+                </div>
+
+                <div class="text-center">
+                    <form asp-action="EditCustomer" method="get">
+                        <input type="hidden" name="Custid" value="@customer.Custid" />
+                        <button type="submit" class="btn btn-outline-primary px-4">
+                            Edit Details
+                        </button>
+                    </form>
+                </div>
+
+                <div class="text-center">
+                        <form asp-action="DeleteCustomer">
+                            <input type="hidden" name="Custid" value="@customer.Custid" />
+                            <button type="submit" class="btn btn-outline-primary px-4" onclick="return confirm('Are you sure of deleting the record?')">
+                                Delete
+                            </button>
+                        </form>
+                </div>
+            </div>
+         </div>
+     </div>
+    }
+
+    <div class="text-center mt-4">
+        <a asp-action="AddCustomer" class="btn btn-success btn-lg">+ Post New Advertisement</a>
+    </div>
+</div>
+
+<style>
+    /* Optional smoother scrolling for horizontal rows */
+    .scrolling-wrapper::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    .scrolling-wrapper::-webkit-scrollbar-thumb {
+        background: #bbb;
+        border-radius: 4px;
+    }
+
+    .scrolling-wrapper {
+        scroll-behavior: smooth;
+    }
+</style>

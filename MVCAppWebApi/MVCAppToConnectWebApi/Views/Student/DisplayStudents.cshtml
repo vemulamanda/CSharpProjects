@@ -1,0 +1,42 @@
+﻿@model IEnumerable<MVCAppToConnectWebApi.Models.Student>
+
+@{
+    ViewBag.Title = "DisplayStudents";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Student Details</h2>
+<table border="1" align="center" class="table-condensed">
+    <tr>
+        <th>@Html.DisplayNameFor(S => S.Id)</th>
+        <th>@Html.DisplayNameFor(S => S.Name)</th>
+        <th>@Html.DisplayNameFor(S => S.Photo)</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var student in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(S => student.Id)</td>
+            <td>@Html.DisplayFor(S => student.Name)</td>
+            @{ 
+                string imgSrc = "";
+                if(student.Photo != null)
+                {
+                    var base64 = Convert.ToBase64String(student.Photo);
+                    imgSrc = String.Format("data:image/jpeg;base64,{0}", base64);
+                }
+            }
+
+            <td><img src='@imgSrc' width="40" height="25" /></td>
+
+            <td>
+                @Html.ActionLink("View", "DisplayStudent", new { Id = student.Id })
+                @Html.ActionLink("Edit", "EditStudent", new { Id = student.Id })
+                @Html.ActionLink("Delete", "DeleteStudent", new { Id = student.Id }, new { onclick = "return confirm('Are you sure of deleting the record')" });
+            </td>
+        </tr>
+    }
+    <tr><td colspan="6" align="center">@Html.ActionLink("Add New Student", "AddStudent")</td></tr>
+</table>
+
+
+

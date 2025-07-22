@@ -1,0 +1,13 @@
+﻿@model LoginModel
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+    @*This below form code will call /Account/TestLogin directly. Instead of writing asp-controller and asp-action,
+        we can just write asp-route. (see the controller, as it has route configured and a name attribute as well.)
+    *@
+    <form asp-route="LoginTesting"></form>  
+    </body>
+</html>

@@ -1,0 +1,26 @@
+﻿@model MVCDataAnnotations.Models.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UserDetails</title>
+</head>
+<body>
+    <div>
+        @Model.Name<br/>
+        @Model.Password<br />
+        @Model.Mobile<br />
+        @Model.DOB<br />
+        @Model.Email<br />
+        @Model.Address<br />
+
+        <h1 style="color:green">Successful Response.</h1>
+    </div>
+</body>
+</html>

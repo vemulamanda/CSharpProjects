@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "Staff Help Page";
+}
+
+<h2>Manager Help Page</h2>
+<h4>Current User: @HttpContext.Current.User.Identity.Name</h4>
+<br />
+
+Back to site: @Html.ActionLink("Home page", "Index", "Home")
+

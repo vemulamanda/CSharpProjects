@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index1</title>
+</head>
+<body>
+    <div>
+        <table align="center" border="1" style="width=" 50%">
+            <caption>Product Details</caption>
+            <tr>
+                <td>ID :</td>
+                <td>@TempData.Peek("id")</td>  @*To keep specific values to one request, i.e like we need only id here, use peek*@
+            </tr>
+            <tr>
+                <td>ID :</td>
+                <td>@TempData.Peek("item")</td>
+            </tr>
+            <tr>
+                <td>ID :</td>
+                <td>
+                    @{
+                        double price = Convert.ToDouble(TempData.Peek("price"));
+                        price = price + (price * 0.1);
+                        @price
+                    }
+                </td>
+            </tr>
+        </table>
+        <center>
+            Click to lauch page <a href="/Test/Display1">click here</a>
+        </center>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+﻿@model MVCAppWithCodeFirstApproach.Models.Category
+
+@{
+    ViewBag.Title = "EditCategory";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Edit Category</h2>
+
+@using (Html.BeginForm("UpdateCategory", "Category"))
+{
+    <div>@Html.LabelFor(C => C.CategoryID)<br /> @Html.TextBoxFor(C => C.CategoryID) </div>
+    <div>@Html.LabelFor(C => C.CategoryName)<br /> @Html.TextBoxFor(C => C.CategoryName) </div>
+    <div>@Html.LabelFor(C => C.Description)<br /> @Html.TextBoxFor(C => C.Description) </div>
+
+    <div>
+        <input type="submit" value="Save" name="btnSave" />
+        <input type="reset" value="Reset" name="btnReset" />
+    </div>
+}
+@Html.ActionLink("Back to category details", "DisplayCategories")

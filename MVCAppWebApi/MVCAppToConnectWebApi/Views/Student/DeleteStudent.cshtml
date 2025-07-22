@@ -1,0 +1,39 @@
+﻿@model MVCAppToConnectWebApi.Models.Student
+
+@{
+    ViewBag.Title = "DeleteStudent";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Delete Student</h2>
+
+@{
+    string imgsrc = "";
+    if (Model.Photo != null)
+    {
+        var base64 = Convert.ToBase64String(Model.Photo);
+        imgsrc = String.Format("data:image/jpeg;base64,{0}", base64);
+    }
+}
+
+@using (Html.BeginForm("DeleteStudent", "Student", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <table border="1">
+        <caption>Student Details</caption>
+        <tr>
+            <td rowspan="4"><img src='@imgsrc' width="200" height="200" /></td>
+            <td>Sid: @Model.Id @Html.HiddenFor(S => S.Id)</td>
+        </tr>
+        <tr><td>Name: @Model.Name</td></tr>
+
+    </table>
+    <font color="red">Are you sure of deleting the record ?</font>
+    <input type="submit" value="Yes" />
+}
+
+@using (Html.BeginForm("DisplayStudents", "Student"))
+{
+    <text>Click</text>
+    <input type="submit" value="No" />
+    @:form going back to student details.
+}
+

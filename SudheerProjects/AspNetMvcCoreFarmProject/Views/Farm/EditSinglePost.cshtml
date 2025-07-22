@@ -1,0 +1,372 @@
+﻿@model Customer
+@{
+    ViewData["Title"] = "Edit Post";
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<h2 class="text-center my-4 bg-success text-white py-3 rounded">Edit your Post</h2>
+
+<div class="container">
+    <form asp-action="UpdateCustomer" asp-controller="Farm" method="post" enctype="multipart/form-data" class="needs-validation" onsubmit="return beforeSubmit()">
+
+        <!-- Farmer Details -->
+        <input type="hidden" asp-for="Custid" />
+
+        <div class="border rounded p-3 mb-4 shadow-sm">
+            <h5 class="mb-3 bg-light p-2 rounded fw-bold text-success">1. Farmer Details</h5>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label asp-for="Name" class="form-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger small"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="@Model.IdentityUser.Email" class="form-label"></label>
+                    <input asp-for="Identity_Email" class="form-control" readonly/>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label asp-for="@Model.IdentityUser.PhoneNumber" class="form-label"></label>
+                    <input asp-for="Identity_Phone" class="form-control" readonly/>     
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="Address" class="form-label"></label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger small"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- First Breed Details -->
+        <div class="border rounded p-3 mb-4 shadow-sm">
+            <h5 class="mb-3 bg-light p-2 rounded fw-bold text-success">2. First Breed Details</h5>
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label asp-for="FirstBreed" class="form-label"></label>
+                    <select asp-for="FirstBreed" asp-items="ViewBag.BreedList" class="form-select">
+                        <option value="">-- Select Breed --</option>
+                    </select>
+                    <span asp-validation-for="FirstBreed" class="text-danger small"></span>
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="FB_Price" class="form-label"></label>
+                    <input asp-for="FB_Price" class="form-control" />
+                    <span asp-validation-for="FB_Price" class="text-danger small"></span>
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="FB_Pieces" class="form-label"></label>
+                    <input asp-for="FB_Pieces" class="form-control" />
+                    <span asp-validation-for="FB_Pieces" class="text-danger small"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Breed Details -->
+        <div class="border rounded p-3 mb-4 shadow-sm">
+            <h5 class="mb-3 bg-light p-2 rounded fw-bold text-success">3. Second Breed Details (optional)</h5>
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label asp-for="SecondBreed" class="form-label"></label>
+                    <select asp-for="SecondBreed" asp-items="ViewBag.BreedList" class="form-select">
+                        <option value="">-- Select Breed --</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="SB_Price" class="form-label"></label>
+                    <input asp-for="SB_Price" class="form-control" />
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="SB_Pieces" class="form-label"></label>
+                    <input asp-for="SB_Pieces" class="form-control" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Third Breed Details -->
+        <div class="border rounded p-3 mb-4 shadow-sm">
+            <h5 class="mb-3 bg-light p-2 rounded fw-bold text-success">4. Third Breed Details (optional)</h5>
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label asp-for="ThirdBreed" class="form-label"></label>
+                    <select asp-for="ThirdBreed" asp-items="ViewBag.BreedList" class="form-select">
+                        <option value="">-- Select Breed --</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="TB_Price" class="form-label"></label>
+                    <input asp-for="TB_Price" class="form-control" />
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="TB_Pieces" class="form-label"></label>
+                    <input asp-for="TB_Pieces" class="form-control" />
+                </div>
+            </div>
+        </div>
+       
+        <div id="dynamicFileInputs" style="display:none;"></div>
+
+        <input type="hidden" name="RemovedOldImages" id="removedOldImagesInput" />
+
+        <br />
+        <div>
+            <input type="submit" value="Submit" style="border-color:green"/>
+            <button asp-action="DisplayCustomers" align="center">Cancel</button><br />
+        </div>
+
+    </form>
+
+    <!-- Hidden dynamic file inputs container -->
+<div id="dynamicFileInputs" style="display:none;"></div>
+
+<!-- Loading overlay -->
+<div id="loadingOverlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(255,255,255,0.85); z-index:9999; text-align:center;">
+    <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); font-size:1.5rem; color:#198754;">
+        <div class="spinner-border text-success mb-3" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div><br />
+        <strong>Please wait... Uploading images</strong>
+    </div>
+</div>
+
+</div>
+
+ @* ============================================================= *@
+        
+@{
+    int totalBoxes = 10;
+    int uploadedCount = Model.ImagePath?.Count ?? 0;
+}
+
+<style>
+    .upload-box {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        border: 2px dashed #198754;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        font-size: 2rem;
+        color: #198754;
+        background-color: #f8f9fa;
+        overflow: visible;
+    }
+
+    .preview-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .plus-icon {
+        z-index: 1;
+        font-size: 2rem;
+        color: #198754;
+    }
+
+    .remove-btn {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 20px;
+        cursor: pointer;
+        z-index: 10;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        display: none; /* hide initially */
+    }
+
+    .upload-box:hover .remove-btn {
+        display: block;
+    }
+
+    .upload-warning {
+        color: red;
+        font-weight: bold;
+        margin-top: 10px;
+        display: none;
+    }
+</style>
+
+<!-- Hidden file input -->
+<input type="file" id="multiImageInput" name="SelectedImages" accept="image/*" multiple hidden onchange="handleMultiUpload()" />
+
+<div class="container">
+    <div class="row g-2">
+        @for (int i = 0; i < totalBoxes; i++)
+        {
+            var hasImage = i < uploadedCount;
+            var imgSrc = hasImage ? Url.Content("~/images/" + Model.ImagePath[i]) : "";
+            <div class="col-3 col-sm-2">
+                <div class="upload-box" id="uploadBox_@i" onclick="triggerUpload(@i)">
+                    <span class="plus-icon" id="plus_@i" style="@(hasImage ? "display:none;" : "")">+</span>
+                    <img id="img_@i" class="preview-image" src="@imgSrc" style="@(hasImage ? "display:block;" : "display:none;")" />
+                    <button type="button" class="remove-btn" id="removeBtn_@i" onclick="removeImage(event, @i)">×</button>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div id="uploadWarning" class="upload-warning">⚠️ You can only upload up to 10 images.</div>
+</div>
+
+<script>
+
+                let currentImages = [];
+
+            // Load existing images from server (Razor will inject these strings)
+            @if (Model.ImagePath != null)
+            {
+                    foreach (var path in Model.ImagePath)
+                    {
+                            <text>currentImages.push('@path');</text>
+                    }
+            }
+
+            function updateImageBoxes() {
+                for (let i = 0; i < 10; i++) {
+                    const img = document.getElementById(`img_${i}`);
+                    const plus = document.getElementById(`plus_${i}`);
+                    const removeBtn = document.getElementById(`removeBtn_${i}`);
+
+                    if (currentImages[i]) {
+                        if (typeof currentImages[i] === "string") {
+                            // Existing image path from server
+                            img.src = `/images/${currentImages[i]}`;
+                            img.style.display = "block";
+                            plus.style.display = "none";
+                            removeBtn.style.display = "block";
+                        } else {
+                            // New uploaded file — use FileReader to preview
+                            const reader = new FileReader();
+                            reader.onload = function(e) {
+                                img.src = e.target.result;
+                                img.style.display = "block";
+                                plus.style.display = "none";
+                                removeBtn.style.display = "block";
+                            };
+                            reader.readAsDataURL(currentImages[i]);
+                        }
+                    } else {
+                        // No image in this box — show plus, hide image and remove button
+                        img.style.display = "none";
+                        plus.style.display = "block";
+                        removeBtn.style.display = "none";
+                        img.src = "";
+                    }
+                }
+            }
+
+            function triggerUpload() {
+                document.getElementById("multiImageInput").click();
+            }
+
+            function handleMultiUpload() {
+                const input = document.getElementById("multiImageInput");
+                const files = Array.from(input.files);
+                const maxImages = 10;
+                const spaceLeft = maxImages - currentImages.length;
+
+                if (files.length > spaceLeft) {
+                    document.getElementById("uploadWarning").style.display = "block";
+                } else {
+                    document.getElementById("uploadWarning").style.display = "none";
+                }
+
+                const filesToAdd = files.slice(0, spaceLeft);
+
+                // ✅ Add new files (don't reuse old File objects)
+                for (let file of filesToAdd) {
+                    currentImages.push(file);
+                }
+
+                // ✅ Update the UI
+                updateImageBoxes();
+
+                // ✅ Clear file input to allow same files again if needed
+                input.value = "";
+            }
+
+
+
+            let removedOldImages = [];
+
+            function removeImage(event, index) {
+                event.stopPropagation();
+
+                const removed = currentImages.splice(index, 1)[0];
+
+                // Track old images removed, if needed on server
+                if (typeof removed === "string") {
+                    removedOldImages.push(removed);
+                }
+
+                updateImageBoxes();
+
+                document.getElementById("uploadWarning").style.display = "none";
+            }
+
+            function beforeSubmit() {
+                // Store removed old image names
+                document.getElementById("removedOldImagesInput").value = JSON.stringify(removedOldImages);
+
+                const dynamicInputs = document.getElementById("dynamicFileInputs");
+                dynamicInputs.innerHTML = ""; // Clear previous inputs
+
+                // Add each new file as its own <input type="file" name="SelectedImages">
+                currentImages.forEach((file, i) => {
+                    if (typeof file !== "string") {  // it's a newly selected File object
+                        const blobInput = document.createElement("input");
+                        blobInput.type = "file";
+                        blobInput.name = "SelectedImages";
+                        blobInput.files = createFileList(file); // helper function
+                        dynamicInputs.appendChild(blobInput);
+                    }
+                });
+
+                // ✅ Show loading overlay
+                document.getElementById("loadingOverlay").style.display = "block";
+
+                // ✅ Allow form to continue submission
+                return true;
+            }
+
+
+
+
+            // On page load, update boxes with existing images
+            window.onload = function () {
+                updateImageBoxes();
+            };
+
+            function createFileList(file) {
+                const dataTransfer = new DataTransfer();
+                dataTransfer.items.add(file);
+                return dataTransfer.files;
+            }
+
+
+</script>
+
+
+       @*  ============================================================= *@

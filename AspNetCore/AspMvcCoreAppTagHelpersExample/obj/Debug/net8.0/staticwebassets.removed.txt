@@ -1,0 +1,2 @@
+C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspMvcCoreAppTagHelpersExample\wwwroot\Images\Baby06.jpg
+C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspMvcCoreAppTagHelpersExample\wwwroot\Images\Baby06_OLD.jpg

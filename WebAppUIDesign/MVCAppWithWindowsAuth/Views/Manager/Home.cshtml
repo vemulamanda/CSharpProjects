@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Manager Home";
+}
+
+<h2>Manager Home Page</h2>
+<h3>This page is only accessible to managers</h3>
+<h4>Current User: @HttpContext.Current.User.Identity.Name</h4>
+<br />
+
+Back to site: @Html.ActionLink("Home page", "Index", "Home")
+

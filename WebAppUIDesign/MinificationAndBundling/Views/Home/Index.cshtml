@@ -1,0 +1,48 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_layout.cshtml";
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    @*<link href="~/Content/Header.min.css" rel="stylesheet" />
+      <link href="~/Content/Paragraph.min.css" rel="stylesheet" />*@
+
+    @Styles.Render("~/Content/CSS_Bundle")
+
+</head>
+<body>
+    <div>
+        <h1>Welcome to Home Page</h1>
+        <h3>Sudheer Biodata:</h3>
+        <p>sudheer lives in melbourne. Work as a devops engineer which starts at 9am to 5pm.</p>
+        <h3>Sudheer Part time</h3>
+        <p>Sudheer is doing part time job as driver. He drives uber, DiDi.</p>
+
+        <table width="100%">
+            <tr>
+                <td align:center>@Html.ActionLink("Doctors Home Page", "Doctor_Con", "Home")</td>
+                <td align:center>@Html.ActionLink("Patients Home Page", "Doctor_Con", "Home")</td>
+            </tr>
+            <tr>
+                <td align:center>@Html.ActionLink("Medicines Home Page", "Patient_Con", "Home")</td>
+                <td align:center>@Html.ActionLink("Labs Home Page", "Patient_Con", "Home")</td>
+            </tr>
+            <tr>
+                <td align:center>@Html.ActionLink("Insurance Home Page", "Patient_Con", "Home")</td>
+                <td align:center>@Html.ActionLink("Billing Home Page", "Patient_Con", "Home")</td>
+            </tr>
+            <tr>
+                <td align:center>@Html.ActionLink("Staff Home Page", "Patient_Con", "Home")</td>
+                <td align:center>@Html.ActionLink("HR Home Page", "Patient_Con", "Home")</td>
+            </tr>
+          
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿@model WebAppUIDesign.Models.Student
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddStudent</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        @*If you dont want to modify the partial view you have to just use "@{ Html.RenderPartial("_Header"); }" *@
+        @{ Html.RenderPartial("_Header"); }
+
+        @using (Html.BeginForm())
+        {
+            @Html.Label("Student ID: ");<br />
+            @Html.TextBox("Sid"); <br />
+            @Html.Label("Student Name: "); <br />
+            @Html.TextBox("Name"); <br />
+            @Html.Label("Class: ");
+            List<int> li = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            SelectList items = new SelectList(li);
+            @Html.DropDownList("Class", items, "-Select Class-");
+            @Html.Label("Gender: "); <br />
+            @Html.RadioButton("Gender", "Male"); @:Male
+            @Html.RadioButton("Gender", "Female"); @:Female <br />
+            @Html.Label("Fees: ");<br />
+            @Html.TextBox("Fees"); <br />
+            @Html.Label("Address: ");<br />
+            @Html.TextArea("Address", "", 3, 20, null); <br />
+
+
+            <input type="submit" value="Save" />
+            <input type="reset" value="Reset" />
+        }
+    </div>
+</body>
+</html>
+.

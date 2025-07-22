@@ -1,0 +1,33 @@
+﻿@model IEnumerable<MVCAppFiltersExample.Models.Student>
+
+@{
+    ViewBag.Title = "DisplayStudents03";
+}
+
+<table>
+    <tr>
+        <td colspan="5">
+            <h3 style="text-align:center">Request Processed Time: @DateTime.Now.ToString("T")</h3>
+        </td>
+    </tr>
+
+    <tr>
+        <th>@Html.DisplayNameFor(S => S.Sid) <br /></th>
+        <th>@Html.DisplayNameFor(S => S.Name) <br /></th>
+        <th>@Html.DisplayNameFor(S => S.Class) <br /></th>
+        <th>@Html.DisplayNameFor(S => S.Fees) <br /></th>
+        <th>@Html.DisplayNameFor(S => S.Photo) <br /></th>
+    </tr>
+
+    @foreach (var student in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(S => student.Sid)<br /></td>
+            <td>@Html.DisplayFor(S => student.Name)<br /></td>
+            <td>@Html.DisplayFor(S => student.Class)<br /></td>
+            <td>@Html.DisplayFor(S => student.Fees)<br /></td>
+            <td>@Html.DisplayFor(S => student.Photo)<br /></td>
+        </tr>
+    }
+</table>
+

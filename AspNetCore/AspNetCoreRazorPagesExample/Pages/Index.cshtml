@@ -1,0 +1,39 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Display Customers";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:red">Customer Details</h2>
+<table border="1" class="table table-bordered">
+    <tr>
+        <th>Sid</th>
+        <th>Name</th>
+        <th>Balance</th>
+        <th>City</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var student in Model.Students)
+    {
+        <tr>
+            <td align="center">@student.Sid</td>
+            <td>@student.Name</td>
+            <td>@student.Class</td>
+            <td>@student.Fees</td>
+            <td>@student.Photo</td>
+            <td align="center"><input type="checkbox" asp-for="@student.Status" disabled></td>
+            <td>
+                <a asp-page="DisplayStudent" asp-route-Sid="@student.Sid">View</a> &nbsp;
+                <a asp-page="EditStudent" asp-route-Sid="@student.Sid">Edit</a> &nbsp;
+                <a asp-page="DeleteStudent" asp-route-Sid="@student.Sid">Delete</a>
+            </td>
+        </tr>
+    }
+    <tr>
+        <td colspan="6" align="center">
+            <a asp-page="AddStudent">Add New Student</a>
+        </td>
+    </tr>
+</table>

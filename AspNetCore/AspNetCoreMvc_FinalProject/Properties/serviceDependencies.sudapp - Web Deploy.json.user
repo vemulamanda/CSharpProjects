@@ -1,0 +1,49 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2025-06-08T08:15:43.9601647Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2025-06-08T06:57:46.1158297Z"
+    }
+  },
+  "parameters": {
+    "sudapp.resourceGroupLocation": {
+      "Name": "sudapp.resourceGroupLocation",
+      "Type": null,
+      "Value": "australiasoutheast"
+    },
+    "mssql2.serviceConnectorResourceGroupName": {
+      "Name": "mssql2.serviceConnectorResourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Sud-RG"
+    },
+    "sudapp.subscriptionId": {
+      "Name": "sudapp.subscriptionId",
+      "Type": "subscription",
+      "Value": "592381f1-bc00-43dd-aa55-71f90d54ec24"
+    },
+    "mssql2.resourceGroupName": {
+      "Name": "mssql2.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Sud-RG"
+    },
+    "mssql2.subscriptionId": {
+      "Name": "mssql2.subscriptionId",
+      "Type": "subscription",
+      "Value": "592381f1-bc00-43dd-aa55-71f90d54ec24"
+    },
+    "sudapp.resourceName": {
+      "Name": "sudapp.resourceName",
+      "Type": null,
+      "Value": "sudapp"
+    },
+    "sudapp.resourceGroupName": {
+      "Name": "sudapp.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Sud-RG"
+    }
+  }
+}

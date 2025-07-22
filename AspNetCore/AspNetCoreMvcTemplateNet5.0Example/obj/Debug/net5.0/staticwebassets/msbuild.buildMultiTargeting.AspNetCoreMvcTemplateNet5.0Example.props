@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AspNetCoreMvcTemplateNet5.0Example.props" />
+</Project>

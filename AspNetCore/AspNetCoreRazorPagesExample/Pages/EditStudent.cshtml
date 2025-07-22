@@ -1,0 +1,28 @@
+﻿@page
+@model AspNetCoreRazorPagesExample.Pages.EditStudentModel
+@{
+    ViewData["Title"] = "Edit Customers";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:red">Customer Details</h2>
+<form method="post">
+    <div>
+        <label>Sid: </label><br/><input asp-for="@Model.Student.Sid" readonly />
+    </div>
+    <div>
+        <label>Name: </label><br /><input asp-for="@Model.Student.Name" />
+    </div>
+    <div>
+        <label>Class: </label><br /><input asp-for="@Model.Student.Class" />
+    </div>
+    <div>
+        <label>Fees: </label><br /><input asp-for="@Model.Student.Fees" />
+    </div>
+    <div>
+        <label>Status: </label><br /><input asp-for="@Model.Student.Status" />
+    </div>
+    <div>
+        <input type="submit" value="Update" />
+        <a asp-page="Index" align="center">Cancel</a>
+    </div>
+</form>

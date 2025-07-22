@@ -1,0 +1,23 @@
+﻿@model MVCAppCodeFirstWithDBParameters.Models.Customer
+
+@{
+    ViewBag.Title = "GetCustomer";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered"> Single Customer Details</h2>
+
+<table border="1" align="center">
+    <tr>
+        @*<td rowspan="7">
+            <img src="~/Uploads/@Model.ProductImageName" width="200" height="200" alt="No Image" />
+        </td>*@
+        <td>Customer ID: @Model.Custid</td>
+    </tr>
+    <tr><td>Customer Name: @Model.CustomerName</td></tr>
+    <tr><td>Customer Balance: @Model.Balance</td></tr>
+    <tr><td>Customer Address: @Model.Address</td></tr>
+    <tr><td>Supplier Name: @Model.Supplier.SupplierName</td></tr>
+    
+    <tr><td colspan="2" align="center">@Html.ActionLink("Back to Customers details", "GetCustomers")</td></tr>
+</table>
+

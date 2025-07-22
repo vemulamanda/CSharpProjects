@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodingDropletsMauiApp.Pages.TabbedPageDemo.DemoTabbedPage"
+             Title="DemoTabbedPage"
+            BarBackgroundColor="Beige"
+            BarTextColor="DarkGreen">
+    <ContentPage Title="Home" IconImageSource="home.jpg">
+        <Label Text="This is Home Content page"
+               Margin="20"
+               FontAttributes="Bold"
+               FontSize="20"/>
+    </ContentPage>
+    <ContentPage Title="Cart" IconImageSource="cart.jpg">
+        <Label Text="This is Cart Content page"
+               Margin="20"
+               FontAttributes="Bold"
+               FontSize="20"/>
+    </ContentPage>
+    <ContentPage Title="Profile" IconImageSource="profile.jpg">
+        <Label Text="This is Profile Content page"
+               Margin="20"
+               FontAttributes="Bold"
+               FontSize="20"/>
+    </ContentPage>
+
+</TabbedPage>

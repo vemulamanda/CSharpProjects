@@ -1,0 +1,22 @@
+﻿@model MVCAppWithDBFirstApproachNewExample.Models.Employee
+
+@{
+    ViewBag.Title = "DisplayEmployee";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Employee Details</h2>
+
+<table border="1" align="center">
+
+    <tr><td>Employee ID: @Model.Eid</td></tr>
+    <tr><td>Employee Name: @Model.Ename</td></tr>
+    <tr><td>Job: @Model.Job</td></tr>
+    <tr><td>Salary: @Model.Salary</td></tr>
+    <tr><td>Department ID: @Model.Did</td></tr>
+    <tr><td>Department Name: @Model.Department.Dname</td></tr>
+    <tr><td>Department Location: @Model.Department.Location</td></tr>
+    <tr>
+        <td colspan="2" align="center">@Html.ActionLink("Back to Employee Details", "DisplayEmployees")</td>
+    </tr>
+</table>
+

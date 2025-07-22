@@ -1,0 +1,34 @@
+﻿@model IEnumerable<MVCAppWithTraditionalADONet.Models.Student>
+
+@{
+    ViewBag.Title = "DisplayStudents";
+}
+
+<table border="1" align="center" height="00px">
+    <tr>
+        <th>@Html.DisplayNameFor(S => S.Sid) </th>
+        <th>@Html.DisplayNameFor(S => S.Name)</th>
+        <th>@Html.DisplayNameFor(S => S.Class)</th>
+        <th>@Html.DisplayNameFor(S => S.Fees)</th>
+        <th>@Html.DisplayNameFor(S => S.Photo)</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@Html.DisplayFor(S => item.Sid)</th>
+            <th>@Html.DisplayFor(S => item.Name)</th>
+            <th>@Html.DisplayFor(S => item.Class)</th>
+            <th>@Html.DisplayFor(S => item.Fees)</th>
+            <th>@Html.DisplayFor(S => item.Photo)</th>
+
+
+            <th>@Html.ActionLink("View", "DisplayStudent", new { Sid = item.Sid, Status = true }) <br /></th>
+            <th>@Html.ActionLink("Update", "EditStudent", new { Sid = item.Sid, Status = true })<br /></th>
+            <th>@Html.ActionLink("Delete", "DeleteStudent", new { Sid = item.Sid }, new { onclick = "return confirm('Are you sure of deleting the record.')" })<br /></th>
+        </tr>
+    }
+    <tr><td colspan="6" align="center">@Html.ActionLink("Add New Student", "AddStudent")</td></tr>
+</table>
+
+

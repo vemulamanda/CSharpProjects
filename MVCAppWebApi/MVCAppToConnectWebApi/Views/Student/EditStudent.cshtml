@@ -1,0 +1,34 @@
+﻿@model MVCAppToConnectWebApi.Models.Student
+
+@{
+    ViewBag.Title = "EditStudent";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Edit existing Student</h2>
+
+@{
+    string imgsrc = "";
+    if (Model.Photo != null)
+    {
+        var base64 = Convert.ToBase64String(Model.Photo);
+        imgsrc = String.Format("data:image/jpeg;base64,{0}", base64);
+    }
+}
+
+@using (Html.BeginForm("UpdateStudent", "Student", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div>@Html.LabelFor(S => S.Id)<br />@Html.TextBoxFor(S => S.Id, new { @readonly = true })</div>
+    <div>@Html.LabelFor(S => S.Name)<br />@Html.TextBoxFor(S => S.Name)</div>
+
+    <div>
+        @Html.LabelFor(S => S.Photo)<br />
+        <img src="@imgsrc" width="75" height="75">
+        <input type="file" name="selectedfile" />
+    </div>
+
+    <div>
+][        <input type="submit" value="Submit" />
+        @Html.ActionLink("Cancel", "DisplayStudents")
+    </div>
+}
+

@@ -1,0 +1,22 @@
+﻿@model MVCLinqWithMultipleDBTables.Models.EmpDept
+
+@{
+    ViewBag.Title = "DisplayEmployee";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Student Details</h2>
+
+<table border="1" align="center">
+
+    <tr><td>Sid: @Model.Eid</td></tr>
+    <tr><td>Name: @Model.Ename</td></tr>
+    <tr><td>Class: @Model.Job</td></tr>
+    <tr><td>Fees: @Model.Salary</td></tr>
+    <tr><td>Fees: @Model.Did</td></tr>
+    <tr><td>Fees: @Model.Dname</td></tr>
+    <tr><td>Fees: @Model.Location</td></tr>
+    <tr>
+        <td colspan="2" align="center">@Html.ActionLink("Back to Employee Details", "DisplayEmployees")</td>
+    </tr>
+</table>
+

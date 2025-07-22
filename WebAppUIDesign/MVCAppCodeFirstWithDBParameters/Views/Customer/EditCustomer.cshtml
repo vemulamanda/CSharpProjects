@@ -1,0 +1,23 @@
+﻿@model MVCAppCodeFirstWithDBParameters.Models.Customer
+
+@{
+    ViewBag.Title = "EditCustomer";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Edit Product</h2>
+
+@using (Html.BeginForm("UpdateCustomer", "Customer", FormMethod.Post))
+{
+    <div>@Html.LabelFor(C => C.Custid)<br />@Html.TextBoxFor(C => C.Custid, new { @readonly = "true" })</div>
+    <div>@Html.LabelFor(C => C.CustomerName)<br />@Html.TextBoxFor(C => C.CustomerName)</div>
+    <div>@Html.LabelFor(C => C.Address)<br />@Html.TextBoxFor(C => C.Address)</div>
+    <div>@Html.LabelFor(C => C.Balance)<br />@Html.TextBoxFor(C => C.Balance)</div>
+    <div>@Html.Label("Supplier Name")<br /> @Html.DropDownListFor(C => C.SupplierId, (SelectList)ViewBag.CustomerID)</div>
+    <div>
+        <input type="submit" value="Update" name="btnUpdate" />
+        @Html.ActionLink("Cancel", "GetCustomers")
+    </div>
+}
+
+
+

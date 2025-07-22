@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>True|2025-06-08T08:35:29.7008064Z||;True|2025-06-08T18:25:02.8019354+10:00||;False|2025-06-08T18:21:47.2451631+10:00||;False|2025-06-08T18:19:39.3166714+10:00||;False|2025-06-08T18:11:21.1806008+10:00||;False|2025-06-08T18:06:31.5221306+10:00||;False|2025-06-08T18:02:52.7302382+10:00||;True|2025-06-08T17:33:57.3890154+10:00||;False|2025-06-08T17:18:12.8419963+10:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConStr">
+      <Value>Server=tcp:suddbdbserver.database.windows.net,1433%3bInitial Catalog=SudDB%3bPersist Security Info=False%3bUser ID=CloudSA3be8317b%3bPassword=Sudh%408143%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="AspNetCoreMvc_FinalProject.Models.MvcCoreDBContext">
+      <Value>Server=tcp:suddbdbserver.database.windows.net,1433%3bInitial Catalog=SudDB%3bPersist Security Info=False%3bUser ID=CloudSA3be8317b%3bPassword=Sudh%408143%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

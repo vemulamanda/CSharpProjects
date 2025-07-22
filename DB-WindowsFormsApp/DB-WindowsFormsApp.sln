@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB-WindowsFormsApp", "DB-WindowsFormsApp\DB-WindowsFormsApp.csproj", "{11BEE34F-432E-480D-8972-83CC332E596C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore-Project", "PizzaStore-Project\PizzaStore-Project.csproj", "{86D2E2C6-A57D-4086-9326-758758678145}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DominosSetupProject", "DominosSetupProject\DominosSetupProject.vdproj", "{C12C1D8D-6D17-F69E-2BBE-EDE6825B7DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApiTestProject", "WinFormsApiTestProject\WinFormsApiTestProject.csproj", "{03398249-F7AC-4B17-A091-EC0272A06D65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebApiTestingUsingCsharpExample", "..\AspNetCore\AspNetCoreWebApiTestingUsingCsharpExample\AspNetCoreWebApiTestingUsingCsharpExample.csproj", "{0B0F9C3F-1687-9975-B08B-CC8C006FA8D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11BEE34F-432E-480D-8972-83CC332E596C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BEE34F-432E-480D-8972-83CC332E596C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BEE34F-432E-480D-8972-83CC332E596C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86D2E2C6-A57D-4086-9326-758758678145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D2E2C6-A57D-4086-9326-758758678145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D2E2C6-A57D-4086-9326-758758678145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D2E2C6-A57D-4086-9326-758758678145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12C1D8D-6D17-F69E-2BBE-EDE6825B7DC5}.Debug|Any CPU.ActiveCfg = Debug
+		{C12C1D8D-6D17-F69E-2BBE-EDE6825B7DC5}.Release|Any CPU.ActiveCfg = Release
+		{03398249-F7AC-4B17-A091-EC0272A06D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03398249-F7AC-4B17-A091-EC0272A06D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03398249-F7AC-4B17-A091-EC0272A06D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03398249-F7AC-4B17-A091-EC0272A06D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B0F9C3F-1687-9975-B08B-CC8C006FA8D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B0F9C3F-1687-9975-B08B-CC8C006FA8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B0F9C3F-1687-9975-B08B-CC8C006FA8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B0F9C3F-1687-9975-B08B-CC8C006FA8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2ACF914-DC3B-4C01-9A84-AB0D0DC161ED}
+	EndGlobalSection
+EndGlobal

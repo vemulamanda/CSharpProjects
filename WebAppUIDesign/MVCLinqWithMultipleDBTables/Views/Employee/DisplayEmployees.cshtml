@@ -1,0 +1,38 @@
+﻿@model IEnumerable<MVCLinqWithMultipleDBTables.Models.EmpDept>
+
+@{
+    ViewBag.Title = "DisplayEmployees";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Employee Details</h2>
+<table border="1" align="center" class="table-condensed">
+    <tr>
+        <th>@Html.DisplayNameFor(E => E.Eid)</th>
+        <th>@Html.DisplayNameFor(E => E.Ename)</th>
+        <th>@Html.DisplayNameFor(E => E.Job)</th>
+        <th>@Html.DisplayNameFor(E => E.Salary)</th>
+        <th>@Html.DisplayNameFor(E => E.Did)</th>
+        <th>@Html.DisplayNameFor(E => E.Dname)</th>
+        <th>@Html.DisplayNameFor(E => E.Location)</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var Employee in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(S => Employee.Eid)</td>
+            <td>@Html.DisplayFor(S => Employee.Ename)</td>
+            <td>@Html.DisplayFor(S => Employee.Job)</td>
+            <td>@Html.DisplayFor(S => Employee.Salary)</td>
+            <td>@Html.DisplayFor(S => Employee.Did)</td>
+            <td>@Html.DisplayFor(S => Employee.Dname)</td>
+            <td>@Html.DisplayFor(S => Employee.Location)</td>
+            <td>
+                @Html.ActionLink("View", "DisplayEmployee", new { Eid = Employee.Eid })
+                @Html.ActionLink("Edit", "EditEmployee", new { Eid = Employee.Eid })
+                @Html.ActionLink("Delete", "DeleteEmployee", new { Eid = Employee.Eid }, new { onclick = "return confirm('Are you sure of deleting the record')" });
+            </td>
+        </tr>
+    }
+    <tr><td colspan="6" align="center">@Html.ActionLink("Add New Employee", "AddEmployee")</td></tr>
+</table>
+

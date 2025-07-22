@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title - NIT</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <table style="width:100%">
+            <tr>
+                <td align="center" style="background-color:aquamarine">
+                    <img src="~/Images/Logo.png" style="height:100px;width:100px" class="rounded-circle" />
+                </td>
+                <td>
+                    <img src="~/Images/Header.png" style="height:100px;width:100%" class="rounded" />
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align:top;background-color:burlywood">
+                    <nav class="navbar-dark bg-primary">
+                        <font size="4">
+                            @Html.ActionLink("Home Page", "Home", "NareshIT", new { @class = "navbar-brand" }) <br />
+                            @Html.ActionLink("Registration Page", "Register", "NareshIT", new { @class = "navbar-brand" }) <br />
+                            @Html.ActionLink("Login Page", "Login", "NareshIT", new { @class = "navbar-brand" }) <br />
+                            @Html.ActionLink("Courses Offered", "Courses", "NareshIT", new { @class = "navbar-brand" }) <br />
+                            @Html.ActionLink("About Us", "About", "NareshIT", new { @class = "navbar-brand" }) <br />
+                        </font>
+                    </nav>
+                </td>
+                <td>
+                    @RenderBody()
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color:coral; text-align:center">
+                    @RenderSection("S1", false)
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="width:100%">
+                    <img src="~/Images/Footer.jpg" style="width:100%; height:50px" class="rounded" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

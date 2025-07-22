@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<Customers>
+  <Customer>
+    <Custid>101</Custid>
+    <Name>Sudheer</Name>
+    <Balance>50000</Balance>
+    <City>Melbourne</City>
+    <Status>True</Status>
+  </Customer>
+  <Customer>
+    <Custid>102</Custid>
+    <Name>Eswar</Name>
+    <Balance>60000</Balance>
+    <City>Toronto</City>
+    <Status>True</Status>
+  </Customer>
+  <Customer>
+    <Custid>103</Custid>
+    <Name>Siri</Name>
+    <Balance>55000.00</Balance>
+    <City>Kovvur</City>
+    <Status>True</Status>
+  </Customer>
+  <Customer>
+    <Custid>104</Custid>
+    <Name>Srija</Name>
+    <Balance>93000.00</Balance>
+    <City>Eluru</City>
+    <Status>False</Status>
+  </Customer>
+  <Customer>
+    <Custid>105</Custid>
+    <Name>Mathew</Name>
+    <Balance>14600.00</Balance>
+    <City>Melbourne</City>
+    <Status>True</Status>
+  </Customer>
+</Customers>

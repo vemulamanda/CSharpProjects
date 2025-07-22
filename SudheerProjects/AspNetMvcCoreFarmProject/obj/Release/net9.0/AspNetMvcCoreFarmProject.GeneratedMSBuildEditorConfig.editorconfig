@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AspNetMvcCoreFarmProject
+build_property.RootNamespace = AspNetMvcCoreFarmProject
+build_property.ProjectDir = C:\Users\Sudheer.Kumar\source\repos\SudheerProjects\AspNetMvcCoreFarmProject\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\Sudheer.Kumar\source\repos\SudheerProjects\AspNetMvcCoreFarmProject
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Account/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Error/ClientErrorView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcQ2xpZW50RXJyb3JWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Error/ServerErrorView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcU2VydmVyRXJyb3JWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Farm/AddCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybVxBZGRDdXN0b21lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Farm/DisplayCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybVxEaXNwbGF5Q3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Farm/DisplayCustomers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybVxEaXNwbGF5Q3VzdG9tZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Farm/EditCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybVxFZGl0Q3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Farm/EditSinglePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybVxFZGl0U2luZ2xlUG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Shared/DisplayMessages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXERpc3BsYXlNZXNzYWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudheerProjects/AspNetMvcCoreFarmProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-dwsa35w5cy

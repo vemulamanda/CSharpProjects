@@ -1,0 +1,13 @@
+C:\Users\Sudheer.Kumar\source\repos\DB-WindowsFormsApp\PizzaStore-Project\bin\Release\PizzaStore-Project.exe.config
+C:\Users\Sudheer.Kumar\source\repos\DB-WindowsFormsApp\PizzaStore-Project\bin\Release\PizzaStore-Project.exe
+C:\Users\Sudheer.Kumar\source\repos\DB-WindowsFormsApp\PizzaStore-Project\bin\Release\PizzaStore-Project.pdb
+C:\Users\Sudheer.Kumar\source\repos\DB-WindowsFormsApp\PizzaStore-Project\obj\Release\PizzaStore-Project.csproj.AssemblyReference.cache
+C:\Users\Sudheer.Kumar\source\repos\DB-WindowsFormsApp\PizzaStore-Project\obj\Release\PizzaStore_Project.AreaSelectForm.resources
+C:\Users\Sudheer.Kumar\source\repos\DB-WindowsFormsApp\PizzaStore-Project\obj\Release\PizzaStore_Project.EditBtn_Form.resources
+C:\Users\Sudheer.Kumar\source\repos\DB-WindowsFormsApp\PizzaStore-Project\obj\Release\PizzaStore_Project.MainPizzaForm.resources
+C:\Users\Sudheer.Kumar\source\repos\DB-WindowsFormsApp\PizzaStore-Project\obj\Release\PizzaStore_Project.Properties.Resources.resources
+C:\Users\Sudheer.Kumar\source\repos\DB-WindowsFormsApp\PizzaStore-Project\obj\Release\PizzaStore_Project.TestForm.resources
+C:\Users\Sudheer.Kumar\source\repos\DB-WindowsFormsApp\PizzaStore-Project\obj\Release\PizzaStore-Project.csproj.GenerateResource.cache
+C:\Users\Sudheer.Kumar\source\repos\DB-WindowsFormsApp\PizzaStore-Project\obj\Release\PizzaStore-Project.csproj.CoreCompileInputs.cache
+C:\Users\Sudheer.Kumar\source\repos\DB-WindowsFormsApp\PizzaStore-Project\obj\Release\PizzaStore-Project.exe
+C:\Users\Sudheer.Kumar\source\repos\DB-WindowsFormsApp\PizzaStore-Project\obj\Release\PizzaStore-Project.pdb

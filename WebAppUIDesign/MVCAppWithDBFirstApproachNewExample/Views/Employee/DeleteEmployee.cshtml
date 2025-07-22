@@ -1,0 +1,43 @@
+﻿@model MVCAppWithDBFirstApproachNewExample.Models.Employee
+
+@{
+    ViewBag.Title = "DeleteEmployee";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Delete Employee</h2>
+
+@using (Html.BeginForm("DeleteEmployee", "Employee"))
+{
+    <div>
+        @Html.Label("Employee ID: ")<br />
+        @Html.TextBoxFor(E => E.Eid, new { @readonly = true })
+    </div>
+
+    <div>
+        @Html.Label("Employee Name: ")<br />
+        @Html.TextBoxFor(E => E.Ename, new { @readonly = true })
+    </div>
+
+    <div>
+        @Html.Label("Job: ")<br />
+        @Html.TextBoxFor(E => E.Job, new { @readonly = true })
+    </div>
+
+    <div>
+        @Html.Label("Salary: ")<br />
+        @Html.TextBoxFor(E => E.Salary, new { @readonly = true })
+    </div>
+
+    <div>
+        @Html.Label("Departments")<br />
+        @Html.TextBoxFor(E => E.Did, new { @readonly = true })
+    </div>
+
+    <div>
+        <font color="red">Are you sure to delete the record ?</font>
+        <input type="submit" value="yes" />
+    </div>
+
+    @Html.ActionLink("Cancel", "DisplayEmployees")
+}
+

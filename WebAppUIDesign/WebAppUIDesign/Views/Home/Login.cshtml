@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <h1 class="d-flex justify-content-center align-items-center">Welcome to Farm Site</h1>
+    <div class="d-flex justify-content-center align-items-center mt-5" style="margin-top: 500px;">
+        @using (Html.BeginForm("Validate", "Home"))
+        {
+            @Html.Label("Username: ", new { @class = "text-info fw-bold" }) <br />
+            @Html.TextBox("txtName", "", new { placeholder = "Enter your name", @class = "form-control" }); <br />
+
+            @Html.Label("Pasword: ", new { @class = "text-info fw-bold" }) <br />
+            @Html.Password("txtPwd", "", new { placeholder = "Enter your password", @class = "form-control" }); <br />
+
+            <input type="submit" value="Login" />
+            <input type="reset" value="Reset"/>
+        }
+    </div>
+</body>
+</html>

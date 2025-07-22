@@ -1,0 +1,32 @@
+﻿@model  MVCAppToConnectWebApi.Models.Student
+
+@{
+    ViewBag.Title = "DisplayStudent";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Student Details</h2>
+
+@{
+    string imgsrc = "";
+    if (Model.Photo != null)
+    {
+        var base64 = Convert.ToBase64String(Model.Photo);
+        imgsrc = String.Format("data:image/jpeg;base64,{0}", base64);
+    }
+    else
+    {
+        <p style="color:red;">No image found for this student.</p>
+    }
+}
+
+<table border="1" align="center">
+    <tr>
+        <td rowspan="4"><img src="@imgsrc" width="200" height="200"></td>
+        <td>Sid: @Model.Id</td>
+    </tr>
+    <tr><td>Name: @Model.Name</td></tr>
+    <tr>
+        <td colspan="2" align="center">@Html.ActionLink("Back to Student Details", "DisplayStudents")</td>
+    </tr>
+</table>
+

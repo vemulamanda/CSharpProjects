@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>True|2025-06-20T05:36:44.5506109Z||;True|2025-06-20T15:16:32.5067894+10:00||;False|2025-06-20T15:13:03.5721947+10:00||;True|2025-06-20T14:23:49.2932780+10:00||;True|2025-06-20T14:16:49.6682122+10:00||;True|2025-06-20T14:13:14.8394162+10:00||;False|2025-06-20T14:11:47.2578973+10:00||;False|2025-06-20T14:10:00.5960972+10:00||;True|2025-06-20T13:40:32.9230615+10:00||;True|2025-06-20T13:26:49.4632760+10:00||;False|2025-06-20T13:25:09.5557051+10:00||;False|2025-06-20T13:24:21.5748318+10:00||;True|2025-06-20T13:11:50.5887379+10:00||;True|2025-06-20T12:05:57.4512381+10:00||;True|2025-06-20T11:53:45.5498944+10:00||;False|2025-06-20T11:51:34.4461026+10:00||;False|2025-06-20T11:51:07.4966697+10:00||;False|2025-06-20T11:50:02.3787204+10:00||;True|2025-06-20T11:37:52.6738967+10:00||;True|2025-06-20T11:13:54.0249008+10:00||;True|2025-06-20T10:44:13.2239758+10:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConStr">
+      <Value>Server=tcp:suddbserver.database.windows.net%3bAuthentication=Active Directory Default%3bDatabase=FarmersDb%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

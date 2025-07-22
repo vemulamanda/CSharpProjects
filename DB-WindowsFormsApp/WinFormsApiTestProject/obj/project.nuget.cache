@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ejl2jrUCtkM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sudheer.Kumar\\source\\repos\\DB-WindowsFormsApp\\WinFormsApiTestProject\\WinFormsApiTestProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sudheer.Kumar\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

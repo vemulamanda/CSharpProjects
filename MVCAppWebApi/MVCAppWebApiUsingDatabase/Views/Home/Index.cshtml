@@ -1,0 +1,160 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-3.7.1.min.js"></script>
+    <script>
+        function GetCustomers() {
+            $.ajax({
+                url: 'http://localhost/MVCAppWebApiUsingDatabase/api/Employee',
+                type: 'get',
+                datatype: 'json',
+                success: BuildTable,
+                error: DisplayError
+            });
+        }
+
+        function BuildTable(Employees) {
+            $('#tblCustomers tbody').empty();
+            $.each(Employees, function (index, Employee) {
+                var Status = (Employee.Status) ? 'Active' : 'In-Active'
+                $('#tblCustomers').append('<tr><td align=center>' + Employee.Eid + '</td><td>' + Employee.Ename + '</td><td>' + Employee.Job + '</td><td>' + Employee.Salary + '</td><td>' + Status + '</td></tr>');
+            });
+
+        }
+
+        function DisplayError() {
+            window.alert("Error on the server. could not load the data..");
+        }
+
+        function GetCustomer() {
+            $.ajax({
+                url: 'http://localhost/MVCAppWebApiUsingDatabase/api/Employee',
+                type: 'get',
+                datatype: 'json',
+                data: {
+                    'id': $('#CustId').val()
+                },
+                success: function (Employee) {
+                    if (Employee == null) {
+                        window.alert("No Customer exists with given id.");
+                        $('#frmCustomer').trigger("reset");
+                        $('#CustId').focus();
+                    } else {
+                        $('#Name').val(Employee.Ename);
+                        $('#Balance').val(Employee.Job);
+                        $('#City').val(Employee.Salary);
+                    }
+                },
+                error: DisplayError
+            });
+        }
+
+        function AddCustomer() {
+            $.ajax({
+                url: 'http://localhost/MVCAppWebApiUsingDatabase/api/Employee',
+                type: 'post',
+                datatype: 'json',
+                data: $('#frmCustomer').serialize(),
+                success: ClearAndLoad,
+                error: DisplayError
+            });
+        }
+
+        function UpdateCustomer() {
+            $.ajax({
+                url: 'http://localhost/MVCAppWebApiUsingDatabase/api/Employee',
+                type: 'put',
+                datatype: 'json',
+                data: $('#frmCustomer').serialize(),
+                success: ClearAndLoad,
+                error: DisplayError
+            });
+        }
+
+        function DeleteCustomer() {
+            $.ajax({
+                url: 'http://localhost/MVCAppWebApiUsingDatabase/api/Employee/' + $('#CustId').val(),
+                type: 'delete',
+                datatype: 'json',
+                success: ClearAndLoad,
+                error: DisplayError
+            });
+        }
+
+        function ClearAndLoad() {
+            $('#frmCustomer').trigger("reset");
+            GetCustomers();
+            $('#CustId').focus();
+        }     
+
+    </script>
+</head>
+<body onload="GetCustomers()">
+    <table width="100%">
+        <tr>
+            <td valign="top">
+                <table border="1" align="center" id="tblCustomers">
+                    <caption>Employee Details</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Eid</th>
+                            <th>Ename</th>
+                            <th>Job</th>
+                            <th>Salary</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                    </tbody>
+                </table>
+
+            
+            
+            <td valign="top">
+            <form id="frmCustomer">
+                <table align="center">
+                    <caption>Customer Editing</caption>
+                    <tr>
+                        <td>Emp-Id:</td>
+                        <td>
+                            <input id="CustId" name="Eid" />
+                            <input type="button" id="btnSearch" name="btnSearch" value="..." onclick="GetCustomer()" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Emp-Name:</td>
+                        <td><input id="Name" name="Ename" /></td>
+                    </tr>
+                    <tr>
+                        <td>Job:</td>
+                        <td><input id="Balance" name="Job" /></td>
+                    </tr>
+                    <tr>
+                        <td>Salary:</td>
+                        <td><input id="City" name="Salary" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="button" id="btnInsert" name="btnInsert" value="Insert" onclick="AddCustomer()" />
+                            <input type="button" id="btnUpadte" name="btnUpadte" value="Update" onclick="UpdateCustomer()" />
+                            <input type="button" id="btnDelete" name="btnDelete" value="Delete" onclick="DeleteCustomer()" />
+                            <input type="button" id="btnReset" name="btnReset" value="Clear" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+           </td>
+        </tr>
+    </table>
+</body>
+</html>

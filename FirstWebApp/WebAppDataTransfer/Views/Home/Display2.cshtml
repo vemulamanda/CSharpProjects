@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Display2</title>
+</head>
+<body>
+    <div>
+        <ol>
+            @{
+                foreach (string str in ViewBag.colors)
+                {
+                    <li>@str</li>
+                }
+            }
+        </ol>
+    </div>
+</body>
+</html>

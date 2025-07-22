@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodingDropletsMauiApp.Pages.DemoContentPage2"
+             Title="DemoContentPage2">
+    <VerticalStackLayout>
+        <Label 
+            Style="{StaticResource Headline}"
+            Text="Welcome to page 02"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            TextColor="Green"
+            FontSize="Large"
+            FontAttributes="Italic"
+            Margin="20"
+            TextDecorations="Underline"/>
+
+        <Button
+            x:Name="BtnNxt_Contentpage02"
+            Text="Go to page03"
+            VerticalOptions="End"
+            HorizontalOptions="End"
+            FontSize="Large"
+            Margin="0,200, 20, 0"
+            Clicked="BtnNxt_Contentpage02_Clicked"/>
+
+        <Button
+            x:Name="BtnPrv_Contentpage02"
+            Text="Go to page01"
+            VerticalOptions="End"
+            HorizontalOptions="End"
+            FontSize="Large"
+            Margin="0,200, 20, 0"
+            Clicked="BtnPrv_Contentpage02_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

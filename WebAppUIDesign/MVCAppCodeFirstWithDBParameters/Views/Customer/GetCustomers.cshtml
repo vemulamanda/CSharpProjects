@@ -1,0 +1,38 @@
+﻿@model IEnumerable<MVCAppCodeFirstWithDBParameters.Models.Customer>
+
+@{
+    ViewBag.Title = "GetCustomers";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Customer Details</h2>
+<table border="1" align="center" class="table-condensed">
+    <tr>
+        <th>@Html.DisplayNameFor(C => C.Custid)</th>
+        <th>@Html.DisplayNameFor(C => C.CustomerName)</th>
+        <th>@Html.DisplayNameFor(C => C.Address)</th>
+        <th>@Html.DisplayNameFor(C => C.Balance)</th>
+        <th>@Html.DisplayNameFor(C => C.SupplierId)</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var Customer in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(C => Customer.Custid)</td>
+            <td>@Html.DisplayFor(C => Customer.CustomerName)</td>
+            <td>@Html.DisplayFor(C => Customer.Address)</td>
+            <td>@Html.DisplayFor(C => Customer.Balance)</td>
+            <td>@Html.DisplayFor(C => Customer.SupplierId)</td>
+            <td>
+                @Html.ActionLink("View", "GetCustomer", new { CustomerId = Customer.Custid })
+                @Html.ActionLink("Edit", "EditCustomer", new { CustomerId = Customer.Custid })
+                @Html.ActionLink("Delete", "DeleteCustomer", new { CustomerID = Customer.Custid },
+               new { onclick = "return confirm('Are you sure of deleting the record.?')" });
+            </td>
+        </tr>
+    }
+    <tr><td colspan="6" align="center">@Html.ActionLink("Add New Customer", "AddCustomer")</td></tr>
+</table>
+
+
+
+

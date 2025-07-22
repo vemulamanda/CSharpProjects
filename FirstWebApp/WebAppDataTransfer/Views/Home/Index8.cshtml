@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index8</title>
+</head>
+<body>
+    <div>
+        @{
+            int id = Convert.ToInt32(ViewData.Eval("id"));
+            string item = ViewData.Eval("item").ToString();
+            double price = Convert.ToDouble(ViewData.Eval("price"));
+        }
+        <table align="center" border="1" style:."width="50%">
+            <caption>Product Details</caption>
+            <tr><td>ID :</td><td>@id</td></tr>
+            <tr><td>Item :</td><td>@item</td></tr>
+            <tr>
+                <td>Price :</td>
+                <td>
+                    @{
+                        price = price + (price * 0.1);
+                        @price
+                    }
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

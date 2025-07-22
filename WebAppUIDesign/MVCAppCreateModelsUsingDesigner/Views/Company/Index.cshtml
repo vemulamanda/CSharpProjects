@@ -1,0 +1,32 @@
+﻿@model IEnumerable<MVCAppCreateModelsUsingDesigner.Models.Employee>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Employees Details</h2>
+<table border="1" align="center" class="table-condensed">
+    <tr>
+        <th>@Html.DisplayNameFor(E => E.Ename)</th>
+        <th>@Html.DisplayNameFor(E => E.Location)</th>
+        <th>@Html.DisplayNameFor(E => E.Salary)</th>
+        <th>@Html.DisplayNameFor(E => E.Did)</th>
+    </tr>
+    @foreach (var Employee in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(P => Employee.Ename)</td>
+            <td>@Html.DisplayFor(P => Employee.Location)</td>
+            <td>@Html.DisplayFor(P => Employee.Salary)</td>
+            <td>@Html.DisplayFor(P => Employee.Did)</td>
+
+            <td>
+                @Html.ActionLink("View", "DisplayEmployee", new { id = Employee.Id })
+                @Html.ActionLink("Edit", "EditEmployeeDetails", new { id = Employee.Id })
+                @Html.ActionLink("Delete", "DeleteEmployee", new { id = Employee.Id }, new { onclick = "return confirm('Are you sure of deleting the record')" });
+            </td>
+        </tr>
+    }
+    <tr><td colspan="6" align="center">@Html.ActionLink("Add New Employee", "AddEmployee")</td></tr>
+</table>
+

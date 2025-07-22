@@ -1,0 +1,31 @@
+﻿@model IEnumerable<MVCAppWithCodeFirstApproach.Models.Category>
+
+@{
+    ViewBag.Title = "DisplayCategories";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Employee Details</h2>
+<table border="1" align="center" class="table-condensed">
+    <tr>
+        <th>@Html.DisplayNameFor(C => C.CategoryID)</th>
+        <th>@Html.DisplayNameFor(C => C.CategoryName)</th>
+        <th>@Html.DisplayNameFor(C => C.Description)</th>        
+        <th>Actions</th>
+    </tr>
+    @foreach (var Category in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(C => Category.CategoryID)</td>
+            <td>@Html.DisplayFor(C => Category.CategoryName)</td>
+            <td>@Html.DisplayFor(C => Category.Description)</td>
+            <td>
+                @Html.ActionLink("Edit", "EditCategory", new { CategoryId = Category.CategoryID })
+                @Html.ActionLink("Delete", "DeleteCategory", new { CategoryID = Category.CategoryID }, 
+               new { onclick = "return confirm('Are you sure of deleting the record.?')"});
+            </td>
+        </tr>
+    }
+    <tr><td colspan="6" align="center">@Html.ActionLink("Add New Category", "AddCategory")</td></tr>
+</table>
+
+

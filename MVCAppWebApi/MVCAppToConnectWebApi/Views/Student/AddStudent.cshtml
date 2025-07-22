@@ -1,0 +1,20 @@
+﻿@model MVCAppToConnectWebApi.Models.Student
+
+@{
+    ViewBag.Title = "AddStudent";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Add New Student</h2>
+
+@using (Html.BeginForm("AddStudent", "Student", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div>@Html.LabelFor(S => S.Id)<br />@Html.TextBoxFor(S => S.Id)</div>
+    <div>@Html.LabelFor(S => S.Name)<br />@Html.TextBoxFor(S => S.Name)</div>
+    <div>@Html.LabelFor(S => S.Photo)<br /><input type="file" name="selectedfile" /></div>
+
+    <div>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+    </div>
+}
+

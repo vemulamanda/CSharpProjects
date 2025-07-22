@@ -1,0 +1,27 @@
+﻿@model WebAppUIDesign.Models.Student
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DisplayStudentST</title>
+</head>
+<body>
+    <div>
+        <h4>Student Details</h4>
+        <ul>
+            <li>@Html.DisplayNameFor(s => s.Sid) : @Html.DisplayFor(s => s.Sid)</li>
+            <li>@Html.DisplayNameFor(s => s.Name) : @Html.DisplayFor(s => s.Name)</li>
+            <li>@Html.DisplayNameFor(s => s.Class) : @Html.DisplayFor(s => s.Class)</li>
+            <li>@Html.DisplayNameFor(s => s.Gender) : @Html.DisplayFor(s => s.Gender)</li>
+            <li>@Html.DisplayNameFor(s => s.Fees) : @Html.DisplayFor(s => s.Fees)</li>
+            <li>@Html.DisplayNameFor(s => s.Address) : @Html.DisplayFor(s => s.Address)</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_layout.cshtml";
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    @*<link href="~/Content/Header.min.css" rel="stylesheet" />
+            <link href="~/Content/Paragraph.min.css" rel="stylesheet" />
+
+        @Styles.Render("~/Content/CSS_Bundle")*@
+
+</head>
+<body>
+    <div>
+        <table width="100%">
+            <tr>
+                <td align:center>@Html.ActionLink("Doctors Home Page", "Index", "Home", new {area = "Doctor"}, "")</td>
+                <td align:center>@Html.ActionLink("Patients Home Page", "Index", "Home", new {area = "Patient"}, "")</td>
+            </tr>
+            <tr>
+                <td align:center>@Html.ActionLink("Medicines Home Page", "Patient", "Home")</td>
+                <td align:center>@Html.ActionLink("Labs Home Page", "Patient_Con", "Home")</td>
+            </tr>
+            <tr>
+                <td align:center>@Html.ActionLink("Insurance Home Page", "Patient_Con", "Home")</td>
+                <td align:center>@Html.ActionLink("Billing Home Page", "Patient_Con", "Home")</td>
+            </tr>
+            <tr>
+                <td align:center>@Html.ActionLink("Staff Home Page", "Index", "Home", new {area = "Staff"}, "")</td>
+                <td align:center>@Html.ActionLink("HR Home Page", "Patient_Con", "Home")</td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>

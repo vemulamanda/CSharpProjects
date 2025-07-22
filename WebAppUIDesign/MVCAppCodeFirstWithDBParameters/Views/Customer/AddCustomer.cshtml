@@ -1,0 +1,25 @@
+﻿@model MVCAppCodeFirstWithDBParameters.Models.Customer
+
+@{
+    ViewBag.Title = "AddCustomer";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Add Product</h2>
+
+@using (Html.BeginForm("AddCustomer", "Customer", FormMethod.Post))
+{
+    <div>@Html.LabelFor(C => C.Custid)<br />@Html.TextBoxFor(C => C.Custid)</div>
+    <div>@Html.LabelFor(C => C.CustomerName)<br />@Html.TextBoxFor(C => C.CustomerName)</div>
+    <div>@Html.LabelFor(C => C.Address)<br />@Html.TextBoxFor(C => C.Address)</div>
+    <div>@Html.LabelFor(C => C.Balance)<br />@Html.TextBoxFor(C => C.Balance)</div>
+    <div>@Html.Label("Supplier Name")<br />@Html.DropDownListFor(C => C.SupplierId, (SelectList)ViewBag.SupplierNames, "- Select Supplier -")</div>
+    @*<div>@Html.Label("CategoryName")<br /> @Html.DropDownList("CategoryId", "-Select Category-")</div>*@
+
+    <div>
+        <input type="submit" value="Save" name="btnSave" />
+        <input type="reset" value="Reset" />
+    </div>
+}
+
+@Html.ActionLink("Back to Customers details", "GetCustomers")
+

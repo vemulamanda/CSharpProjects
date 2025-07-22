@@ -1,0 +1,169 @@
+using System.Collections;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+
+namespace CSharpTestingProject
+{
+    internal class PizzaSite
+    {
+        int Pizza_Id;
+        string? F_name, L_name, Mobile;
+
+        static bool isValid = false;
+        private static ArrayList Cart = new ArrayList();
+        private static List<int> SelectedPrice = new List<int>();
+        //Dictionary is best when you need to access values using key value pairs.(like use product id to get product name)
+        private static Dictionary<int, (string PizzaName, int Price)> PizzaDictionary = new Dictionary<int, (string PizzaName, int Price)>
+        {
+            { 1, ("Peri Peri Pizza", 23) },
+            { 2, ("Mushroom Pizza", 24) },
+            { 3, ("Chicken Pizza", 25) },
+            { 4, ("Burger Pizza", 26) },
+            { 5, ("Veg Pizza", 27) },
+            { 6, ("Butter Chicken Pizza", 28) }
+        };
+
+        private void DisplayPizzaMenu()
+        {
+            foreach (var item in PizzaDictionary)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"{item.Key} = {item.Value.PizzaName} - {item.Value.Price}$");
+            }
+        }
+
+        private void AddToCart(int pid)
+        {
+            var (PizzaName, Price) = PizzaDictionary[pid];
+            Console.WriteLine($"You selected {PizzaName}");
+            Console.WriteLine($"Price: {Price}$");
+            Cart.Add($"You selected: {pid} = {PizzaName} {Price}$");
+            //PizzaSite.SelectedPrice.Add(Price);
+
+        }
+
+        static void Main()
+        { 
+            PizzaSite PS = new PizzaSite();
+            while (!isValid)
+            {
+            Display_Pizza_List:
+
+                PS.DisplayPizzaMenu();
+
+                Console.WriteLine();
+                Console.Write("Please select the number of your pizza: ");
+
+                string PID = Console.ReadLine();
+                if (int.TryParse(PID, out int pid) && pid >= 1 && pid <= 6)
+                {
+                    isValid = true;
+                    Console.WriteLine($"You have selected : {pid}");
+
+                    switch(pid)
+                    {
+                        case 1:
+                            Console.WriteLine("You selected Peri Peri Pizza");
+                            Console.WriteLine("Price: 23$");
+                            Cart.Add("1.Peri Peri Pizza = 23$");
+                            PizzaSite.SelectedPrice.Add(23);
+
+                            break;
+                        case 2:
+                            Console.WriteLine("You selected Mushroom Pizza");
+                            Console.WriteLine("Price: 24$");
+                            Cart.Add("2.Mushroom Pizza = 24$");
+                            SelectedPrice.Add(24);
+                            break;
+                        case 3:
+                            Console.WriteLine("You selected Chicken Pizza");
+                            Console.WriteLine("Price: 25$");
+                            Cart.Add("3.Chicken Pizza = 25$");
+                            SelectedPrice.Add(25);
+                            break;
+                        case 4:
+                            Console.WriteLine("You selected Burger Pizza");
+                            Console.WriteLine("Price: 26$");
+                            Cart.Add("4.Burger Pizza = 26$");
+                            SelectedPrice.Add(26);
+                            break;
+                        case 5:
+                            Console.WriteLine("You selected Veg Pizza");
+                            Console.WriteLine("Price: 27$");
+                            Cart.Add("5.Veg Pizza = 27$");
+                            SelectedPrice.Add(27);
+                            break;
+                        case 6:
+                            Console.WriteLine("You selected Butter Chicken Pizza");
+                            Console.WriteLine("Price: 28$");
+                            Cart.Add("6.Butter Chicken Pizza = 28$");
+                            SelectedPrice.Add(28);
+                            break;
+                    }
+
+                confirm:
+                    Console.Write("Do you want to add more pizzas. Please press Y/N: ");
+
+                    string confirmation = Console.ReadLine();
+                    if (confirmation == "Y" || confirmation == "y")
+                    {
+                        Console.Clear();
+
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        foreach (var item in Cart)
+                        {
+                            Console.WriteLine($"Current item in your cart: {item}");
+                        }
+                        Console.ForegroundColor = ConsoleColor.Green;
+
+                        goto Display_Pizza_List;
+                    }
+                    else if (confirmation == "N" || confirmation == "n")
+                    {
+                        Console.Clear();
+                        Console.WriteLine("Please check your order.\n");
+
+                        int i = 0;
+                        foreach (var item in SelectedPrice)
+                        {
+                            i = i + item;
+                        }
+                        Console.WriteLine($"Your Selected items are: \n");
+                        foreach (var item in Cart)
+                        {
+                            Console.WriteLine(item);
+                        }
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.WriteLine($"\nThe total price is: {i}$");
+                        Console.ForegroundColor = ConsoleColor.Green;
+                    } else
+                    {
+                        Console.WriteLine("Please enter only Y/y or N/n");
+                        goto confirm;
+                    }  
+                }
+                else
+                {
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    
+                    Console.WriteLine($"Please enter correct pizza number.");
+                    Console.WriteLine();
+                    Console.WriteLine();
+
+                    Console.ForegroundColor= ConsoleColor.Yellow;
+                    foreach (var item in Cart)
+                    {
+                        Console.WriteLine($"Current item in your cart: {item}");
+                    }
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    goto Display_Pizza_List;
+                }
+            }
+
+
+
+            Console.ReadLine();
+        }
+    }
+}

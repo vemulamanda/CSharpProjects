@@ -1,0 +1,33 @@
+﻿@page
+@model AspNetCoreRazorPagesExample.Pages.DeleteStudentModel
+@{
+    ViewData["Title"] = "Delete Students";
+}
+
+<form method="post">
+    <div>
+        <label>Sid: </label><br/>
+        <input asp-for="@Model.Student.Sid" readonly />
+    </div>
+    <div>
+        <label>Name: </label><br />
+        <input asp-for="@Model.Student.Name" readonly />
+    </div>
+    <div>
+        <label>Class: </label><br />
+        <input asp-for="@Model.Student.Class" readonly />
+    </div>
+    <div>
+        <label>Fees: </label><br />
+        <input asp-for="@Model.Student.Fees" readonly />
+    </div>
+    <div>
+        <label>Status: </label><br />
+        <input asp-for="@Model.Student.Status" readonly/>
+    </div>
+
+    <div>
+        <input type="submit" value="Delete" />
+        <a asp-page="Index" align="center">Cancel</a>
+    </div>
+</form>

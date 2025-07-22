@@ -1,0 +1,42 @@
+﻿@model WebAppUIDesign.Models.Student
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddStudentST</title>
+</head>
+<body>
+    <div>
+        @{ Html.RenderAction("Header");}
+
+        @using (Html.BeginForm())
+        {
+            @Html.LabelFor(s => s.Sid, new { @class = "text-info" })<br />
+            @Html.TextBoxFor(s => s.Sid, new { placeholder = "Enter Student id" })<br />
+            @Html.LabelFor(s => s.Name, new { @class = "text-info" })<br />
+            @Html.TextBoxFor(s => s.Name, new { placeholder = "Enter Student name" })<br />
+            @Html.Label("Class: ");
+            List<int> li = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            SelectList items = new SelectList(li);
+            @Html.DropDownListFor(s => s.Class, items, "-Select Class-")<br />
+            @Html.LabelFor(s => s.Gender, new { @class = "text-info" })<br />
+            @Html.RadioButtonFor(s => s.Gender, "Male") @:Male
+            @Html.RadioButtonFor(s => s.Gender, "Female") @:Female
+            @Html.RadioButtonFor(s => s.Gender, "Transgender") @:Transgender<br/>
+            @Html.LabelFor(s => s.Fees, new { @class = "text-info" })<br />
+            @Html.TextBoxFor(s => s.Fees, new { placeholder = "Enter Annual fees" })<br />
+            @Html.LabelFor(s => s.Address, new { @class = "text-info" })<br />
+            @Html.TextAreaFor(s => s.Address, 3, 23, new { placeholder = "Enter Address" })<br />
+
+            <input type="submit" value="Save" />
+            <input type="reset" value="Reset" />
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿@model IEnumerable<WebAppUIDesign.Models.Customer>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DisplayCustomers</title>
+</head>
+<body>
+    <div>
+        @{ 
+            foreach(var Customer in Model)
+            {
+                Html.RenderPartial("_Customer", Customer);
+            }
+        }
+
+    </div>
+</body>
+</html>

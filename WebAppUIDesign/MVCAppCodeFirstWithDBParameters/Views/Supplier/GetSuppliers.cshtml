@@ -1,0 +1,31 @@
+﻿@model IEnumerable<MVCAppCodeFirstWithDBParameters.Models.Supplier>
+
+@{
+    ViewBag.Title = "GetSuppliers";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:orangered">Supplier Details</h2>
+<table border="1" align="center" class="table-condensed">
+    <tr>
+        <th>@Html.DisplayNameFor(S => S.Sid)</th>
+        <th>@Html.DisplayNameFor(S => S.SupplierName)</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var supplier in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(C => supplier.Sid)</td>
+            <td>@Html.DisplayFor(C => supplier.SupplierName)</td>
+            <td>
+                @Html.ActionLink("Edit", "EditSupplier", new { SupplierId = supplier.Sid })
+                @Html.ActionLink("Delete", "DeleteCategory", new { SupplierId = supplier.Sid },
+               new { onclick = "return confirm('Are you sure of deleting the record.?')" });
+            </td>
+        </tr>
+    }
+    <tr><td colspan="6" align="center">@Html.ActionLink("Add New Supplier", "AddSupplier")</td></tr>
+</table>
+
+
+
+

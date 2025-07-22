@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98BF9696-108D-46C1-8FB0-9201B3E7925D}|CollectionsProject\\CollectionsProject.csproj|c:\\users\\sudheer.kumar\\source\\repos\\properties\\collectionsproject\\lambdatestone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BF9696-108D-46C1-8FB0-9201B3E7925D}|CollectionsProject\\CollectionsProject.csproj|solutionrelative:collectionsproject\\lambdatestone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98BF9696-108D-46C1-8FB0-9201B3E7925D}|CollectionsProject\\CollectionsProject.csproj|c:\\users\\sudheer.kumar\\source\\repos\\properties\\collectionsproject\\genericexampledictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BF9696-108D-46C1-8FB0-9201B3E7925D}|CollectionsProject\\CollectionsProject.csproj|solutionrelative:collectionsproject\\genericexampledictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98BF9696-108D-46C1-8FB0-9201B3E7925D}|CollectionsProject\\CollectionsProject.csproj|c:\\users\\sudheer.kumar\\source\\repos\\properties\\collectionsproject\\genericexamplelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BF9696-108D-46C1-8FB0-9201B3E7925D}|CollectionsProject\\CollectionsProject.csproj|solutionrelative:collectionsproject\\genericexamplelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98BF9696-108D-46C1-8FB0-9201B3E7925D}|CollectionsProject\\CollectionsProject.csproj|c:\\users\\sudheer.kumar\\source\\repos\\properties\\collectionsproject\\genericexampleone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BF9696-108D-46C1-8FB0-9201B3E7925D}|CollectionsProject\\CollectionsProject.csproj|solutionrelative:collectionsproject\\genericexampleone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D817C8A6-6124-4883-B6FF-F11C864B8666}|WindowsFormsProject\\WindowsFormsProject.csproj|C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\windowsformsproject\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D817C8A6-6124-4883-B6FF-F11C864B8666}|WindowsFormsProject\\WindowsFormsProject.csproj|solutionrelative:windowsformsproject\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0791F282-60B7-4A7E-BC78-F2C1DA052032}|CSharpTestingProject\\CSharpTestingProject.csproj|c:\\users\\sudheer.kumar\\source\\repos\\properties\\csharptestingproject\\pizzastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0791F282-60B7-4A7E-BC78-F2C1DA052032}|CSharpTestingProject\\CSharpTestingProject.csproj|solutionrelative:csharptestingproject\\pizzastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0791F282-60B7-4A7E-BC78-F2C1DA052032}|CSharpTestingProject\\CSharpTestingProject.csproj|c:\\users\\sudheer.kumar\\source\\repos\\properties\\csharptestingproject\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0791F282-60B7-4A7E-BC78-F2C1DA052032}|CSharpTestingProject\\CSharpTestingProject.csproj|solutionrelative:csharptestingproject\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D817C8A6-6124-4883-B6FF-F11C864B8666}|WindowsFormsProject\\WindowsFormsProject.csproj|C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\windowsformsproject\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D817C8A6-6124-4883-B6FF-F11C864B8666}|WindowsFormsProject\\WindowsFormsProject.csproj|solutionrelative:windowsformsproject\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LambdaTestOne.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\CollectionsProject\\LambdaTestOne.cs",
+              "RelativeDocumentMoniker": "CollectionsProject\\LambdaTestOne.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\CollectionsProject\\LambdaTestOne.cs",
+              "RelativeToolTip": "CollectionsProject\\LambdaTestOne.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T00:21:42.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericExampleDictionary.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\CollectionsProject\\GenericExampleDictionary.cs",
+              "RelativeDocumentMoniker": "CollectionsProject\\GenericExampleDictionary.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\CollectionsProject\\GenericExampleDictionary.cs",
+              "RelativeToolTip": "CollectionsProject\\GenericExampleDictionary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:00:07.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericExampleOne.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\CollectionsProject\\GenericExampleOne.cs",
+              "RelativeDocumentMoniker": "CollectionsProject\\GenericExampleOne.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\CollectionsProject\\GenericExampleOne.cs",
+              "RelativeToolTip": "CollectionsProject\\GenericExampleOne.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T05:59:28.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericExampleList.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\CollectionsProject\\GenericExampleList.cs",
+              "RelativeDocumentMoniker": "CollectionsProject\\GenericExampleList.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\CollectionsProject\\GenericExampleList.cs",
+              "RelativeToolTip": "CollectionsProject\\GenericExampleList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T05:58:49.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form10.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\WindowsFormsProject\\Form10.cs",
+              "RelativeDocumentMoniker": "WindowsFormsProject\\Form10.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\WindowsFormsProject\\Form10.cs",
+              "RelativeToolTip": "WindowsFormsProject\\Form10.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:31:38.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form10.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\WindowsFormsProject\\Form10.cs",
+              "RelativeDocumentMoniker": "WindowsFormsProject\\Form10.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\WindowsFormsProject\\Form10.cs [Design]",
+              "RelativeToolTip": "WindowsFormsProject\\Form10.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:31:16.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pizza.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\CSharpTestingProject\\Pizza.cs",
+              "RelativeDocumentMoniker": "CSharpTestingProject\\Pizza.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\CSharpTestingProject\\Pizza.cs",
+              "RelativeToolTip": "CSharpTestingProject\\Pizza.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAA0wFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:38:07.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PizzaStore.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\CSharpTestingProject\\PizzaStore.cs",
+              "RelativeDocumentMoniker": "CSharpTestingProject\\PizzaStore.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\Properties\\CSharpTestingProject\\PizzaStore.cs",
+              "RelativeToolTip": "CSharpTestingProject\\PizzaStore.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:38:08.88Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

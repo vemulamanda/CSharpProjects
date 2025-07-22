@@ -1,0 +1,35 @@
+﻿@page
+@model DisplayStudentModel
+@{
+    ViewData["Title"] = "Display Customer";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:red">Customer Details</h2>
+<table border="1" class="table table-bordered">
+    <tr>
+        <td>Sid: </td>
+        <td>@Model.Student.Sid</td>
+    </tr>
+    <tr>
+        <td>Name: </td>
+        <td>@Model.Student.Name</td>
+    </tr>
+    <tr>
+        <td>Class: </td>
+        <td>@Model.Student.Class</td>
+    </tr>
+    <tr>
+        <td>Fees: </td>
+        <td>@Model.Student.Fees</td>
+    </tr>
+    <tr>
+        <td>Status: </td>
+        <td><input type="checkbox" asp-for="@Model.Student.Status" disabled /></td>
+    </tr>
+
+    <tr>
+        <td colspan="2" align="center">
+            <a asp-page="Index">Back to Customer Details</a>
+        </td>
+    </tr>
+</table>

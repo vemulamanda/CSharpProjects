@@ -1,0 +1,27 @@
+﻿@page
+@model AddStudentModel
+@{
+    ViewData["Title"] = "Add Students";
+}
+
+<h2 style="text-align:center;background-color:yellowgreen;color:red">Customer Details</h2>
+<form method="post">
+    <div>
+        <label>Sid: </label><br/><input asp-for="@Model.Student.Sid" />
+    </div>
+    <div>
+        <label>Name: </label><br/><input asp-for="@Model.Student.Name" />
+    </div>
+    <div>
+        <label>Class: </label><br/><input asp-for="@Model.Student.Class" />
+    </div>
+    <div>
+        <label>Fees: </label><br /><input asp-for="@Model.Student.Fees" />
+    </div>
+    <div>
+        <label>Status: </label><br /><input asp-for="@Model.Student.Status" />
+    </div>
+
+    <div><input type="submit" value="Save"/><input type="reset" value="Reset"</div>
+    <div><a asp-page="Index" align="center">Back to Customer details</a></div>
+</form>

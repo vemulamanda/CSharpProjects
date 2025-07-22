@@ -1,0 +1,14 @@
+C:\Users\Sudheer.Kumar\source\repos\Properties\CSharpTestingProject\bin\Debug\net8.0\CSharpTestingProject.exe
+C:\Users\Sudheer.Kumar\source\repos\Properties\CSharpTestingProject\bin\Debug\net8.0\CSharpTestingProject.deps.json
+C:\Users\Sudheer.Kumar\source\repos\Properties\CSharpTestingProject\bin\Debug\net8.0\CSharpTestingProject.runtimeconfig.json
+C:\Users\Sudheer.Kumar\source\repos\Properties\CSharpTestingProject\bin\Debug\net8.0\CSharpTestingProject.dll
+C:\Users\Sudheer.Kumar\source\repos\Properties\CSharpTestingProject\bin\Debug\net8.0\CSharpTestingProject.pdb
+C:\Users\Sudheer.Kumar\source\repos\Properties\CSharpTestingProject\obj\Debug\net8.0\CSharpTestingProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sudheer.Kumar\source\repos\Properties\CSharpTestingProject\obj\Debug\net8.0\CSharpTestingProject.AssemblyInfoInputs.cache
+C:\Users\Sudheer.Kumar\source\repos\Properties\CSharpTestingProject\obj\Debug\net8.0\CSharpTestingProject.AssemblyInfo.cs
+C:\Users\Sudheer.Kumar\source\repos\Properties\CSharpTestingProject\obj\Debug\net8.0\CSharpTestingProject.csproj.CoreCompileInputs.cache
+C:\Users\Sudheer.Kumar\source\repos\Properties\CSharpTestingProject\obj\Debug\net8.0\CSharpTestingProject.dll
+C:\Users\Sudheer.Kumar\source\repos\Properties\CSharpTestingProject\obj\Debug\net8.0\refint\CSharpTestingProject.dll
+C:\Users\Sudheer.Kumar\source\repos\Properties\CSharpTestingProject\obj\Debug\net8.0\CSharpTestingProject.pdb
+C:\Users\Sudheer.Kumar\source\repos\Properties\CSharpTestingProject\obj\Debug\net8.0\CSharpTestingProject.genruntimeconfig.cache
+C:\Users\Sudheer.Kumar\source\repos\Properties\CSharpTestingProject\obj\Debug\net8.0\ref\CSharpTestingProject.dll

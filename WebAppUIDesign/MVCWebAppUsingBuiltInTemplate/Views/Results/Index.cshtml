@@ -1,0 +1,33 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h2>MVC Action Results</h2>
+        <ol>
+            <li>@Html.ActionLink("Json Result", "GetEmployees")</li>
+            <li>@Html.ActionLink("Download Pdf", "DownloadPdf", null, new { target = "_blank" })</li>
+            <li>@Html.ActionLink("Download Word", "DownloadWord")</li>
+            <li>@Html.ActionLink("Facebook", "OpenFaceBook", null, new { target = "_blank" })</li>
+            <li>@Html.ActionLink("Twitter", "OpenTwitter", null, new { target = "_blank" })</li>
+            <li>@Html.ActionLink("Today's date returned as ContentResult", "SendDate1")</li>
+            <li>@Html.ActionLink("Today's date returned as String", "SendDate2")</li>
+            <li>@Html.ActionLink("नमस्ते बोलो returned as String", "SayHello1")</li>
+            <li>@Html.ActionLink("नमस्ते बोलो returned as ContentResult", "SayHello2")</li>
+            <li>@Html.ActionLink("Javascript Alert", "AlertUser")</li>
+            <li>@Html.ActionLink("Empty Result", "ReturnEmpty1")</li>
+            <li>@Html.ActionLink("Void Result", "ReturnEmpty2")</li>
+        </ol>
+
+    </div>
+</body>
+</html>

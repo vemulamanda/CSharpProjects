@@ -1,0 +1,41 @@
+﻿@model WebAppDataTransfer.Models.Product
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index3</title>
+</head>
+<body>
+    <div>
+        <table>
+            <table border="1" align="center" style="width:35%">
+                <caption>Product Details</caption>
+                <tr>
+                    <td>ID:</td>
+                    <td>@Model.id</td>
+                </tr>
+                <tr>
+                    <td>Item:</td>
+                    <td>@Model.item</td>
+                </tr>
+                <tr>
+                    <td>Price:</td>
+                    <td>
+                        @{
+                            double? price = Model.price;
+                            price = price + price * 0.1;
+                            @price;
+                        }
+
+                    </td>
+                </tr>
+            </table>
+    </div>
+</body>
+</html>

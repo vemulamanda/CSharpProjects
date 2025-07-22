@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppExample.Views.ContactsPage"
+             Title="Contacts">
+    <!--<VerticalStackLayout Spacing="5">
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button x:Name="Btn_GetContact" Text="Get Contact" Clicked="Btn_GetContact_Clicked" ></Button>
+        <Button x:Name="Btn_AddContact" Text="Add Contact" Clicked="Btn_AddContact_Clicked" ></Button>
+        <Button x:Name="Btn_EditContact" Text="Edit Contact" Clicked="Btn_EditContact_Clicked" ></Button>
+
+    </VerticalStackLayout>-->
+
+    <ListView 
+        x:Name="listContacts" 
+        BackgroundColor="Transparent"
+        SeparatorColor="Silver"
+        RowHeight="65"
+        ItemSelected="listContacts_ItemSelected"
+        ItemTapped="listContacts_ItemTapped">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Name}"
+                          Detail="{Binding Email}"></TextCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</ContentPage>

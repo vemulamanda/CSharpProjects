@@ -1,0 +1,139 @@
+﻿@model Customer
+@{
+    ViewData["Title"] = "Post AD";
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<div text-center">
+    <button type="button" onclick="history.back()" class="btn btn-outline-primary">Back</button>
+</div>
+
+<h2 class="text-center my-4 bg-success text-white py-3 rounded">Post New Advertisement</h2>
+
+<div class="container">
+    <form asp-action="AddCustomer" asp-controller="Farm" method="post" enctype="multipart/form-data" class="needs-validation">
+
+        <!-- Farmer Details -->
+        <div class="border rounded p-3 mb-4 shadow-sm">
+            <h5 class="mb-3 bg-light p-2 rounded fw-bold text-success">1. Farmer Details</h5>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label asp-for="Name" class="form-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger small"></span>
+                </div>
+               @*  <div class="col-md-6">
+                    <label asp-for="Identity_Email" class="form-label"></label>
+                    <input asp-for="@Model.IdentityUser.Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger small"></span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label asp-for="Identity_Phone" class="form-label"></label>
+                    <input asp-for="@Model.IdentityUser.PhoneNumber" class="form-control" />
+                    <span asp-validation-for="MobileNumber" class="text-danger small"></span>
+                </div> *@
+                <div class="col-md-6">
+                    <label asp-for="Address" class="form-label"></label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger small"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- First Breed Details -->
+        <div class="border rounded p-3 mb-4 shadow-sm">
+            <h5 class="mb-3 bg-light p-2 rounded fw-bold text-success">2. First Breed Details</h5>
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label asp-for="FirstBreed" class="form-label"></label>
+                    <select asp-for="FirstBreed" asp-items="ViewBag.BreedList" class="form-select">
+                        <option value="">-- Select Breed --</option>
+                    </select>
+                    <span asp-validation-for="FirstBreed" class="text-danger small"></span>
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="FB_Price" class="form-label"></label>
+                    <input asp-for="FB_Price" class="form-control" />
+                    <span asp-validation-for="FB_Price" class="text-danger small"></span>
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="FB_Pieces" class="form-label"></label>
+                    <input asp-for="FB_Pieces" class="form-control" />
+                    <span asp-validation-for="FB_Pieces" class="text-danger small"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Breed Details -->
+        <div class="border rounded p-3 mb-4 shadow-sm">
+            <h5 class="mb-3 bg-light p-2 rounded fw-bold text-success">3. Second Breed Details (optional)</h5>
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label asp-for="SecondBreed" class="form-label"></label>
+                    <select asp-for="SecondBreed" asp-items="ViewBag.BreedList" class="form-select">
+                        <option value="">-- Select Breed --</option>
+                    </select>
+                    @* <span asp-validation-for="SecondBreed" class="text-danger small"></span> *@
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="SB_Price" class="form-label"></label>
+                    <input asp-for="SB_Price" class="form-control" />
+                    @* <span asp-validation-for="SB_Price" class="text-danger small"></span> *@
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="SB_Pieces" class="form-label"></label>
+                    <input asp-for="SB_Pieces" class="form-control" />
+                    @* <span asp-validation-for="SB_Pieces" class="text-danger small"></span> *@
+                </div>
+            </div>
+        </div>
+
+        <!-- Third Breed Details -->
+        <div class="border rounded p-3 mb-4 shadow-sm">
+            <h5 class="mb-3 bg-light p-2 rounded fw-bold text-success">4. Third Breed Details (optional)</h5>
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label asp-for="ThirdBreed" class="form-label"></label>
+                    <select asp-for="ThirdBreed" asp-items="ViewBag.BreedList" class="form-select">
+                        <option value="">-- Select Breed --</option>
+                    </select>
+                    @* <span asp-validation-for="ThirdBreed" class="text-danger small"></span> *@
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="TB_Price" class="form-label"></label>
+                    <input asp-for="TB_Price" class="form-control" />
+                    @* <span asp-validation-for="TB_Price" class="text-danger small"></span> *@
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="TB_Pieces" class="form-label"></label>
+                    <input asp-for="TB_Pieces" class="form-control" />
+                    @* <span asp-validation-for="TB_Pieces" class="text-danger small"></span> *@
+                </div>
+            </div>
+        </div>
+
+        <!-- Images Upload -->
+        <div class="border rounded p-3 mb-4 shadow-sm">
+            <h5 class="mb-3 bg-light p-2 rounded fw-bold text-success">5. Images</h5>
+            <div class="mb-3">
+                <label class="form-label">Upload Images</label>
+                <input type="file" name="SelectedImages" multiple class="form-control" />
+                <span class="text-danger small">@ViewData.ModelState["SelectedImages"]?.Errors.FirstOrDefault()?.ErrorMessage</span>
+            </div>
+        </div>
+
+        <!-- Submit / Reset / Back -->
+        <div class="d-flex justify-content-between mt-4">
+            <div>
+                <button type="submit" class="btn btn-primary me-2">Submit</button>
+                <button type="reset" class="btn btn-secondary">Reset</button>
+            </div>
+            
+        </div>
+    </form>
+</div>

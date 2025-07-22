@@ -1,0 +1,29 @@
+﻿@model WebAppUIDesign.Models.Employee
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>EmpForm2</title>
+</head>
+<body>
+    <div>
+        <table border="1" align="center">
+            <caption>Employee Details: </caption></br>
+            <tr><td>Employee ID:</td><td>@Model.id</td></tr></br>
+            <tr><td>Employee Name:</td><td>@Model.name</td></tr></br>
+            <tr><td>Employee Job:</td><td>@Model.job</td></tr></br>
+            <tr><td>Employee Salary:</td><td>@Model.salary</td></tr></br>
+
+            <tr>
+                <td colspan="2" align="center"><a href="/Home/AddEmp">Add a new Employee</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
