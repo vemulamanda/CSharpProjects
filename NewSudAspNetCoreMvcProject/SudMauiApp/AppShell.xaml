@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SudMauiApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SudMauiApp.Pages"
+    Title="SudMauiApp">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:FormUpload}"
+        Route="FormUpload" />
+    
+
+    <!--<FlyoutItem Title="Fish"
+                Icon="dotnet_bot.png">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate local:FormUpload}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Prawns"
+                Icon="hamburger_menu.png">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate local:FormUpload}" />
+        </Tab>
+    </FlyoutItem>-->
+    
+    
+
+    <!--<ShellContent Title="Fish"
+                 Icon="dotnet_bot.png"
+                 ContentTemplate="{DataTemplate local:FormUpload}" />
+    <ShellContent Title="Prawns"
+                 Icon="hamburger_menu.png"
+                 ContentTemplate="{DataTemplate local:FormUpload}" />-->
+
+    <!--The above is for creating flyout menu in different ways, i.e hamburger menu.-->
+    
+    
+    
+    <!-- ############################################################################################# -->
+    
+    
+    
+    <!--The below is to create a tabs top and bottom of the screen. we can create grouped tabs also.-->
+
+    <!--<TabBar>
+        <Tab Title="Cats"
+            Icon="dotnet_bot.png">
+            <ShellContent ContentTemplate="{DataTemplate local:FormUpload}" />
+        </Tab>
+        <Tab Title="Dogs"
+            Icon="hamburger_menu.png">
+            <ShellContent ContentTemplate="{DataTemplate local:FormUpload}" />
+        </Tab>
+    </TabBar>-->
+
+    <!--<TabBar Route="MainPage">
+        <Tab Title="Fish"
+            Icon="fishimage_new.png">
+            <ShellContent ContentTemplate="{DataTemplate local:FormUpload}" />-->
+            <!--<ShellContent Title="EditAd"
+                         ContentTemplate="{DataTemplate local:FormUpload}" />
+            <ShellContent Title="DeleteAd"
+                        ContentTemplate="{DataTemplate local:FormUpload}" />-->
+        <!--</Tab>
+        <Tab Title="Prawns"
+            Icon="prawnimage.jpg">
+            <ShellContent ContentTemplate="{DataTemplate local:FormUpload}" />-->
+            <!--<ShellContent Title="EditAd"
+             ContentTemplate="{DataTemplate local:FormUpload}" />
+            <ShellContent Title="DeleteAd"
+                ContentTemplate="{DataTemplate local:FormUpload}" />-->
+        <!--</Tab>
+    </TabBar>-->
+
+    <!--<TabBar Route="PostPage">
+        <Tab Title="ADD">
+            <ShellContent ContentTemplate="{DataTemplate local:PostAdPage}"/>
+        </Tab>
+        <Tab Title="Edit">
+            <ShellContent ContentTemplate="{DataTemplate local:EditAdPage}"/>
+        </Tab>
+        <Tab Title="Delete">
+            <ShellContent ContentTemplate="{DataTemplate local:PostAdPage}"/>
+        </Tab>
+    </TabBar>-->
+
+</Shell>

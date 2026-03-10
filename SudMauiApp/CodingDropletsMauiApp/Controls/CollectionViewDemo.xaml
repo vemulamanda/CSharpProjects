@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodingDropletsMauiApp.Controls.CollectionViewDemo"
+             Title="Collection View Demo">
+
+    <CollectionView x:Name="collectionview" ItemsLayout="VerticalList, 2" SelectionMode="Multiple" EmptyView="No Data Available">
+        <CollectionView.Header>
+            <VerticalStackLayout BackgroundColor="Brown" Padding="5">
+                <Label Text="Countries" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="White"/>
+            </VerticalStackLayout>
+        </CollectionView.Header>
+
+        <CollectionView.Footer>
+            <VerticalStackLayout BackgroundColor="Brown" Padding="5">
+                <Label Text="Coding Droplets" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="White"/>
+            </VerticalStackLayout>
+        </CollectionView.Footer>
+        <!--<CollectionView.ItemsSource>
+            <x:Array Type="{x:Type x:String}">
+                <x:String>Item 01</x:String>
+                <x:String>Item 02</x:String>
+                <x:String>Item 03</x:String>
+                <x:String>Item 04</x:String>
+                <x:String>Item 05</x:String>
+                <x:String>Item 06</x:String>
+            </x:Array>
+        </CollectionView.ItemsSource>-->
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Frame Margin="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width=".2*"/>
+                            <ColumnDefinition Width=".8*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Source="{Binding FlagUrl}" Grid.Column="0" Grid.Row="0"/>
+                        <VerticalStackLayout Grid.Column="1" Grid.Row="0" Padding="5" VerticalOptions="Center">
+                            <Label Text="{Binding CountryName}" FontSize="Medium" FontAttributes="Bold"/>
+                            <Label Text="{Binding IsoCode}" FontAttributes="Italic"/>
+                        </VerticalStackLayout>
+                    </Grid>                    
+                </Frame>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>

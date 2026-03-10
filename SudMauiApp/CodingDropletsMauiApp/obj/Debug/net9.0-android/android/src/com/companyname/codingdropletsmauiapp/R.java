@@ -4945,11 +4945,6 @@ public final class R {
      */
     public static final int keyboardIcon=0x7f030281;
     /**
-     * A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.
-     * Child views can refer to these keylines for alignment using
-     * layout_keyline="index" where index is a 0-based index into
-     * this array.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5055,7 +5050,6 @@ public final class R {
      */
     public static final int layoutManager=0x7f03028e;
     /**
-     * The id of an anchor view that this view should position relative to.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5063,8 +5057,6 @@ public final class R {
      */
     public static final int layout_anchor=0x7f03028f;
     /**
-     * Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -5095,8 +5087,6 @@ public final class R {
      */
     public static final int layout_anchorGravity=0x7f030290;
     /**
-     * The class name of a Behavior class defining special runtime behavior
-     * for this child view.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -5606,7 +5596,6 @@ public final class R {
      */
     public static final int layout_constraintWidth_percent=0x7f0302c1;
     /**
-     * Specifies how this view dodges the inset edges of the CoordinatorLayout.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -5697,8 +5686,6 @@ public final class R {
      */
     public static final int layout_goneMarginTop=0x7f0302cb;
     /**
-     * Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -5716,9 +5703,6 @@ public final class R {
      */
     public static final int layout_insetEdge=0x7f0302cc;
     /**
-     * The index of a keyline this view should position relative to.
-     * android:layout_gravity will affect how the view aligns to the
-     * specified keyline.
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int layout_keyline=0x7f0302cd;
@@ -8255,7 +8239,6 @@ public final class R {
      */
     public static final int state_with_icon=0x7f03042c;
     /**
-     * Drawable to display behind the status bar when the view is set to draw behind it.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -11799,105 +11782,110 @@ public final class R {
     public static final int design_password_eye=0x7f070085;
     public static final int design_snackbar_background=0x7f070086;
     public static final int dotnet_bot=0x7f070087;
-    public static final int home=0x7f070088;
-    public static final int ic_arrow_back_black_24=0x7f070089;
-    public static final int ic_call_answer=0x7f07008a;
-    public static final int ic_call_answer_low=0x7f07008b;
-    public static final int ic_call_answer_video=0x7f07008c;
-    public static final int ic_call_answer_video_low=0x7f07008d;
-    public static final int ic_call_decline=0x7f07008e;
-    public static final int ic_call_decline_low=0x7f07008f;
-    public static final int ic_clear_black_24=0x7f070090;
-    public static final int ic_clock_black_24dp=0x7f070091;
-    public static final int ic_keyboard_black_24dp=0x7f070092;
-    public static final int ic_m3_chip_check=0x7f070093;
-    public static final int ic_m3_chip_checked_circle=0x7f070094;
-    public static final int ic_m3_chip_close=0x7f070095;
-    public static final int ic_mtrl_checked_circle=0x7f070096;
-    public static final int ic_mtrl_chip_checked_black=0x7f070097;
-    public static final int ic_mtrl_chip_checked_circle=0x7f070098;
-    public static final int ic_mtrl_chip_close_circle=0x7f070099;
-    public static final int ic_search_black_24=0x7f07009a;
-    public static final int indeterminate_static=0x7f07009b;
-    public static final int m3_avd_hide_password=0x7f07009c;
-    public static final int m3_avd_show_password=0x7f07009d;
-    public static final int m3_bottom_sheet_drag_handle=0x7f07009e;
-    public static final int m3_password_eye=0x7f07009f;
-    public static final int m3_popupmenu_background_overlay=0x7f0700a0;
-    public static final int m3_radiobutton_ripple=0x7f0700a1;
-    public static final int m3_selection_control_ripple=0x7f0700a2;
-    public static final int m3_tabs_background=0x7f0700a3;
-    public static final int m3_tabs_line_indicator=0x7f0700a4;
-    public static final int m3_tabs_rounded_line_indicator=0x7f0700a5;
-    public static final int m3_tabs_transparent_background=0x7f0700a6;
-    public static final int material_cursor_drawable=0x7f0700a7;
-    public static final int material_ic_calendar_black_24dp=0x7f0700a8;
-    public static final int material_ic_clear_black_24dp=0x7f0700a9;
-    public static final int material_ic_edit_black_24dp=0x7f0700aa;
-    public static final int material_ic_keyboard_arrow_left_black_24dp=0x7f0700ab;
-    public static final int material_ic_keyboard_arrow_next_black_24dp=0x7f0700ac;
-    public static final int material_ic_keyboard_arrow_previous_black_24dp=0x7f0700ad;
-    public static final int material_ic_keyboard_arrow_right_black_24dp=0x7f0700ae;
-    public static final int material_ic_menu_arrow_down_black_24dp=0x7f0700af;
-    public static final int material_ic_menu_arrow_up_black_24dp=0x7f0700b0;
-    public static final int maui_splash=0x7f0700b1;
-    public static final int maui_splash_image=0x7f0700b2;
-    public static final int mtrl_bottomsheet_drag_handle=0x7f0700b3;
-    public static final int mtrl_checkbox_button=0x7f0700b4;
-    public static final int mtrl_checkbox_button_checked_unchecked=0x7f0700b5;
-    public static final int mtrl_checkbox_button_icon=0x7f0700b6;
-    public static final int mtrl_checkbox_button_icon_checked_indeterminate=0x7f0700b7;
-    public static final int mtrl_checkbox_button_icon_checked_unchecked=0x7f0700b8;
-    public static final int mtrl_checkbox_button_icon_indeterminate_checked=0x7f0700b9;
-    public static final int mtrl_checkbox_button_icon_indeterminate_unchecked=0x7f0700ba;
-    public static final int mtrl_checkbox_button_icon_unchecked_checked=0x7f0700bb;
-    public static final int mtrl_checkbox_button_icon_unchecked_indeterminate=0x7f0700bc;
-    public static final int mtrl_checkbox_button_unchecked_checked=0x7f0700bd;
-    public static final int mtrl_dialog_background=0x7f0700be;
-    public static final int mtrl_dropdown_arrow=0x7f0700bf;
-    public static final int mtrl_ic_arrow_drop_down=0x7f0700c0;
-    public static final int mtrl_ic_arrow_drop_up=0x7f0700c1;
-    public static final int mtrl_ic_cancel=0x7f0700c2;
-    public static final int mtrl_ic_check_mark=0x7f0700c3;
-    public static final int mtrl_ic_checkbox_checked=0x7f0700c4;
-    public static final int mtrl_ic_checkbox_unchecked=0x7f0700c5;
-    public static final int mtrl_ic_error=0x7f0700c6;
-    public static final int mtrl_ic_indeterminate=0x7f0700c7;
-    public static final int mtrl_navigation_bar_item_background=0x7f0700c8;
-    public static final int mtrl_popupmenu_background=0x7f0700c9;
-    public static final int mtrl_popupmenu_background_overlay=0x7f0700ca;
-    public static final int mtrl_switch_thumb=0x7f0700cb;
-    public static final int mtrl_switch_thumb_checked=0x7f0700cc;
-    public static final int mtrl_switch_thumb_checked_pressed=0x7f0700cd;
-    public static final int mtrl_switch_thumb_checked_unchecked=0x7f0700ce;
-    public static final int mtrl_switch_thumb_pressed=0x7f0700cf;
-    public static final int mtrl_switch_thumb_pressed_checked=0x7f0700d0;
-    public static final int mtrl_switch_thumb_pressed_unchecked=0x7f0700d1;
-    public static final int mtrl_switch_thumb_unchecked=0x7f0700d2;
-    public static final int mtrl_switch_thumb_unchecked_checked=0x7f0700d3;
-    public static final int mtrl_switch_thumb_unchecked_pressed=0x7f0700d4;
-    public static final int mtrl_switch_track=0x7f0700d5;
-    public static final int mtrl_switch_track_decoration=0x7f0700d6;
-    public static final int mtrl_tabs_default_indicator=0x7f0700d7;
-    public static final int navigation_empty_icon=0x7f0700d8;
-    public static final int notification_action_background=0x7f0700d9;
-    public static final int notification_bg=0x7f0700da;
-    public static final int notification_bg_low=0x7f0700db;
-    public static final int notification_bg_low_normal=0x7f0700dc;
-    public static final int notification_bg_low_pressed=0x7f0700dd;
-    public static final int notification_bg_normal=0x7f0700de;
-    public static final int notification_bg_normal_pressed=0x7f0700df;
-    public static final int notification_icon_background=0x7f0700e0;
-    public static final int notification_oversize_large_icon_bg=0x7f0700e1;
-    public static final int notification_template_icon_bg=0x7f0700e2;
-    public static final int notification_template_icon_low_bg=0x7f0700e3;
-    public static final int notification_tile_bg=0x7f0700e4;
-    public static final int notify_panel_notification_icon_bg=0x7f0700e5;
-    public static final int profile=0x7f0700e6;
-    public static final int splash=0x7f0700e7;
-    public static final int test_level_drawable=0x7f0700e8;
-    public static final int tooltip_frame_dark=0x7f0700e9;
-    public static final int tooltip_frame_light=0x7f0700ea;
+    public static final int download_image=0x7f070088;
+    public static final int facebook_image=0x7f070089;
+    public static final int fishjump=0x7f07008a;
+    public static final int home=0x7f07008b;
+    public static final int ic_arrow_back_black_24=0x7f07008c;
+    public static final int ic_call_answer=0x7f07008d;
+    public static final int ic_call_answer_low=0x7f07008e;
+    public static final int ic_call_answer_video=0x7f07008f;
+    public static final int ic_call_answer_video_low=0x7f070090;
+    public static final int ic_call_decline=0x7f070091;
+    public static final int ic_call_decline_low=0x7f070092;
+    public static final int ic_clear_black_24=0x7f070093;
+    public static final int ic_clock_black_24dp=0x7f070094;
+    public static final int ic_keyboard_black_24dp=0x7f070095;
+    public static final int ic_m3_chip_check=0x7f070096;
+    public static final int ic_m3_chip_checked_circle=0x7f070097;
+    public static final int ic_m3_chip_close=0x7f070098;
+    public static final int ic_mtrl_checked_circle=0x7f070099;
+    public static final int ic_mtrl_chip_checked_black=0x7f07009a;
+    public static final int ic_mtrl_chip_checked_circle=0x7f07009b;
+    public static final int ic_mtrl_chip_close_circle=0x7f07009c;
+    public static final int ic_search_black_24=0x7f07009d;
+    public static final int indeterminate_static=0x7f07009e;
+    public static final int instagram=0x7f07009f;
+    public static final int m3_avd_hide_password=0x7f0700a0;
+    public static final int m3_avd_show_password=0x7f0700a1;
+    public static final int m3_bottom_sheet_drag_handle=0x7f0700a2;
+    public static final int m3_password_eye=0x7f0700a3;
+    public static final int m3_popupmenu_background_overlay=0x7f0700a4;
+    public static final int m3_radiobutton_ripple=0x7f0700a5;
+    public static final int m3_selection_control_ripple=0x7f0700a6;
+    public static final int m3_tabs_background=0x7f0700a7;
+    public static final int m3_tabs_line_indicator=0x7f0700a8;
+    public static final int m3_tabs_rounded_line_indicator=0x7f0700a9;
+    public static final int m3_tabs_transparent_background=0x7f0700aa;
+    public static final int material_cursor_drawable=0x7f0700ab;
+    public static final int material_ic_calendar_black_24dp=0x7f0700ac;
+    public static final int material_ic_clear_black_24dp=0x7f0700ad;
+    public static final int material_ic_edit_black_24dp=0x7f0700ae;
+    public static final int material_ic_keyboard_arrow_left_black_24dp=0x7f0700af;
+    public static final int material_ic_keyboard_arrow_next_black_24dp=0x7f0700b0;
+    public static final int material_ic_keyboard_arrow_previous_black_24dp=0x7f0700b1;
+    public static final int material_ic_keyboard_arrow_right_black_24dp=0x7f0700b2;
+    public static final int material_ic_menu_arrow_down_black_24dp=0x7f0700b3;
+    public static final int material_ic_menu_arrow_up_black_24dp=0x7f0700b4;
+    public static final int maui_splash=0x7f0700b5;
+    public static final int maui_splash_image=0x7f0700b6;
+    public static final int mtrl_bottomsheet_drag_handle=0x7f0700b7;
+    public static final int mtrl_checkbox_button=0x7f0700b8;
+    public static final int mtrl_checkbox_button_checked_unchecked=0x7f0700b9;
+    public static final int mtrl_checkbox_button_icon=0x7f0700ba;
+    public static final int mtrl_checkbox_button_icon_checked_indeterminate=0x7f0700bb;
+    public static final int mtrl_checkbox_button_icon_checked_unchecked=0x7f0700bc;
+    public static final int mtrl_checkbox_button_icon_indeterminate_checked=0x7f0700bd;
+    public static final int mtrl_checkbox_button_icon_indeterminate_unchecked=0x7f0700be;
+    public static final int mtrl_checkbox_button_icon_unchecked_checked=0x7f0700bf;
+    public static final int mtrl_checkbox_button_icon_unchecked_indeterminate=0x7f0700c0;
+    public static final int mtrl_checkbox_button_unchecked_checked=0x7f0700c1;
+    public static final int mtrl_dialog_background=0x7f0700c2;
+    public static final int mtrl_dropdown_arrow=0x7f0700c3;
+    public static final int mtrl_ic_arrow_drop_down=0x7f0700c4;
+    public static final int mtrl_ic_arrow_drop_up=0x7f0700c5;
+    public static final int mtrl_ic_cancel=0x7f0700c6;
+    public static final int mtrl_ic_check_mark=0x7f0700c7;
+    public static final int mtrl_ic_checkbox_checked=0x7f0700c8;
+    public static final int mtrl_ic_checkbox_unchecked=0x7f0700c9;
+    public static final int mtrl_ic_error=0x7f0700ca;
+    public static final int mtrl_ic_indeterminate=0x7f0700cb;
+    public static final int mtrl_navigation_bar_item_background=0x7f0700cc;
+    public static final int mtrl_popupmenu_background=0x7f0700cd;
+    public static final int mtrl_popupmenu_background_overlay=0x7f0700ce;
+    public static final int mtrl_switch_thumb=0x7f0700cf;
+    public static final int mtrl_switch_thumb_checked=0x7f0700d0;
+    public static final int mtrl_switch_thumb_checked_pressed=0x7f0700d1;
+    public static final int mtrl_switch_thumb_checked_unchecked=0x7f0700d2;
+    public static final int mtrl_switch_thumb_pressed=0x7f0700d3;
+    public static final int mtrl_switch_thumb_pressed_checked=0x7f0700d4;
+    public static final int mtrl_switch_thumb_pressed_unchecked=0x7f0700d5;
+    public static final int mtrl_switch_thumb_unchecked=0x7f0700d6;
+    public static final int mtrl_switch_thumb_unchecked_checked=0x7f0700d7;
+    public static final int mtrl_switch_thumb_unchecked_pressed=0x7f0700d8;
+    public static final int mtrl_switch_track=0x7f0700d9;
+    public static final int mtrl_switch_track_decoration=0x7f0700da;
+    public static final int mtrl_tabs_default_indicator=0x7f0700db;
+    public static final int navigation_empty_icon=0x7f0700dc;
+    public static final int notification_action_background=0x7f0700dd;
+    public static final int notification_bg=0x7f0700de;
+    public static final int notification_bg_low=0x7f0700df;
+    public static final int notification_bg_low_normal=0x7f0700e0;
+    public static final int notification_bg_low_pressed=0x7f0700e1;
+    public static final int notification_bg_normal=0x7f0700e2;
+    public static final int notification_bg_normal_pressed=0x7f0700e3;
+    public static final int notification_icon_background=0x7f0700e4;
+    public static final int notification_oversize_large_icon_bg=0x7f0700e5;
+    public static final int notification_template_icon_bg=0x7f0700e6;
+    public static final int notification_template_icon_low_bg=0x7f0700e7;
+    public static final int notification_tile_bg=0x7f0700e8;
+    public static final int notify_panel_notification_icon_bg=0x7f0700e9;
+    public static final int profile=0x7f0700ea;
+    public static final int splash=0x7f0700eb;
+    public static final int test_level_drawable=0x7f0700ec;
+    public static final int tooltip_frame_dark=0x7f0700ed;
+    public static final int tooltip_frame_light=0x7f0700ee;
+    public static final int twitter=0x7f0700ef;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -12366,75 +12354,78 @@ public final class R {
     public static final int tag_accessibility_clickable_spans=0x7f0801cf;
     public static final int tag_accessibility_heading=0x7f0801d0;
     public static final int tag_accessibility_pane_title=0x7f0801d1;
-    public static final int tag_on_apply_window_listener=0x7f0801d2;
-    public static final int tag_on_receive_content_listener=0x7f0801d3;
-    public static final int tag_on_receive_content_mime_types=0x7f0801d4;
-    public static final int tag_screen_reader_focusable=0x7f0801d5;
-    public static final int tag_state_description=0x7f0801d6;
-    public static final int tag_transition_group=0x7f0801d7;
-    public static final int tag_unhandled_key_event_manager=0x7f0801d8;
-    public static final int tag_unhandled_key_listeners=0x7f0801d9;
-    public static final int tag_window_insets_animation_callback=0x7f0801da;
-    public static final int text=0x7f0801db;
-    public static final int text2=0x7f0801dc;
-    public static final int textEnd=0x7f0801dd;
-    public static final int textSpacerNoButtons=0x7f0801de;
-    public static final int textSpacerNoTitle=0x7f0801df;
-    public static final int textStart=0x7f0801e0;
-    public static final int textTop=0x7f0801e1;
-    public static final int text_input_end_icon=0x7f0801e2;
-    public static final int text_input_error_icon=0x7f0801e3;
-    public static final int text_input_start_icon=0x7f0801e4;
-    public static final int textinput_counter=0x7f0801e5;
-    public static final int textinput_error=0x7f0801e6;
-    public static final int textinput_helper_text=0x7f0801e7;
-    public static final int textinput_placeholder=0x7f0801e8;
-    public static final int textinput_prefix_text=0x7f0801e9;
-    public static final int textinput_suffix_text=0x7f0801ea;
-    public static final int time=0x7f0801eb;
-    public static final int title=0x7f0801ec;
-    public static final int titleDividerNoCustom=0x7f0801ed;
-    public static final int title_template=0x7f0801ee;
-    public static final int toggle=0x7f0801ef;
-    public static final int top=0x7f0801f0;
-    public static final int topPanel=0x7f0801f1;
-    public static final int topToBottom=0x7f0801f2;
-    public static final int touch_outside=0x7f0801f3;
-    public static final int transitionToEnd=0x7f0801f4;
-    public static final int transitionToStart=0x7f0801f5;
-    public static final int transition_clip=0x7f0801f6;
-    public static final int transition_current_scene=0x7f0801f7;
-    public static final int transition_image_transform=0x7f0801f8;
-    public static final int transition_layout_save=0x7f0801f9;
-    public static final int transition_pause_alpha=0x7f0801fa;
-    public static final int transition_position=0x7f0801fb;
-    public static final int transition_scene_layoutid_cache=0x7f0801fc;
-    public static final int transition_transform=0x7f0801fd;
-    public static final int triangle=0x7f0801fe;
-    public static final int unchecked=0x7f0801ff;
-    public static final int uniform=0x7f080200;
-    public static final int unlabeled=0x7f080201;
-    public static final int up=0x7f080202;
-    public static final int useLogo=0x7f080203;
-    public static final int vertical=0x7f080204;
-    public static final int vertical_only=0x7f080205;
-    public static final int view_offset_helper=0x7f080206;
-    public static final int view_transition=0x7f080207;
-    public static final int view_tree_lifecycle_owner=0x7f080208;
-    public static final int view_tree_on_back_pressed_dispatcher_owner=0x7f080209;
-    public static final int view_tree_saved_state_registry_owner=0x7f08020a;
-    public static final int view_tree_view_model_store_owner=0x7f08020b;
-    public static final int visible=0x7f08020c;
-    public static final int visible_removing_fragment_view_tag=0x7f08020d;
-    public static final int west=0x7f08020e;
-    public static final int withText=0x7f08020f;
-    public static final int with_icon=0x7f080210;
-    public static final int withinBounds=0x7f080211;
-    public static final int wrap=0x7f080212;
-    public static final int wrap_content=0x7f080213;
-    public static final int wrap_content_constrained=0x7f080214;
-    public static final int x_left=0x7f080215;
-    public static final int x_right=0x7f080216;
+    public static final int tag_compat_insets_dispatch=0x7f0801d2;
+    public static final int tag_on_apply_window_listener=0x7f0801d3;
+    public static final int tag_on_receive_content_listener=0x7f0801d4;
+    public static final int tag_on_receive_content_mime_types=0x7f0801d5;
+    public static final int tag_screen_reader_focusable=0x7f0801d6;
+    public static final int tag_state_description=0x7f0801d7;
+    public static final int tag_system_bar_state_monitor=0x7f0801d8;
+    public static final int tag_transition_group=0x7f0801d9;
+    public static final int tag_unhandled_key_event_manager=0x7f0801da;
+    public static final int tag_unhandled_key_listeners=0x7f0801db;
+    public static final int tag_window_insets_animation_callback=0x7f0801dc;
+    public static final int text=0x7f0801dd;
+    public static final int text2=0x7f0801de;
+    public static final int textEnd=0x7f0801df;
+    public static final int textSpacerNoButtons=0x7f0801e0;
+    public static final int textSpacerNoTitle=0x7f0801e1;
+    public static final int textStart=0x7f0801e2;
+    public static final int textTop=0x7f0801e3;
+    public static final int text_input_end_icon=0x7f0801e4;
+    public static final int text_input_error_icon=0x7f0801e5;
+    public static final int text_input_start_icon=0x7f0801e6;
+    public static final int textinput_counter=0x7f0801e7;
+    public static final int textinput_error=0x7f0801e8;
+    public static final int textinput_helper_text=0x7f0801e9;
+    public static final int textinput_placeholder=0x7f0801ea;
+    public static final int textinput_prefix_text=0x7f0801eb;
+    public static final int textinput_suffix_text=0x7f0801ec;
+    public static final int time=0x7f0801ed;
+    public static final int title=0x7f0801ee;
+    public static final int titleDividerNoCustom=0x7f0801ef;
+    public static final int title_template=0x7f0801f0;
+    public static final int toggle=0x7f0801f1;
+    public static final int top=0x7f0801f2;
+    public static final int topPanel=0x7f0801f3;
+    public static final int topToBottom=0x7f0801f4;
+    public static final int touch_outside=0x7f0801f5;
+    public static final int transitionToEnd=0x7f0801f6;
+    public static final int transitionToStart=0x7f0801f7;
+    public static final int transition_clip=0x7f0801f8;
+    public static final int transition_current_scene=0x7f0801f9;
+    public static final int transition_image_transform=0x7f0801fa;
+    public static final int transition_layout_save=0x7f0801fb;
+    public static final int transition_pause_alpha=0x7f0801fc;
+    public static final int transition_position=0x7f0801fd;
+    public static final int transition_scene_layoutid_cache=0x7f0801fe;
+    public static final int transition_transform=0x7f0801ff;
+    public static final int triangle=0x7f080200;
+    public static final int unchecked=0x7f080201;
+    public static final int uniform=0x7f080202;
+    public static final int unlabeled=0x7f080203;
+    public static final int up=0x7f080204;
+    public static final int useLogo=0x7f080205;
+    public static final int vertical=0x7f080206;
+    public static final int vertical_only=0x7f080207;
+    public static final int view_offset_helper=0x7f080208;
+    public static final int view_transition=0x7f080209;
+    public static final int view_tree_disjoint_parent=0x7f08020a;
+    public static final int view_tree_lifecycle_owner=0x7f08020b;
+    public static final int view_tree_on_back_pressed_dispatcher_owner=0x7f08020c;
+    public static final int view_tree_saved_state_registry_owner=0x7f08020d;
+    public static final int view_tree_view_model_store_owner=0x7f08020e;
+    public static final int visible=0x7f08020f;
+    public static final int visible_removing_fragment_view_tag=0x7f080210;
+    public static final int west=0x7f080211;
+    public static final int withText=0x7f080212;
+    public static final int with_icon=0x7f080213;
+    public static final int withinBounds=0x7f080214;
+    public static final int wrap=0x7f080215;
+    public static final int wrap_content=0x7f080216;
+    public static final int wrap_content_constrained=0x7f080217;
+    public static final int x_left=0x7f080218;
+    public static final int x_right=0x7f080219;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -29045,9 +29036,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.companyname.codingdropletsmauiapp:keylines}</code></td><td>A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.companyname.codingdropletsmauiapp:statusBarBackground}</code></td><td>Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.companyname.codingdropletsmauiapp:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.companyname.codingdropletsmauiapp:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -29056,13 +29046,8 @@ public final class R {
       0x7f030282, 0x7f03042d
     };
     /**
-     * <p>
-     * @attr description
-     * A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.
-     * Child views can refer to these keylines for alignment using
-     * layout_keyline="index" where index is a 0-based index into
-     * this array.
+     * <p>This symbol is the offset where the {@link com.companyname.codingdropletsmauiapp.R.attr#keylines}
+     * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -29073,9 +29058,8 @@ public final class R {
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>
-     * @attr description
-     * Drawable to display behind the status bar when the view is set to draw behind it.
+     * <p>This symbol is the offset where the {@link com.companyname.codingdropletsmauiapp.R.attr#statusBarBackground}
+     * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -29096,15 +29080,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.companyname.codingdropletsmauiapp:layout_anchor}</code></td><td>The id of an anchor view that this view should position relative to.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.companyname.codingdropletsmauiapp:layout_anchorGravity}</code></td><td>Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.companyname.codingdropletsmauiapp:layout_behavior}</code></td><td>The class name of a Behavior class defining special runtime behavior
-     * for this child view.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.companyname.codingdropletsmauiapp:layout_dodgeInsetEdges}</code></td><td>Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.companyname.codingdropletsmauiapp:layout_insetEdge}</code></td><td>Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.companyname.codingdropletsmauiapp:layout_keyline}</code></td><td>The index of a keyline this view should position relative to.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.companyname.codingdropletsmauiapp:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.companyname.codingdropletsmauiapp:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.companyname.codingdropletsmauiapp:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.companyname.codingdropletsmauiapp:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.companyname.codingdropletsmauiapp:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.companyname.codingdropletsmauiapp:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -29148,9 +29129,8 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>
-     * @attr description
-     * The id of an anchor view that this view should position relative to.
+     * <p>This symbol is the offset where the {@link com.companyname.codingdropletsmauiapp.R.attr#layout_anchor}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -29161,10 +29141,8 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>
-     * @attr description
-     * Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.
+     * <p>This symbol is the offset where the {@link com.companyname.codingdropletsmauiapp.R.attr#layout_anchorGravity}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -29198,10 +29176,8 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>
-     * @attr description
-     * The class name of a Behavior class defining special runtime behavior
-     * for this child view.
+     * <p>This symbol is the offset where the {@link com.companyname.codingdropletsmauiapp.R.attr#layout_behavior}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -29210,9 +29186,8 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>
-     * @attr description
-     * Specifies how this view dodges the inset edges of the CoordinatorLayout.
+     * <p>This symbol is the offset where the {@link com.companyname.codingdropletsmauiapp.R.attr#layout_dodgeInsetEdges}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -29234,10 +29209,8 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>
-     * @attr description
-     * Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.
+     * <p>This symbol is the offset where the {@link com.companyname.codingdropletsmauiapp.R.attr#layout_insetEdge}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -29258,11 +29231,8 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>
-     * @attr description
-     * The index of a keyline this view should position relative to.
-     * android:layout_gravity will affect how the view aligns to the
-     * specified keyline.
+     * <p>This symbol is the offset where the {@link com.companyname.codingdropletsmauiapp.R.attr#layout_keyline}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *

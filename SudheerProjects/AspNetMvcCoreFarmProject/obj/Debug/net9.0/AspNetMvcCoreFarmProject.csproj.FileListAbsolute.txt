@@ -650,3 +650,4 @@ C:\Users\Sudheer.Kumar\source\repos\SudheerProjects\AspNetMvcCoreFarmProject\bin
 C:\Users\Sudheer.Kumar\source\repos\SudheerProjects\AspNetMvcCoreFarmProject\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\Users\Sudheer.Kumar\source\repos\SudheerProjects\AspNetMvcCoreFarmProject\obj\Debug\net9.0\AspNetMvcCoreFarmProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Sudheer.Kumar\source\repos\SudheerProjects\AspNetMvcCoreFarmProject\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Sudheer.Kumar\source\repos\SudheerProjects\AspNetMvcCoreFarmProject\obj\Debug\net9.0\AspNetMvcCoreFarmProject.sourcelink.json

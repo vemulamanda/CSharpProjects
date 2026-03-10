@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodingDropletsMauiApp.Controls.CommonControls"
+             Title="CommonControls">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Frame Margin="10">
+                <VerticalStackLayout>
+                    <Image Source="home.jpg" HeightRequest="100"/>
+                    <Label Text="Coding Droplets" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Green"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="10">
+                <Border StrokeThickness="5" Stroke="Red" BackgroundColor="#EAEEFA">
+                    <Label Text="Welcome to site" 
+                           HorizontalOptions="Center" FontSize="Large" 
+                           Padding="10" TextColor="Brown" FontAttributes="Bold"
+                           Margin="10"/>
+                </Border>
+            </Frame>
+
+            <WebView Source="https://en.wikipedia.org/wiki/Interstellar_(film)"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

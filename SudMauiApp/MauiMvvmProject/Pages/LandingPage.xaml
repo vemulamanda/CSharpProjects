@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiMvvmProject.Pages.LandingPage"
+             Title="LandingPage">
+    <VerticalStackLayout VerticalOptions="End">
+        <Label Text="Employees" HorizontalOptions="Center" TextColor="Red" Margin="10"/>
+        <Button x:Name="Btn_emp01" Text="Employee 1" Margin="10" Clicked="Btn_emp01_Clicked"/>
+        <Button x:Name="Btn_emp02" Text="Employee 2" Margin="10" Clicked="Btn_emp02_Clicked"/>
+        <Button x:Name="Btn_emp03" Text="Employee 3" Margin="10" Clicked="Btn_emp03_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

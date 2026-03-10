@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sudheer.Kumar\\source\\repos\\NewSudAspNetCoreMvcProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1E0063-ECDB-4528-9804-06A897C14D94}|SudMauiApp\\SudMauiApp.csproj|c:\\users\\sudheer.kumar\\source\\repos\\newsudaspnetcoremvcproject\\sudmauiapp\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C1E0063-ECDB-4528-9804-06A897C14D94}|SudMauiApp\\SudMauiApp.csproj|solutionrelative:sudmauiapp\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1E0063-ECDB-4528-9804-06A897C14D94}|SudMauiApp\\SudMauiApp.csproj|c:\\users\\sudheer.kumar\\source\\repos\\newsudaspnetcoremvcproject\\sudmauiapp\\models\\fd_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1E0063-ECDB-4528-9804-06A897C14D94}|SudMauiApp\\SudMauiApp.csproj|solutionrelative:sudmauiapp\\models\\fd_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1E0063-ECDB-4528-9804-06A897C14D94}|SudMauiApp\\SudMauiApp.csproj|c:\\users\\sudheer.kumar\\source\\repos\\newsudaspnetcoremvcproject\\sudmauiapp\\models\\farmapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1E0063-ECDB-4528-9804-06A897C14D94}|SudMauiApp\\SudMauiApp.csproj|solutionrelative:sudmauiapp\\models\\farmapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1E0063-ECDB-4528-9804-06A897C14D94}|SudMauiApp\\SudMauiApp.csproj|c:\\users\\sudheer.kumar\\source\\repos\\newsudaspnetcoremvcproject\\sudmauiapp\\pages\\postadpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1E0063-ECDB-4528-9804-06A897C14D94}|SudMauiApp\\SudMauiApp.csproj|solutionrelative:sudmauiapp\\pages\\postadpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\NewSudAspNetCoreMvcProject\\SudMauiApp\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "SudMauiApp\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\NewSudAspNetCoreMvcProject\\SudMauiApp\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "SudMauiApp\\Pages\\LoginPage.xaml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAwwFgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-07T06:08:47.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FD_ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\NewSudAspNetCoreMvcProject\\SudMauiApp\\Models\\FD_ViewModel.cs",
+              "RelativeDocumentMoniker": "SudMauiApp\\Models\\FD_ViewModel.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\NewSudAspNetCoreMvcProject\\SudMauiApp\\Models\\FD_ViewModel.cs",
+              "RelativeToolTip": "SudMauiApp\\Models\\FD_ViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T00:34:11.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FarmApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\NewSudAspNetCoreMvcProject\\SudMauiApp\\Models\\FarmApiService.cs",
+              "RelativeDocumentMoniker": "SudMauiApp\\Models\\FarmApiService.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\NewSudAspNetCoreMvcProject\\SudMauiApp\\Models\\FarmApiService.cs",
+              "RelativeToolTip": "SudMauiApp\\Models\\FarmApiService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T00:33:31.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostAdPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\NewSudAspNetCoreMvcProject\\SudMauiApp\\Pages\\PostAdPage.xaml.cs",
+              "RelativeDocumentMoniker": "SudMauiApp\\Pages\\PostAdPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\NewSudAspNetCoreMvcProject\\SudMauiApp\\Pages\\PostAdPage.xaml.cs",
+              "RelativeToolTip": "SudMauiApp\\Pages\\PostAdPage.xaml.cs",
+              "ViewState": "AgIAAAcBAAAAAAAAAAAgwAkBAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T00:19:29.734Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

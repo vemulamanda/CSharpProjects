@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodingDropletsMauiApp.Controls.CourouselViewDemo"
+             Title="CourouselViewDemo">
+    <VerticalStackLayout>
+        <CarouselView x:Name="carouselView" IndicatorView="indicatorview">
+            <!--<CarouselView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Item 1</x:String>
+                    <x:String>Item 2</x:String>
+                    <x:String>Item 3</x:String>
+                    <x:String>Item 4</x:String>
+                    <x:String>Item 5</x:String>
+                </x:Array>
+            </CarouselView.ItemsSource>-->
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout>
+                        <Label FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="{Binding Title}"/>
+                        <Label FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="{Binding Description}"/>
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+
+        <IndicatorView x:Name="indicatorview" Margin="5" HorizontalOptions="Center" IndicatorColor="Red" SelectedIndicatorColor="Green"/>
+    </VerticalStackLayout>
+</ContentPage>

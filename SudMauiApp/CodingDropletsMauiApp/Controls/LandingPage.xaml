@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodingDropletsMauiApp.Controls.LandingPage"
+                      Title=".Net MAUI Controls">
+    <VerticalStackLayout>
+        <Button x:Name="Btn_CommonControl" Text="Common Controls Page" Clicked="Btn_CommonControl_Clicked"/>
+        <Button x:Name="Btn_ActionsControl" Text="Action Controls Page" Clicked="Btn_ActionsControl_Clicked"/>
+        <Button x:Name="Btn_InputControl" Text="Input Controls Page" Clicked="Btn_InputControl_Clicked"/>
+        <Button x:Name="Btn_IndicatorControl" Text="Indicator Controls Page" Clicked="Btn_IndicatorControl_Clicked"/>
+        <Button x:Name="Btn_DrawingControl" Text="Drawing Controls Page" Clicked="Btn_DrawingControl_Clicked"/>
+        <Button x:Name="Btn_CarousalDemo" Text="Carousal Demo Page" Clicked="Btn_CarousalDemo_Clicked"/>
+        <Button x:Name="Btn_ListViewDemo" Text="List Demo Page" Clicked="Btn_ListViewDemo_Clicked"/>
+        <Button x:Name="Btn_CollectionViewDemo" Text="Collection Demo Page" Clicked="Btn_CollectionViewDemo_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

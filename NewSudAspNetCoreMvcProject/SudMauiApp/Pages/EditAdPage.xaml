@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SudMauiApp.Pages.EditAdPage"
+             xmlns:vm="clr-namespace:SudMauiApp.Models"
+             Title="EDIT-AD / DELETE-AD ">
+
+    <Grid>
+        <CollectionView x:Name="OnSelectionViewChanged" ItemsSource="{Binding UserSpecificAds}">
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="vm:FishData">
+                        <Grid Padding="0" ColumnSpacing="0" RowSpacing="0" BackgroundColor="#f2f2f2" Margin="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <CarouselView ItemsSource="{Binding imagePath}" IndicatorView="indicatorview"
+                                      Grid.Row="0"
+                                      Margin="0,0,0,20"
+                                      HeightRequest="320"
+                                      WidthRequest="410"
+                                      ItemsLayout="HorizontalList">
+                                <CarouselView.ItemTemplate>
+                                    <DataTemplate x:DataType="x:String">
+                                        <Border Stroke="DarkGray" StrokeThickness="0" BackgroundColor="White">
+                                            <ImageButton Source="{Binding .}"
+                                                     Aspect="AspectFill"
+                                                     HeightRequest="300"
+                                                     WidthRequest="400"/>
+                                        </Border>
+                                    </DataTemplate>
+                                </CarouselView.ItemTemplate>
+                            </CarouselView>
+
+                            <IndicatorView x:Name="indicatorview"
+                                       Grid.Row="1"
+                                       Margin="5"
+                                       HorizontalOptions="Center"
+                                       IndicatorColor="Red"
+                                       SelectedIndicatorColor="Green"/>
+
+                            <Button Grid.Row="2"
+                                x:Name="Btn_SpecificAd_Edit"
+                                Clicked="Btn_SpecificAd_Edit_Clicked"
+                                Text="Edit-AD"
+                                BackgroundColor="Yellow"
+                                TextColor="Black"
+                                FontAttributes="Bold"
+                                FontSize="Medium"
+                                CornerRadius="20"
+                                Margin="10,10,220,20"
+                                CommandParameter="{Binding}"/>
+
+                            <Button Grid.Row="2"
+                                x:Name="Btn_SpecificAd_Delete"
+                                Clicked="Btn_SpecificAd_Delete_Clicked"
+                                Text="Delete-AD"
+                                BackgroundColor="Red"
+                                TextColor="Black"
+                                FontAttributes="Bold"
+                                FontSize="Medium"
+                                CornerRadius="20"
+                                Margin="220,10,10,20"
+                                CommandParameter="{Binding}"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+                <CollectionView.Footer>
+                    <StackLayout BackgroundColor="Pink">
+                        <Label Text="End of Products List. Thank You.."
+                           Padding="10"
+                           FontSize="22"
+                           FontAttributes="Italic"
+                           TextColor="Green"
+                           HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                </CollectionView.Footer>
+            </CollectionView>
+
+        <Grid x:Name="LoadingOverlay"
+          BackgroundColor="#80000000"
+          IsVisible="False"
+          VerticalOptions="FillAndExpand"
+          HorizontalOptions="FillAndExpand">
+            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <ActivityIndicator IsRunning="True" Color="White" />
+                <Label Text="Loading..." TextColor="White" FontSize="Large" />
+            </VerticalStackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

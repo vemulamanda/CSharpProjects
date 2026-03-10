@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodingDropletsMauiApp.Controls.ActionsPage"
+             Title="Actions Controls Page">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Frame>
+                <Button x:Name="actionControl" Text="Click Me" BackgroundColor="Red" Clicked="actionControl_Clicked"/>
+            </Frame>
+
+            <Frame Margin="10" BackgroundColor="Green">
+                <ImageButton x:Name="btn_ImagebtnControl" Source="download_image.jpg" Clicked="btn_ImagebtnControl_Clicked" HeightRequest="200"/>
+            </Frame>
+
+            <Frame Margin="10">
+                <SearchBar x:Name="demosearchbar" SearchButtonPressed="demosearchbar_SearchButtonPressed"/>
+            </Frame>
+
+            <SwipeView>
+                <SwipeView.LeftItems>
+                    <SwipeItems>
+                        <SwipeItem x:Name="facebook_swipeitem"
+                               BackgroundColor="Blue"
+                               IconImageSource="facebook_image.png"
+                               Invoked="facebook_swipeitem_Invoked"/>
+                        <SwipeItem x:Name="instagram_swipeitem"
+                               BackgroundColor="#ff417b"
+                               IconImageSource="instagram.jpg"
+                               Invoked="instagram_swipeitem_Invoked"/>
+                        <SwipeItem x:Name="twitter_swipeitem"
+                                   BackgroundColor="Black"
+                                   IconImageSource="twitter.jpg"
+                                   Invoked="twitter_swipeitem_Invoked"/>
+                    </SwipeItems>
+                </SwipeView.LeftItems>
+                
+                <SwipeView.RightItems>
+                    <SwipeItems>
+                        <SwipeItem x:Name="twitterrightitem"
+                                   BackgroundColor="Black"
+                                   IconImageSource="twitter.jpg"
+                                   Invoked="twitterrightitem_Invoked"/>
+                    </SwipeItems>
+                </SwipeView.RightItems>
+                
+                <VerticalStackLayout>
+                    <Label
+                        Text="This is a swipe view"
+                        BackgroundColor="Blue"
+                        Padding="15"
+                        FontSize="18"
+                        TextColor="White"
+                        FontAttributes="Bold"/>
+                </VerticalStackLayout>
+            </SwipeView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

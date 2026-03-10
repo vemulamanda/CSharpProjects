@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SudMauiApp</name>
+    </assembly>
+    <members>
+        <member name="T:SudMauiApp.Models.FD_ViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:SudMauiApp.Models.FD_ViewModel.SingleAd">
+            <inheritdoc cref="F:SudMauiApp.Models.FD_ViewModel.singleAd"/>
+        </member>
+        <member name="P:SudMauiApp.Models.FD_ViewModel.Finalfishdata">
+            <inheritdoc cref="F:SudMauiApp.Models.FD_ViewModel.finalfishdata"/>
+        </member>
+        <member name="P:SudMauiApp.Models.FD_ViewModel.Single_FDData">
+            <inheritdoc cref="F:SudMauiApp.Models.FD_ViewModel.single_FDData"/>
+        </member>
+        <member name="P:SudMauiApp.Models.FD_ViewModel.IsLoading">
+            <inheritdoc cref="F:SudMauiApp.Models.FD_ViewModel.isLoading"/>
+        </member>
+        <member name="F:SudMauiApp.Models.FD_ViewModel.loadFishDataCommand">
+            <summary>The backing field for <see cref="P:SudMauiApp.Models.FD_ViewModel.LoadFishDataCommand"/>.</summary>
+        </member>
+        <member name="P:SudMauiApp.Models.FD_ViewModel.LoadFishDataCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SudMauiApp.Models.FD_ViewModel.LoadFishData"/>.</summary>
+        </member>
+        <member name="F:SudMauiApp.Models.FD_ViewModel.loadFishDataByDistrictCommand">
+            <summary>The backing field for <see cref="P:SudMauiApp.Models.FD_ViewModel.LoadFishDataByDistrictCommand"/>.</summary>
+        </member>
+        <member name="P:SudMauiApp.Models.FD_ViewModel.LoadFishDataByDistrictCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:SudMauiApp.Models.FD_ViewModel.LoadFishDataByDistrict(System.String)"/>.</summary>
+        </member>
+        <member name="T:FarmApp.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SingleAd">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SingleAd" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Finalfishdata">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Finalfishdata" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Single_FDData">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Single_FDData" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsLoading" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SingleAd">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SingleAd" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Finalfishdata">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Finalfishdata" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Single_FDData">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Single_FDData" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsLoading" generated properties.</summary>
+        </member>
+    </members>
+</doc>

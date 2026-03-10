@@ -1,0 +1,138 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property._MvvmToolkitIsUsingWindowsRuntimePack = false
+build_property.CsWinRTComponent = 
+build_property.CsWinRTAotOptimizerEnabled = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.TargetFramework = net9.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FarmApp
+build_property.ProjectDir = C:\Users\Sudheer.Kumar\source\repos\NewSudAspNetCoreMvcProject\SudMauiApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Pages/ConfirmEmailOtpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Pages.ConfirmEmailOtpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ConfirmEmailOtpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ConfirmEmailOtpPage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Pages/ConfirmPasswordOtpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Pages.ConfirmPasswordOtpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ConfirmPasswordOtpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ConfirmPasswordOtpPage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Pages/DisplayCustImages.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Pages.DisplayCustImages.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DisplayCustImages.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DisplayCustImages.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Pages/DisplaySingleImage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Pages.DisplaySingleImage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DisplaySingleImage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DisplaySingleImage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Pages/EditAdPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Pages.EditAdPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EditAdPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EditAdPage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Pages/EmailVerificationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Pages.EmailVerificationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EmailVerificationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EmailVerificationPage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Pages/FlyoutMenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Pages.FlyoutMenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FlyoutMenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FlyoutMenuPage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Pages/ForgotPasswordPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Pages.ForgotPasswordPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ForgotPasswordPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ForgotPasswordPage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Pages/FormUpload.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Pages.FormUpload.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FormUpload.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FormUpload.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Pages/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Pages.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\LoginPage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Pages/PasswordResetPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Pages.PasswordResetPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PasswordResetPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PasswordResetPage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Pages/PostAdPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Pages.PostAdPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PostAdPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PostAdPage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Pages/RegistrationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Pages.RegistrationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\RegistrationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\RegistrationPage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Pages/Res_Out_Page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Pages.Res_Out_Page.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Res_Out_Page.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Res_Out_Page.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Pages/SpecificAdPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Pages.SpecificAdPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SpecificAdPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SpecificAdPage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/NewSudAspNetCoreMvcProject/SudMauiApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

@@ -1,0 +1,187 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CodingDropletsMauiApp
+build_property.ProjectDir = C:\Users\Sudheer.Kumar\source\repos\SudMauiApp\CodingDropletsMauiApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Controls/ActionsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Controls.ActionsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\ActionsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\ActionsPage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Controls/CollectionViewDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Controls.CollectionViewDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\CollectionViewDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\CollectionViewDemo.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Controls/CommonControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Controls.CommonControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\CommonControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\CommonControls.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Controls/CourouselViewDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Controls.CourouselViewDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\CourouselViewDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\CourouselViewDemo.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Controls/DrawingControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Controls.DrawingControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\DrawingControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\DrawingControls.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Controls/IndicatorControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Controls.IndicatorControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\IndicatorControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\IndicatorControls.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Controls/InputControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Controls.InputControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\InputControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\InputControls.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Controls/LandingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Controls.LandingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\LandingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\LandingPage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Controls/ListViewDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Controls.ListViewDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\ListViewDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\ListViewDemo.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Pages/AbsoluteLayoutDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Pages.AbsoluteLayoutDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AbsoluteLayoutDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AbsoluteLayoutDemo.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Pages/ContentPageDemo/DemoContentPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Pages.ContentPageDemo.DemoContentPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ContentPageDemo\DemoContentPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ContentPageDemo\DemoContentPage1.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Pages/ContentPageDemo/DemoContentPage2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Pages.ContentPageDemo.DemoContentPage2.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ContentPageDemo\DemoContentPage2.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ContentPageDemo\DemoContentPage2.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Pages/ContentPageDemo/DemoContentPage3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Pages.ContentPageDemo.DemoContentPage3.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ContentPageDemo\DemoContentPage3.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ContentPageDemo\DemoContentPage3.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Pages/FlexLayout.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Pages.FlexLayout.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FlexLayout.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FlexLayout.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Pages/FlyoutPageDemo/DemoFlyoutPage01.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Pages.FlyoutPageDemo.DemoFlyoutPage01.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FlyoutPageDemo\DemoFlyoutPage01.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FlyoutPageDemo\DemoFlyoutPage01.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Pages/GridDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Pages.GridDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\GridDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\GridDemo.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Pages/HorizontalStackLayout.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Pages.HorizontalStackLayout.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\HorizontalStackLayout.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\HorizontalStackLayout.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Pages/NavPageDemo/NavContentPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Pages.NavPageDemo.NavContentPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\NavPageDemo\NavContentPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\NavPageDemo\NavContentPage1.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Pages/NavPageDemo/NavContentPage2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Pages.NavPageDemo.NavContentPage2.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\NavPageDemo\NavContentPage2.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\NavPageDemo\NavContentPage2.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Pages/NavPageDemo/NavContentPage3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Pages.NavPageDemo.NavContentPage3.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\NavPageDemo\NavContentPage3.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\NavPageDemo\NavContentPage3.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Pages/StackLayoutDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Pages.StackLayoutDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\StackLayoutDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\StackLayoutDemo.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Pages/TabbedPageDemo/DemoTabbedPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Pages.TabbedPageDemo.DemoTabbedPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\TabbedPageDemo\DemoTabbedPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\TabbedPageDemo\DemoTabbedPage.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Pages/VerticalStackLayoutDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Pages.VerticalStackLayoutDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\VerticalStackLayoutDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\VerticalStackLayoutDemo.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Sudheer.Kumar/source/repos/SudMauiApp/CodingDropletsMauiApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CodingDropletsMauiApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

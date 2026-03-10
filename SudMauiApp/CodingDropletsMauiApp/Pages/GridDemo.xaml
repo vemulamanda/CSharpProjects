@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodingDropletsMauiApp.Pages.GridDemo"
+             Title="Grid Demo" BackgroundColor="White">
+    <ScrollView Orientation="Both">
+    <Grid ColumnSpacing="10" RowSpacing="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>     <!--//height =* takes all the available space-->   
+            <RowDefinition Height="Auto"/>  <!--//Height=Auto only takes requierd space for the cell.-->
+            <RowDefinition Height=".4*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width=".2*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Text="Demo01" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="0" Grid.Column="0"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="0" Grid.Column="1"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="0" Grid.Column="2"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="0" Grid.Column="3"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="0" Grid.Column="4"/>
+
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="1" Grid.Column="0"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="1" Grid.Column="1"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Orange" Grid.Row="1" Grid.Column="2" Grid.RowSpan="2"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="1" Grid.Column="3"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="1" Grid.Column="4"/>
+        
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="2" Grid.Column="0"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="2" Grid.Column="1"/>
+        <!--<Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="2" Grid.Column="2"/>-->
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="2" Grid.Column="3"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="2" Grid.Column="4"/>
+
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="3" Grid.Column="0"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="3" Grid.Column="1"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Pink" Grid.Row="3" Grid.Column="2" Grid.RowSpan="2"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="3" Grid.Column="3"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="3" Grid.Column="4"/>
+
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="4" Grid.Column="0"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="4" Grid.Column="1"/>
+        <!--<Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="4" Grid.Column="2"/>-->
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="4" Grid.Column="3"/>
+        <Label Text="Demo02" TextColor="white" FontSize="20" BackgroundColor="Green" Grid.Row="4" Grid.Column="4"/>
+        </Grid>
+    </ScrollView>
+</ContentPage>

@@ -284,3 +284,8 @@ C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingUsingCshar
 C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingUsingCsharpExample\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingUsingCsharpExample\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingUsingCsharpExample\bin\Debug\net8.0\web.config
+C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingUsingCsharpExample\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingUsingCsharpExample\obj\Debug\net8.0\AspNetCoreWebApiTestingUsingCsharpExample.sourcelink.json
+C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingUsingCsharpExample\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingUsingCsharpExample\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingUsingCsharpExample\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SudMauiApp.Pages.EmailVerificationPage"
+             Title="Email Verification">
+
+
+    <Border Margin="7">
+        <VerticalStackLayout Margin="0,20,0,0">
+            <Border StrokeThickness="5" StrokeShape="20" Padding="0,0,0,5" Margin="10,0,10,-20" BackgroundColor="Black">
+                <Label Text="Email Verification"
+                   FontSize="25"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   Padding="0,12,0,12"/>
+            </Border>
+
+            <Label Text="Enter registered Email Address:"
+               FontSize="23"
+               HorizontalOptions="Start"
+               FontAttributes="Bold"
+               TextColor="Green"
+               Padding="20,50,0,15"/>
+
+            <Border StrokeThickness="1" StrokeShape="10" Padding="0,0,0,5" Margin="20,10,10,50" BackgroundColor="White">
+                <Entry x:Name="user_email"
+                    Placeholder="Email Address.."
+                    PlaceholderColor="LightGray"
+                    TextColor="Black"
+                    FontSize="23" Margin="10,0,10,0"
+                    Keyboard="Email"
+                    WidthRequest="350"/>
+            </Border>
+
+            <Button Text="Submit"
+                x:Name="btn_EmailSubmit"
+                Clicked="btn_EmailSubmit_Clicked"
+                FontSize="25" Margin="90,0,90,0"
+                TextColor="White"
+                FontAttributes="Bold"
+                BackgroundColor="Black"/>
+
+            <Grid x:Name="LoadingOverlay"
+              BackgroundColor="White"
+              IsVisible="False"
+              VerticalOptions="FillAndExpand"
+              HorizontalOptions="FillAndExpand">
+                <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                    <ActivityIndicator IsRunning="True" Color="Green"/>
+                    <Label Text="Loading..." TextColor="White" FontSize="Large" />
+                </VerticalStackLayout>
+            </Grid>
+
+        </VerticalStackLayout>
+    </Border>
+</ContentPage>

@@ -1,6 +1,11 @@
 ﻿obj\Debug\net9.0-android\resizetizer\r\drawable\cart.jpg
+obj\Debug\net9.0-android\resizetizer\r\drawable\download_image.jpg
+obj\Debug\net9.0-android\resizetizer\r\drawable\facebook_image.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\fishjump.gif
 obj\Debug\net9.0-android\resizetizer\r\drawable\home.jpg
+obj\Debug\net9.0-android\resizetizer\r\drawable\instagram.jpg
 obj\Debug\net9.0-android\resizetizer\r\drawable\profile.jpg
+obj\Debug\net9.0-android\resizetizer\r\drawable\twitter.jpg
 obj\Debug\net9.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net9.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 obj\Debug\net9.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png

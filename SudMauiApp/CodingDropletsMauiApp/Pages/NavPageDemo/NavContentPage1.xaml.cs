@@ -1,4 +1,4 @@
-using Android.Content.Res;
+//using Android.Content.Res;
 
 namespace CodingDropletsMauiApp.Pages.NavPageDemo;
 

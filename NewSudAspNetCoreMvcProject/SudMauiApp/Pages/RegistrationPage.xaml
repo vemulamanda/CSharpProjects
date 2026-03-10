@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SudMauiApp.Pages.RegistrationPage">
+    <Border Margin="7">
+
+        <VerticalStackLayout Margin="0,30,0,0">
+        <Border StrokeThickness="5" StrokeShape="20" Padding="0,0,0,5" Margin="10,0,10,30" BackgroundColor="Black">
+            <Label Text="Registration"
+                   FontSize="30"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   Padding="0,15,0,15"/>
+        </Border>
+        <Border StrokeThickness="1" StrokeShape="5" Padding="0,0,0,5" Margin="10,0,10,30" BackgroundColor="White">
+            <Entry x:Name="username"
+               Placeholder="Username"
+                PlaceholderColor="Gray"
+                TextColor="Black"
+                FontSize="23" Margin="10,0,10,0"
+                ClearButtonVisibility="WhileEditing"/>
+        </Border>
+
+        <Border StrokeThickness="1" StrokeShape="5" Padding="0,0,0,5" Margin="10,0,10,30" BackgroundColor="White">
+            <Entry x:Name="password"
+                   Placeholder="Password"
+                   PlaceholderColor="Gray"
+                   TextColor="Black"
+                   FontSize="23" Margin="10,0,10,0"
+                   ClearButtonVisibility="WhileEditing"/>
+        </Border>
+
+        <Border StrokeThickness="1" StrokeShape="5" Padding="0,0,0,5" Margin="10,0,10,30" BackgroundColor="White">
+            <Entry x:Name="confirm_password"
+                   Placeholder="Confirm Password"
+                   PlaceholderColor="Gray"
+                   TextColor="Black"
+                   FontSize="23" Margin="10,0,10,0"
+                   ClearButtonVisibility="WhileEditing"/>
+        </Border>
+
+        <Border StrokeThickness="1" StrokeShape="5" Padding="0,0,0,5" Margin="10,0,10,30" BackgroundColor="White">
+            <Entry x:Name="email_address"
+                   Placeholder="Email Address"
+                   PlaceholderColor="Gray"
+                   TextColor="Black"
+                   FontSize="23" Margin="10,0,10,0"
+                   ClearButtonVisibility="WhileEditing"/>
+        </Border>
+
+        <Border StrokeThickness="1" StrokeShape="5" Padding="0,0,0,5" Margin="10,0,10,30" BackgroundColor="White">
+            <Entry x:Name="mobile_number"
+                   Placeholder="Mobile Number"
+                   PlaceholderColor="Gray"
+                   TextColor="Black"
+                   FontSize="23" Margin="10,0,10,0"
+                   ClearButtonVisibility="WhileEditing"/>
+        </Border>
+
+            <Button Text="Submit"
+                x:Name="btn_RegistrationSubmit"
+                Clicked="btn_RegistrationSubmit_Clicked"
+                FontSize="25" Margin="90,0,90,0"
+                TextColor="White"
+                FontAttributes="Bold"
+                BackgroundColor="Black"/>
+
+            <Grid x:Name="LoadingOverlay"
+                  BackgroundColor="White"
+                  IsVisible="False"
+                  VerticalOptions="FillAndExpand"
+                  HorizontalOptions="FillAndExpand">
+                <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                    <ActivityIndicator IsRunning="True" Color="Green"/>
+                    <Label Text="Loading..." TextColor="White" FontSize="Large" />
+                </VerticalStackLayout>
+            </Grid>
+        </VerticalStackLayout>
+    </Border>
+</ContentPage>

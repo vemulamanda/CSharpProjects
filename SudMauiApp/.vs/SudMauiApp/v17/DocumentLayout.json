@@ -1,88 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Sudheer.Kumar\\source\\repos\\SudMauiApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{ED719665-603C-4FD2-9251-ED0A4465CBD4}|CodingDropletsMauiApp\\CodingDropletsMauiApp.csproj|c:\\users\\sudheer.kumar\\source\\repos\\sudmauiapp\\codingdropletsmauiapp\\pages\\stacklayoutdemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ED719665-603C-4FD2-9251-ED0A4465CBD4}|CodingDropletsMauiApp\\CodingDropletsMauiApp.csproj|solutionrelative:codingdropletsmauiapp\\pages\\stacklayoutdemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED719665-603C-4FD2-9251-ED0A4465CBD4}|CodingDropletsMauiApp\\CodingDropletsMauiApp.csproj|c:\\users\\sudheer.kumar\\source\\repos\\sudmauiapp\\codingdropletsmauiapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED719665-603C-4FD2-9251-ED0A4465CBD4}|CodingDropletsMauiApp\\CodingDropletsMauiApp.csproj|solutionrelative:codingdropletsmauiapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED719665-603C-4FD2-9251-ED0A4465CBD4}|CodingDropletsMauiApp\\CodingDropletsMauiApp.csproj|c:\\users\\sudheer.kumar\\source\\repos\\sudmauiapp\\codingdropletsmauiapp\\pages\\tabbedpagedemo\\demotabbedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED719665-603C-4FD2-9251-ED0A4465CBD4}|CodingDropletsMauiApp\\CodingDropletsMauiApp.csproj|solutionrelative:codingdropletsmauiapp\\pages\\tabbedpagedemo\\demotabbedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED719665-603C-4FD2-9251-ED0A4465CBD4}|CodingDropletsMauiApp\\CodingDropletsMauiApp.csproj|c:\\users\\sudheer.kumar\\source\\repos\\sudmauiapp\\codingdropletsmauiapp\\pages\\tabbedpagedemo\\demotabbedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ED719665-603C-4FD2-9251-ED0A4465CBD4}|CodingDropletsMauiApp\\CodingDropletsMauiApp.csproj|solutionrelative:codingdropletsmauiapp\\pages\\tabbedpagedemo\\demotabbedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StackLayoutDemo.xaml",
-              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\SudMauiApp\\CodingDropletsMauiApp\\Pages\\StackLayoutDemo.xaml",
-              "RelativeDocumentMoniker": "CodingDropletsMauiApp\\Pages\\StackLayoutDemo.xaml",
-              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\SudMauiApp\\CodingDropletsMauiApp\\Pages\\StackLayoutDemo.xaml",
-              "RelativeToolTip": "CodingDropletsMauiApp\\Pages\\StackLayoutDemo.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-22T00:19:14.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\SudMauiApp\\CodingDropletsMauiApp\\App.xaml.cs",
-              "RelativeDocumentMoniker": "CodingDropletsMauiApp\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\SudMauiApp\\CodingDropletsMauiApp\\App.xaml.cs",
-              "RelativeToolTip": "CodingDropletsMauiApp\\App.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T06:01:00.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DemoTabbedPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\SudMauiApp\\CodingDropletsMauiApp\\Pages\\TabbedPageDemo\\DemoTabbedPage.xaml.cs",
-              "RelativeDocumentMoniker": "CodingDropletsMauiApp\\Pages\\TabbedPageDemo\\DemoTabbedPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\SudMauiApp\\CodingDropletsMauiApp\\Pages\\TabbedPageDemo\\DemoTabbedPage.xaml.cs",
-              "RelativeToolTip": "CodingDropletsMauiApp\\Pages\\TabbedPageDemo\\DemoTabbedPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T05:57:34.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DemoTabbedPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\SudMauiApp\\CodingDropletsMauiApp\\Pages\\TabbedPageDemo\\DemoTabbedPage.xaml",
-              "RelativeDocumentMoniker": "CodingDropletsMauiApp\\Pages\\TabbedPageDemo\\DemoTabbedPage.xaml",
-              "ToolTip": "C:\\Users\\Sudheer.Kumar\\source\\repos\\SudMauiApp\\CodingDropletsMauiApp\\Pages\\TabbedPageDemo\\DemoTabbedPage.xaml",
-              "RelativeToolTip": "CodingDropletsMauiApp\\Pages\\TabbedPageDemo\\DemoTabbedPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-21T05:57:26.887Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

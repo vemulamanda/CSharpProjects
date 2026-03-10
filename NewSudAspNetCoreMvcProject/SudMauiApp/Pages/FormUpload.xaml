@@ -1,0 +1,179 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SudMauiApp.Pages.FormUpload"
+             xmlns:vm="clr-namespace:SudMauiApp.Models"
+             x:DataType="vm:FD_ViewModel">
+
+    <Grid>
+        <RefreshView IsRefreshing="{Binding IsLoading}" Command="{Binding LoadFishDataCommand}">
+            <CollectionView x:Name="OnSelectionViewChanged" ItemsSource="{Binding Finalfishdata}">
+                <CollectionView.Header>
+                    <VerticalStackLayout BackgroundColor="White">
+                        <VerticalStackLayout>
+                            <Border Padding="0,10,0,10" BackgroundColor="LightGreen">
+                                <Grid ColumnDefinitions=".1*,.4*,.1*">
+
+                                        <Image Source="fishjump.gif"
+                                            WidthRequest="90"
+                                            HeightRequest="90" 
+                                            HorizontalOptions="Start" 
+                                            Grid.Column="0"/>
+
+                                        <Label Text="Aqua Market"
+                                        TextColor="Black"
+                                        Padding="10,10,0,0"
+                                        FontSize="35"
+                                        FontAttributes="Bold" 
+                                        HorizontalOptions="Center" 
+                                        Grid.Column="1"/>
+
+                                    <ImageButton 
+                                        x:Name="Login_Iconbtn"
+                                        Clicked="Login_Iconbtn_Clicked"
+                                        Source="login.jpg"
+                                        HeightRequest="90"
+                                        WidthRequest="90"
+                                        HorizontalOptions="End"
+                                        Grid.Column="2"/>
+
+                                    <ImageButton 
+                                        x:Name="Logout_Iconbtn"
+                                        Clicked="Logout_Iconbtn_Clicked"
+                                        Source="logout.jpg"
+                                        HeightRequest="90"
+                                        WidthRequest="90"
+                                        HorizontalOptions="End"
+                                        Grid.Column="2"/>
+                                </Grid>
+                            </Border>
+
+                            <Border Padding="0,10,0,10" BackgroundColor="LightGreen">
+                                <HorizontalStackLayout Spacing="60">
+                                    <Button x:Name="Btn_PostAd" Text="Post-AD" FontSize="Medium" Margin="15,0,-10,0" TextColor="White" Padding="30,0,40,0" FontAttributes="Bold" BackgroundColor="Green"  Clicked="Btn_PostAd_Clicked"/>
+                                    <Button x:Name="Btn_EditAd" Text="Edit-AD / Delete-AD" FontSize="Medium" TextColor="White" FontAttributes="Bold" BackgroundColor="Red" Clicked="Btn_EditAd_Clicked"/>
+                                </HorizontalStackLayout>
+                            </Border>
+
+                            <Border Padding="20">
+                                <Label x:Name="ScrollingLabel"
+                                       FontSize="20"
+                                       FontAttributes="Bold"
+                                       HorizontalOptions="Start"
+                                       VerticalOptions="Center"/>
+                            </Border>
+                        </VerticalStackLayout>
+
+                        <Border StrokeThickness="0" StrokeShape="35">
+                            <HorizontalStackLayout>
+                                <Picker x:Name="Districts"
+                                        Title="Search AD's with District.."
+                                        TitleColor="DarkGrey" TextColor="Black"
+                                        WidthRequest="250" Margin="20,0,40,0"
+                                        FontSize="18" FontAttributes="None"/>
+
+                                <!--<Button x:Name="btn_DistrictSearch" Text="search"
+                                        Clicked="btn_DistrictSearch_Clicked"
+                                        BackgroundColor="LightBlue"
+                                        TextColor="Black"
+                                        FontAttributes="Bold" FontSize="Medium"
+                                        VerticalOptions="End" Padding="10,0,10,0"/>-->
+
+                                <Button x:Name="btn_DistrictSearch"
+                                        Text="Search"
+                                        Clicked="btn_DistrictSearch_Clicked"
+                                        Command="{Binding LoadFishDataByDistrictCommand}"
+                                        BackgroundColor="LightBlue"
+                                        TextColor="Black"
+                                        FontAttributes="Bold"
+                                        FontSize="Medium"
+                                        VerticalOptions="End"
+                                        Padding="10,0,10,0"/>
+
+                            </HorizontalStackLayout>
+                        </Border>
+
+                        <!--<SearchBar Placeholder="Search products..."
+                                   Text="{Binding SearchText}"
+                                   SearchCommand="{Binding SearchCommand}"
+                                   FontSize="18"
+                                   BackgroundColor="#f0f0f0"
+                                   CancelButtonColor="Red"
+                                   Margin="0,0,0,10"/>-->                   
+                        <Border />
+                    </VerticalStackLayout>
+                </CollectionView.Header>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="vm:FishData">
+                        <Grid Padding="0" ColumnSpacing="0" RowSpacing="0" BackgroundColor="#f2f2f2" Margin="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <CarouselView ItemsSource="{Binding imagePath}" IndicatorView="indicatorview"
+                                          Grid.Row="0"
+                                          Margin="0,0,0,20"
+                                          HeightRequest="320"
+                                          WidthRequest="410"
+                                          ItemsLayout="HorizontalList">
+                                <CarouselView.ItemTemplate>
+                                    <DataTemplate x:DataType="x:String">
+                                        <Border Stroke="DarkGray" StrokeThickness="0" BackgroundColor="White">
+                                            <ImageButton Source="{Binding .}"
+                                                         Aspect="AspectFill"
+                                                         HeightRequest="300"
+                                                         WidthRequest="400"/>
+                                        </Border>
+                                    </DataTemplate>
+                                </CarouselView.ItemTemplate>
+                            </CarouselView>
+
+                            <IndicatorView x:Name="indicatorview"
+                                           Grid.Row="1"
+                                           Margin="5"
+                                           HorizontalOptions="Center"
+                                           IndicatorColor="Red"
+                                           SelectedIndicatorColor="Green"/>
+
+                            <Button Grid.Row="2"
+                                    x:Name="Btn_SpecificAd"
+                                    Clicked="Btn_SpecificAd_Clicked"
+                                    Text="Click for Details"
+                                    BackgroundColor="Black"
+                                    TextColor="White"
+                                    FontAttributes="Bold"
+                                    FontSize="Medium"
+                                    CornerRadius="20"
+                                    Margin="50,10,50,20"
+                                    CommandParameter="{Binding}"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+                <CollectionView.Footer>
+                    <StackLayout BackgroundColor="Pink">
+                        <Label Text="End of Products List. Thank You.."
+                               Padding="10"
+                               FontSize="22"
+                               FontAttributes="Italic"
+                               TextColor="Green"
+                               HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                </CollectionView.Footer>
+            </CollectionView>
+        </RefreshView>
+
+        <Grid x:Name="LoadingOverlay"
+              BackgroundColor="#80000000"
+              IsVisible="False"
+              VerticalOptions="FillAndExpand"
+              HorizontalOptions="FillAndExpand">
+            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <ActivityIndicator IsRunning="True" Color="White" />
+                <Label Text="Loading..." TextColor="White" FontSize="Large" />
+            </VerticalStackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodingDropletsMauiApp.Controls.InputControls"
+             Title="Input Controls">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Frame BackgroundColor="White">
+                <Entry Placeholder="Enter you name" PlaceholderColor="Red"/>
+            </Frame>
+
+            <Frame>
+                <Editor Placeholder="Editor" AutoSize="TextChanges"/>
+            </Frame>
+
+            <Frame>
+                <HorizontalStackLayout>
+                    <CheckBox/>
+                    <Label Text="Checkbox-01" VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+            </Frame>
+
+            <Frame>
+                <VerticalStackLayout>
+                    <RadioButton Content="Option-01" GroupName="FishGroup"/>
+                    <RadioButton Content="Option-02" GroupName="FishGroup"/>
+                    <RadioButton Content="Option-03" GroupName="FishGroup"/>
+                    <RadioButton Content="Option-04" GroupName="PrawnGroup"/>
+                    <RadioButton Content="Option-05" GroupName="PrawnGroup"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame>
+                <VerticalStackLayout>
+                    <Slider Minimum="1" Maximum="10" ValueChanged="Slider_ValueChanged"
+                            MaximumTrackColor="Red"
+                            MinimumTrackColor="Black"
+                            ThumbColor="Green"/>
+                    <!--ThumbImageSource=""-->
+                    <Label x:Name="sliderValuelabel" HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame>
+                <Stepper HorizontalOptions="Center" ValueChanged="Stepper_ValueChanged"
+                         Maximum="10"
+                         Minimum="1"
+                         Increment="2"/>
+            </Frame>
+
+            <Frame>
+                <Switch HorizontalOptions="Center"/>
+            </Frame>
+
+            <Frame>
+                <DatePicker/>
+            </Frame>
+
+            <Frame>
+                <TimePicker/>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

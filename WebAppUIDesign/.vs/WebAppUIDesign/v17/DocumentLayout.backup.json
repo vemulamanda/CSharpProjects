@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Sudheer.Kumar\\source\\repos\\WebAppUIDesign\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AD7B2B2-FB74-41EE-BB78-AD191F914068}|MVCAppCodeFirstMigrationExample\\MVCAppCodeFirstMigrationExample.csproj|c:\\users\\sudheer.kumar\\source\\repos\\webappuidesign\\mvcappcodefirstmigrationexample\\models\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AD7B2B2-FB74-41EE-BB78-AD191F914068}|MVCAppCodeFirstMigrationExample\\MVCAppCodeFirstMigrationExample.csproj|solutionrelative:mvcappcodefirstmigrationexample\\models\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{400B5335-2F95-44F6-9068-3862952326B5}|MVCAppWithDBFirstApproachUsingSP\\MVCAppWithDBFirstApproachUsingSP.csproj|c:\\users\\sudheer.kumar\\source\\repos\\webappuidesign\\mvcappwithdbfirstapproachusingsp\\views\\student\\editstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{400B5335-2F95-44F6-9068-3862952326B5}|MVCAppWithDBFirstApproachUsingSP\\MVCAppWithDBFirstApproachUsingSP.csproj|solutionrelative:mvcappwithdbfirstapproachusingsp\\views\\student\\editstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{400B5335-2F95-44F6-9068-3862952326B5}|MVCAppWithDBFirstApproachUsingSP\\MVCAppWithDBFirstApproachUsingSP.csproj|c:\\users\\sudheer.kumar\\source\\repos\\webappuidesign\\mvcappwithdbfirstapproachusingsp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{400B5335-2F95-44F6-9068-3862952326B5}|MVCAppWithDBFirstApproachUsingSP\\MVCAppWithDBFirstApproachUsingSP.csproj|C:\\Users\\Sudheer.Kumar\\source\\repos\\WebAppUIDesign\\mvcappwithdbfirstapproachusingsp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{400B5335-2F95-44F6-9068-3862952326B5}|MVCAppWithDBFirstApproachUsingSP\\MVCAppWithDBFirstApproachUsingSP.csproj|solutionrelative:mvcappwithdbfirstapproachusingsp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{400B5335-2F95-44F6-9068-3862952326B5}|MVCAppWithDBFirstApproachUsingSP\\MVCAppWithDBFirstApproachUsingSP.csproj|C:\\Users\\Sudheer.Kumar\\source\\repos\\WebAppUIDesign\\mvcappwithdbfirstapproachusingsp\\views\\student\\editstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{400B5335-2F95-44F6-9068-3862952326B5}|MVCAppWithDBFirstApproachUsingSP\\MVCAppWithDBFirstApproachUsingSP.csproj|solutionrelative:mvcappwithdbfirstapproachusingsp\\views\\student\\editstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5AD7B2B2-FB74-41EE-BB78-AD191F914068}|MVCAppCodeFirstMigrationExample\\MVCAppCodeFirstMigrationExample.csproj|C:\\Users\\Sudheer.Kumar\\source\\repos\\WebAppUIDesign\\mvcappcodefirstmigrationexample\\models\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AD7B2B2-FB74-41EE-BB78-AD191F914068}|MVCAppCodeFirstMigrationExample\\MVCAppCodeFirstMigrationExample.csproj|solutionrelative:mvcappcodefirstmigrationexample\\models\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SchoolDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\WebAppUIDesign\\MVCAppCodeFirstMigrationExample\\Models\\SchoolDbContext.cs",
               "RelativeDocumentMoniker": "MVCAppCodeFirstMigrationExample\\Models\\SchoolDbContext.cs",
@@ -38,8 +38,7 @@
               "RelativeToolTip": "MVCAppCodeFirstMigrationExample\\Models\\SchoolDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T06:21:08.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T06:21:08.183Z"
             },
             {
               "$type": "Document",
@@ -51,12 +50,11 @@
               "RelativeToolTip": "MVCAppWithDBFirstApproachUsingSP\\Controllers\\StudentController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T01:47:02.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T01:47:02.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EditStudent.cshtml",
               "DocumentMoniker": "C:\\Users\\Sudheer.Kumar\\source\\repos\\WebAppUIDesign\\MVCAppWithDBFirstApproachUsingSP\\Views\\Student\\EditStudent.cshtml",
               "RelativeDocumentMoniker": "MVCAppWithDBFirstApproachUsingSP\\Views\\Student\\EditStudent.cshtml",
@@ -64,7 +62,8 @@
               "RelativeToolTip": "MVCAppWithDBFirstApproachUsingSP\\Views\\Student\\EditStudent.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T01:46:55.46Z"
+              "WhenOpened": "2025-05-27T01:46:55.46Z",
+              "EditorCaption": ""
             }
           ]
         }

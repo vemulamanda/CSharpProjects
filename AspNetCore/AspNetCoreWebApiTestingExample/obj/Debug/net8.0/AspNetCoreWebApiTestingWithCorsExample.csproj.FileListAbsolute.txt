@@ -27,3 +27,8 @@ C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingExample\ob
 C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingExample\obj\Debug\net8.0\AspNetCoreWebApiTestingWithCorsExample.pdb
 C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingExample\obj\Debug\net8.0\AspNetCoreWebApiTestingWithCorsExample.genruntimeconfig.cache
 C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingExample\obj\Debug\net8.0\ref\AspNetCoreWebApiTestingWithCorsExample.dll
+C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingExample\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingExample\obj\Debug\net8.0\AspNetCoreWebApiTestingWithCorsExample.sourcelink.json
+C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingExample\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingExample\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Sudheer.Kumar\source\repos\AspNetCore\AspNetCoreWebApiTestingExample\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

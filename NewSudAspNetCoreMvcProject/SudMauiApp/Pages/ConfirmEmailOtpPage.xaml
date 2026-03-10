@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SudMauiApp.Pages.ConfirmEmailOtpPage">
+
+    <Border Margin="7">
+        <VerticalStackLayout Margin="0,30,0,0">
+            <Border StrokeThickness="5" StrokeShape="20" Padding="0,0,0,5" Margin="10,0,10,30" BackgroundColor="Black">
+                <Label Text="OTP Confirmation"
+                       FontSize="30"
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       Padding="0,15,0,15"/>
+            </Border>
+
+            <Label Text="Please enter 6 digit OTP"
+                   FontSize="20"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   Padding="0,15,0,15"/>
+
+            <HorizontalStackLayout>
+                <Border StrokeThickness="1" StrokeShape="5" Padding="0,0,0,5" Margin="130,10,10,50" BackgroundColor="White">
+                    <Entry x:Name="user_otp"
+                            Placeholder="Enter OTP"
+                            PlaceholderColor="Gray"
+                            TextColor="Black"
+                            FontSize="23" Margin="10,0,10,0"
+                            Keyboard="Numeric"
+                            HorizontalTextAlignment="Center"/>
+                </Border>
+            </HorizontalStackLayout>
+
+            <Button Text="Submit"
+                    x:Name="btn_OTPSubmit"
+                    Clicked="btn_OTPSubmit_Clicked"
+                    FontSize="25" Margin="90,0,90,0"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    BackgroundColor="Black"/>
+
+            <Grid x:Name="LoadingOverlay"
+                  BackgroundColor="White"
+                  IsVisible="False"
+                  VerticalOptions="FillAndExpand"
+                  HorizontalOptions="FillAndExpand">
+                <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                    <ActivityIndicator IsRunning="True" Color="Green"/>
+                    <Label Text="Loading..." TextColor="White" FontSize="Large" />
+                </VerticalStackLayout>
+            </Grid>
+
+        </VerticalStackLayout>
+    </Border>
+    
+</ContentPage>

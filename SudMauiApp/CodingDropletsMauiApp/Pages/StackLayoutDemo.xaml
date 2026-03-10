@@ -4,9 +4,41 @@
              x:Class="CodingDropletsMauiApp.Pages.StackLayoutDemo"
              Title="Stack Layout Demo"
              BackgroundColor="White">
-    <StackLayout Padding="20" Spacing="20" Orientation="Vertical"
-                 VerticalOptions="End"  BackgroundColor="Grey">
-        <Button Text="Button-01"/>
-        <Button Text="Button-02"/>
-    </StackLayout>
+    <ScrollView Orientation="Vertical">
+        <StackLayout Padding="20" Spacing="20" Orientation="Vertical"
+             VerticalOptions="End"  BackgroundColor="Grey">
+            <Label Text=".NET MAUI Layouts"
+           FontSize="25"
+           FontAttributes="Bold"
+           Margin="30"
+           HorizontalOptions="Center"/>
+            <Button x:Name="verticalStackLayoutButton" Text="Vertical Stack Layout" Clicked="verticalStackLayoutButton_Clicked"/>
+            <Button x:Name="horizontalStackLayout" Text="Horizontal Stack Layout" Clicked="horizontalStackLayout_Clicked"/>
+            <Button x:Name="gridLayout" Text="Grid Layout" Clicked="gridLayout_Clicked"/>
+            <Button x:Name="absoluteLayout" Text="Absolute Layout" Clicked="absoluteLayout_Clicked"/>
+            <Button x:Name="flexLayout" Text="Flex Layout" Clicked="flexLayout_Clicked"/>
+            <!--<Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-02"/>
+            <Button Text="Button-100"/>-->
+        </StackLayout>
+    </ScrollView>
+        
 </ContentPage>

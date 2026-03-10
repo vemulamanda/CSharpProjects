@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SudMauiApp.Pages.PostAdPage"
+             xmlns:models="clr-namespace:SudMauiApp.Models"
+             xmlns:pages="clr-namespace:SudMauiApp.Pages"
+             x:DataType="pages:PostAdPage"
+             Title="FORM">
+
+    <Grid>
+        <ScrollView>
+
+            <VerticalStackLayout x:Name="editDeleteLayout" BackgroundColor="LightGreen">
+            <Border Stroke="Gray" StrokeThickness="1" BackgroundColor="#f0f5f5" Padding="10" 
+                        Margin="10,20,10,0" StrokeShape="RoundRectangle 8">
+                <VerticalStackLayout BackgroundColor="White">
+                    <Label Text="Please fill only fish details.
+                                * is Mandatory" 
+                            TextColor="Red" FontSize="Medium" Margin="10,10,0,20" FontAttributes="Bold" 
+                             HorizontalTextAlignment="Start"/>
+
+                    <!--//##########################First Breed######################################-->
+                    <Border StrokeThickness="1" StrokeShape="10" BackgroundColor="#00e64d" 
+                                WidthRequest="350" HeightRequest="57" Margin="10">
+                        <Label Text="First Breed Details *" 
+                                TextColor="Black" FontSize="Large" Margin="10,10,0,20" FontAttributes="Bold" 
+                                BackgroundColor="#00e64d" HorizontalTextAlignment="Center"/>
+                    </Border>
+                    <HorizontalStackLayout Margin="0,0,0,15">
+                        <Border Stroke="DarkGray" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10"
+                                    Background="White" Padding="16,8,20,8" HorizontalOptions="Center">
+                            <!--<Entry x:Name="FirstBreed" Placeholder="Fish Name" PlaceholderColor="DarkGray" MaxLength="100"
+                                   ClearButtonVisibility="WhileEditing" FontSize="23" WidthRequest="330" CharacterSpacing="0.2"/>-->
+                                <Picker x:Name="FirstBreed" FontSize="23" WidthRequest="330" TextColor="Black"
+                                        Title="Select First Breed"/>
+                            </Border>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Margin="0,0,0,15">
+                        <Border Stroke="DarkGray" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10"
+                                    Background="White" Padding="16,8,20,8" HorizontalOptions="Center">
+                                <Entry x:Name="FB_Price" Placeholder="Fish Price (for each piece)" PlaceholderColor="DarkGray" TextColor="Black"
+                                       ClearButtonVisibility="WhileEditing" FontSize="23" WidthRequest="330"/>
+                        </Border>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Margin="0,0,0,15">
+                        <Border Stroke="DarkGray" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10"
+                                    Background="White" Padding="16,8,20,8" HorizontalOptions="Center">
+                                <Entry x:Name="FB_Pieces" Placeholder="Total no. of Pieces" PlaceholderColor="DarkGray" TextColor="Black"
+                                    ClearButtonVisibility="WhileEditing" FontSize="23" WidthRequest="330"/>
+                        </Border>
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+            </Border>
+
+            <!--//##########################Second Breed######################################-->
+
+            <Border Stroke="Gray" StrokeThickness="1" BackgroundColor="#f0f5f5" Padding="10" 
+                    Margin="10,20,10,0" StrokeShape="RoundRectangle 8">
+                <VerticalStackLayout BackgroundColor="White">
+                    <Border StrokeThickness="1" StrokeShape="10" BackgroundColor="#00e64d" 
+                            WidthRequest="350" HeightRequest="57" Margin="10">
+                        <Label Text="Second Breed Details" 
+                                TextColor="Black" FontSize="Large" Margin="10,10,0,20" FontAttributes="Bold" 
+                                BackgroundColor="#00e64d" HorizontalTextAlignment="Center"/>
+                    </Border>
+                    <HorizontalStackLayout Margin="0,0,0,15">
+                        <Border Stroke="DarkGray" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10"
+                                Background="White" Padding="16,8,20,8" HorizontalOptions="Center">
+                            <!--<Entry x:Name="SecondBreed" Placeholder="Fish Name" PlaceholderColor="DarkGray" MaxLength="100"
+                                    ClearButtonVisibility="WhileEditing" FontSize="23" WidthRequest="330"/>-->
+                                <Picker x:Name="SecondBreed" FontSize="23" WidthRequest="330" TextColor="Black"
+                                        Title="Select Second Breed"/>
+                            </Border>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Margin="0,0,0,15">
+                        <Border Stroke="DarkGray" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10"
+                                Background="White" Padding="16,8,20,8" HorizontalOptions="Center">
+                                <Entry x:Name="SB_Price" Placeholder="Fish Price (for each piece)" PlaceholderColor="DarkGray" TextColor="Black"
+                                    ClearButtonVisibility="WhileEditing" FontSize="23" WidthRequest="330"/>
+                        </Border>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Margin="0,0,0,15">
+                        <Border Stroke="DarkGray" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10"
+                                Background="White" Padding="16,8,20,8" HorizontalOptions="Center">
+                                <Entry x:Name="SB_Pieces" Placeholder="Total no. of Pieces" PlaceholderColor="DarkGray" TextColor="Black"
+                                    ClearButtonVisibility="WhileEditing" FontSize="23" WidthRequest="330"/>
+                        </Border>
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+            </Border>
+
+            <!--//##########################Third Breed######################################-->
+
+            <Border Stroke="Gray" StrokeThickness="1" BackgroundColor="#f0f5f5" Padding="10" 
+                    Margin="10,20,10,0" StrokeShape="RoundRectangle 8">
+                <VerticalStackLayout BackgroundColor="White">
+                    <Border StrokeThickness="1" StrokeShape="10" BackgroundColor="#00e64d" 
+                            WidthRequest="350" HeightRequest="57" Margin="10">
+                        <Label Text="Third Breed Details" 
+                                TextColor="Black" FontSize="Large" Margin="10,10,0,20" FontAttributes="Bold" 
+                                BackgroundColor="#00e64d" HorizontalTextAlignment="Center"/>
+                    </Border>
+                    <HorizontalStackLayout Margin="0,0,0,15">
+                        <Border Stroke="DarkGray" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10"
+                                Background="White" Padding="16,8,20,8" HorizontalOptions="Center">
+                            <!--<Entry x:Name="ThirdBreed" Placeholder="Fish Name" PlaceholderColor="DarkGray" MaxLength="100"
+                                   ClearButtonVisibility="WhileEditing" FontSize="23" WidthRequest="330"/>-->
+                                <Picker x:Name="ThirdBreed" FontSize="23" WidthRequest="330" TextColor="Black"
+                                        Title="Select Third Breed"/>
+                            </Border>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Margin="0,0,0,15">
+                        <Border Stroke="DarkGray" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10"
+                                Background="White" Padding="16,8,20,8" HorizontalOptions="Center">
+                                <Entry x:Name="TB_Price" Placeholder="Fish Price (each piece)" PlaceholderColor="DarkGray" TextColor="Black"
+                                   ClearButtonVisibility="WhileEditing" FontSize="23" WidthRequest="330"/>
+                        </Border>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Margin="0,0,0,15">
+                        <Border Stroke="DarkGray" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10"
+                                Background="White" Padding="16,8,20,8" HorizontalOptions="Center">
+                                <Entry x:Name="TB_Pieces" Placeholder="Total no. of Pieces" PlaceholderColor="DarkGray" TextColor="Black"
+                                   ClearButtonVisibility="WhileEditing" FontSize="23" WidthRequest="330"/>
+                        </Border>
+                    </HorizontalStackLayout>
+                      
+                </VerticalStackLayout>
+            </Border>
+
+            <!--################Farmer Details#################-->
+
+            <Border Stroke="Gray" StrokeThickness="1" BackgroundColor="#f0f5f5" Padding="10" 
+                    Margin="10,20,10,0" StrokeShape="RoundRectangle 8">
+                <VerticalStackLayout BackgroundColor="White">
+                    <Border StrokeThickness="1" StrokeShape="10" BackgroundColor="#00e64d" 
+                            WidthRequest="350" HeightRequest="57" Margin="10">
+                        <Label Text="Farmer Details *" 
+                                TextColor="Black" FontSize="Large" Margin="10,10,0,20" FontAttributes="Bold" 
+                                BackgroundColor="#00e64d" HorizontalTextAlignment="Center"/>
+                    </Border>
+                        <HorizontalStackLayout Margin="0,0,0,15">
+                            <Border Stroke="DarkGray" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10"
+                                Background="White" Padding="16,8,20,8" HorizontalOptions="Center">
+                                <Entry x:Name="Address" Placeholder="Fish Tank Address" PlaceholderColor="DarkGray" MaxLength="200" TextColor="Black"
+                                   ClearButtonVisibility="WhileEditing" FontSize="23" WidthRequest="330"/>
+                            </Border>
+                        </HorizontalStackLayout>
+                        <Border Stroke="DarkGray" StrokeThickness="1" StrokeShape="RoundRectangle 10,10,10,10"
+                                    Background="White" Padding="16,8,20,8" HorizontalOptions="Center">
+                                    <Picker x:Name="District"
+                                        Title="Select District" TextColor="Black"
+                                        FontSize="23" WidthRequest="330"/>
+                                </Border>
+                        
+
+
+                </VerticalStackLayout>
+            </Border>
+
+            <Border Stroke="Gray" StrokeThickness="1" BackgroundColor="#f0f5f5" Padding="10" 
+                    Margin="10,20,10,0" StrokeShape="RoundRectangle 8">
+                <VerticalStackLayout BackgroundColor="White">
+                    <Border StrokeThickness="1" StrokeShape="10" BackgroundColor="#00e64d" 
+                            WidthRequest="350" HeightRequest="60" Margin="10">
+                        <Label Text="Upload Images *" 
+                                TextColor="Black" FontSize="Large" Margin="10,10,0,20" FontAttributes="Bold" 
+                                BackgroundColor="#00e64d" HorizontalTextAlignment="Center"/>
+                    </Border>
+                    <HorizontalStackLayout x:Name="ImgUploadBorderLayout01"></HorizontalStackLayout>
+                    <HorizontalStackLayout x:Name="ImgUploadBorderLayout02"></HorizontalStackLayout>
+                    <HorizontalStackLayout x:Name="ImgUploadBorderLayout03"></HorizontalStackLayout>
+                    <HorizontalStackLayout x:Name="ImgUploadBorderLayout04"></HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Border>
+
+            <!--################Submit Button#################-->
+            <Button x:Name="Btn_SubmitForm"
+                    Text="Submit"
+                    Clicked="Btn_SubmitForm_Clicked"
+                    Padding="80,0,80,0"
+                    Margin="0,10,0,20"
+                    HorizontalOptions="Center"
+                    BackgroundColor="Black"
+                    FontSize="Large"/>
+
+            
+      </VerticalStackLayout>
+
+    </ScrollView>
+
+    <Grid x:Name="LoadingOverlay"
+      BackgroundColor="#80000000"
+      IsVisible="False"
+      VerticalOptions="FillAndExpand"
+      HorizontalOptions="FillAndExpand">
+        <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <ActivityIndicator IsRunning="True" Color="White" />
+            <Label Text="Processing..." TextColor="White" FontSize="Large" />
+        </VerticalStackLayout>
+    </Grid>
+  </Grid>
+</ContentPage>

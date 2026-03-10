@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SudMauiApp.Pages.Res_Out_Page"
+             xmlns:pages="clr-namespace:SudMauiApp.Pages"
+             Title="Res_Out_Page">
+
+    <VerticalStackLayout>
+        <Label 
+            Text="{Binding msg}"
+            FontSize="30"
+            FontAttributes="Bold"
+            Margin="0,100,0,100"
+            TextColor="DarkGreen"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button x:Name="Btn_close" Clicked="Btn_close_Clicked"
+                Text="Close"
+                FontSize="Large"
+                Margin="30,0,30,0"
+                BackgroundColor="Green"/>
+    </VerticalStackLayout>
+</ContentPage>

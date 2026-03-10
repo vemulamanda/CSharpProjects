@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SudMauiApp.Pages.DisplayCustImages"
+             xmlns:model="clr-namespace:SudMauiApp.Models"
+             xmlns:pages="clr-namespace:SudMauiApp.Pages"
+             x:DataType="pages:DisplayCustImages">
+
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IsEnabled="False" IsVisible="False" />
+    </Shell.BackButtonBehavior>
+
+    <VerticalStackLayout>
+        <Button x:Name="btn_GoBack"
+                Text="Go Back"
+                Clicked="btn_GoBack_Clicked"
+                Margin="10,10,250,20"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                TextColor="White"
+                BackgroundColor="Black"/>
+
+        <CarouselView ItemsSource="{Binding ImageList}" Position="0" ItemsLayout="HorizontalList">
+        <CarouselView.ItemTemplate>
+            <DataTemplate x:DataType="x:String">
+                <Image Source="{Binding .}"
+                    Aspect="AspectFill"
+                    HeightRequest="250"
+                    WidthRequest="400"/>
+            </DataTemplate>
+        </CarouselView.ItemTemplate>
+    </CarouselView>
+    </VerticalStackLayout>
+</ContentPage>

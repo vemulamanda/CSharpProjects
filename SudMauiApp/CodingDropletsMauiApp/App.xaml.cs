@@ -2,6 +2,7 @@
 using CodingDropletsMauiApp.Pages.FlyoutPageDemo;
 using CodingDropletsMauiApp.Pages.NavPageDemo;
 using CodingDropletsMauiApp.Pages.TabbedPageDemo;
+using CodingDropletsMauiApp.Controls;
 
 namespace CodingDropletsMauiApp
 {
@@ -18,7 +19,10 @@ namespace CodingDropletsMauiApp
 
             //MainPage = new DemoFlyoutPage01();
 
-            MainPage = new StackLayoutDemo();
+            //MainPage = new StackLayoutDemo();
+
+            var navigationPage = new NavigationPage(new LandingPage());
+            MainPage = navigationPage;
         }
 
         //protected override Window CreateWindow(IActivationState? activationState)

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodingDropletsMauiApp.Controls.DrawingControls"
+             Title="Drawing Controls">
+
+    <ScrollView>
+    <VerticalStackLayout>
+            <Border Stroke="LightGray" StrokeThickness="1" StrokeDashArray="2,3">
+                
+            </Border>
+
+            <Frame>
+                <Rectangle WidthRequest="200"
+                           HeightRequest="100"
+                           Fill="black"
+                           RadiusX="10"
+                           RadiusY="10"
+                           Stroke="Red"
+                           StrokeThickness="10"/>
+            </Frame>
+
+            <Frame>
+                <Line X1="0" Y1="0" X2="250" Y2="50"
+                      Stroke="Blue"
+                      StrokeThickness="10"/>
+            </Frame>
+
+            <Frame>
+                <Ellipse Fill="Green"
+                         WidthRequest="150"
+                         HeightRequest="100"
+                         Stroke="Black"
+                         StrokeThickness="10"/>
+            </Frame>
+
+            <Frame>
+                <Polygon Points="20,15,300,50,300,100,200,150,80,60"
+                         Fill="Orange"
+                         Stroke="Black"
+                         StrokeThickness="5"/>
+            </Frame>
+
+            <Frame>
+                <Path Data=""
+                      Stroke="Black"
+                      StrokeThickness="2"
+                      Aspect="Uniform"
+                      HorizontalOptions="Center"/>
+            </Frame>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SudMauiApp.Pages.SpecificAdPage"
+             xmlns:pages="clr-namespace:SudMauiApp.Pages"
+             xmlns:vm="clr-namespace:SudMauiApp.Models"
+             x:DataType="vm:FD_ViewModel">
+
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IsEnabled="False" IsVisible="False" />
+    </Shell.BackButtonBehavior>
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <Button Text="Go Back"
+                    Clicked="btn_GoBack_Clicked"
+                    Margin="10,10,250,20"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    BackgroundColor="Black"/>
+
+            <!-- IMAGE CAROUSEL -->
+            <Border Stroke="Gray" StrokeThickness="1" BackgroundColor="#f0f5f5"
+                    StrokeShape="RoundRectangle 8" WidthRequest="420" HeightRequest="270">
+
+                <CarouselView ItemsSource="{Binding SingleAd.imagePath}"
+                              ItemsLayout="HorizontalList">
+
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <ImageButton Source="{Binding .}"
+                                         Clicked="btn_FullImgShow_Clicked"
+                                         Aspect="AspectFill"
+                                         HeightRequest="250"
+                                         WidthRequest="400"/>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+
+                </CarouselView>
+            </Border>
+
+            <IndicatorView x:Name="indicatorview"
+                           Margin="5"
+                           HorizontalOptions="Center"
+                           IndicatorColor="Red"
+                           SelectedIndicatorColor="Green"/>
+
+            <!-- FARMER DETAILS -->
+            <Border Stroke="Gray" StrokeThickness="1" BackgroundColor="#f0f5f5"
+                    Padding="10" Margin="10,20,10,0" StrokeShape="RoundRectangle 8">
+
+                <VerticalStackLayout BackgroundColor="White">
+                    <Label Text="Farmer Details" FontSize="25" TextColor="Brown"
+                           Margin="10,10,0,20" Padding="0,10,0,10"
+                           FontAttributes="Italic"
+                           BackgroundColor="#55ff00"
+                           HorizontalTextAlignment="Center"/>
+
+                    <!--<HorizontalStackLayout Margin="0,0,0,10" Spacing="10">
+                        <Label Text="ID :" FontAttributes="Bold" FontSize="Large"/>
+                        <Label Text="{Binding custid}" FontSize="Large"/>
+                    </HorizontalStackLayout>-->
+
+                    <HorizontalStackLayout Margin="0,0,0,15" Spacing="5">
+                        <Label Text="Name :" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>
+                        <!--<Label Text="{Binding SingleAd.name, FallbackValue='No Name Loaded'}" FontSize="Large"/>-->
+                        <Label Text="{Binding SingleAd.name}" FontSize="Large" TextColor="Black"/>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Margin="0,0,0,15" Spacing="10">
+                        <Label Text="Address:" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>
+                        <Label Text="{Binding SingleAd.address}" FontSize="Large" TextColor="Black"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- FIRST BREED -->
+            <Border Stroke="Gray" StrokeThickness="1" BackgroundColor="#f0f5f5"
+                    Padding="10" Margin="10,20,10,0" StrokeShape="RoundRectangle 8">
+
+                <VerticalStackLayout BackgroundColor="White">
+                    <Label Text="First Breed Details" FontSize="25"
+                           Margin="10,10,0,20" TextColor="Brown"
+                           FontAttributes="Italic" Padding="0,10,0,10"
+                           BackgroundColor="#55ff00"
+                           HorizontalTextAlignment="Center"/>
+
+                    <HorizontalStackLayout Margin="0,0,0,15" Spacing="10">
+                        <Label Text="Name:" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>
+                        <Label Text="{Binding SingleAd.firstBreed}" FontSize="Large" TextColor="Black"/>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Margin="0,0,0,15" Spacing="10">
+                        <Label Text="Price:" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>
+                        <Label Text="{Binding SingleAd.fB_Price}" FontSize="Large" TextColor="Black"/>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Margin="0,0,0,15" Spacing="10">
+                        <Label Text="Pieces:" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>
+                        <Label Text="{Binding SingleAd.fB_Pieces}" FontSize="Large" TextColor="Black"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- SECOND BREED -->
+            <Border Stroke="Gray" StrokeThickness="1" BackgroundColor="#f0f5f5"
+                    Padding="10" Margin="10,20,10,0" StrokeShape="RoundRectangle 8">
+
+                <VerticalStackLayout BackgroundColor="White">
+                    <Label Text="Second Breed Details" FontSize="25" TextColor="Brown"
+                           Margin="10,10,0,20" Padding="0,10,0,10"
+                           FontAttributes="Italic"
+                           BackgroundColor="#55ff00"
+                           HorizontalTextAlignment="Center"/>
+
+                    <HorizontalStackLayout Margin="0,0,0,15" Spacing="10">
+                        <Label Text="Name:" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>
+                        <Label Text="{Binding SingleAd.secondBreed}" FontSize="Large" TextColor="Black"/>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Margin="0,0,0,15" Spacing="10">
+                        <Label Text="Price:" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>
+                        <Label Text="{Binding SingleAd.sB_Price}" FontSize="Large" TextColor="Black"/>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Margin="0,0,0,15" Spacing="10">
+                        <Label Text="Pieces:" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>
+                        <Label Text="{Binding SingleAd.sB_Pieces}" FontSize="Large" TextColor="Black"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- THIRD BREED -->
+            <Border Stroke="Gray" StrokeThickness="1" BackgroundColor="#f0f5f5"
+                    Padding="10" Margin="10,20,10,0" StrokeShape="RoundRectangle 8">
+
+                <VerticalStackLayout BackgroundColor="White">
+                    <Label Text="Third Breed Details" FontSize="25" TextColor="Brown"
+                           Margin="10,10,0,20" Padding="0,10,0,10"
+                           FontAttributes="Italic"
+                           BackgroundColor="#55ff00"
+                           HorizontalTextAlignment="Center"/>
+
+                    <HorizontalStackLayout Margin="0,0,0,15" Spacing="10">
+                        <Label Text="Name:" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>
+                        <Label Text="{Binding SingleAd.thirdBreed}" FontSize="Large" TextColor="Black"/>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Margin="0,0,0,15" Spacing="10">
+                        <Label Text="Price:" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>
+                        <Label Text="{Binding SingleAd.tB_Price}" FontSize="Large" TextColor="Black"/>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Margin="0,0,0,15" Spacing="10">
+                        <Label Text="Pieces:" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>
+                        <Label Text="{Binding SingleAd.tB_Pieces}" FontSize="Large" TextColor="Black"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- ADDRESS
+            <Border Stroke="Gray" StrokeThickness="1" BackgroundColor="#f0f5f5"
+                    Padding="10" Margin="10,20,10,0" StrokeShape="RoundRectangle 8">
+
+                <VerticalStackLayout BackgroundColor="White">
+                    <Label Text="Farmer Address" FontSize="25" TextColor="Brown"
+                           Margin="10,10,0,20" Padding="0,10,0,10"
+                           FontAttributes="Italic"
+                           BackgroundColor="#55ff00"
+                           HorizontalTextAlignment="Center"/>
+
+                    <HorizontalStackLayout Margin="0,0,0,15" Spacing="10">
+                        <Label Text="Address:" FontAttributes="Bold" FontSize="Large"/>
+                        <Label Text="{Binding SingleAd.address}" FontSize="Large"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Border> -->
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

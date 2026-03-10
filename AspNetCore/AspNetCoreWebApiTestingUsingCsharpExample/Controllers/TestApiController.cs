@@ -8,7 +8,7 @@ namespace AspNetCoreWebApiTestingUsingCsharpExample.Controllers
     public class TestApiController : Controller
     {
         HttpClient client = new HttpClient();
-        string serviceUri = "http://localhost/AspNetCoreWebApiExample/api/";
+        string serviceUri = "http://localhost:5001/AspNetCoreWebApiExample/api/";
 
         public async Task<IActionResult> DisplayCustomers()
         {
